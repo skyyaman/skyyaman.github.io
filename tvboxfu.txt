@@ -6,6 +6,7 @@ services:
     hostname: jd  # 主机名（可随意更改）
     restart: always  # 开机自启
     tty: true
+    privileged: true
     network_mode: bridge  # 容器网络类型，如果是旁路由可能需要切换为 host 类型（桥接），默认为 NAT
     ports:
       - 5678:5678  # 端口映射，格式为 "主机端口:容器端口"，主机端口号可自定义，容器端口用来访问控制面板不可修改
