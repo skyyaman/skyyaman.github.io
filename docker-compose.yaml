@@ -1,14 +1,13 @@
 docker run -dit \
---name jd `# 容器名` \
---hostname jd `# 主机名` \
---network host `# 容器网络类型` \
---restart always `# 开机自启` \
--v /opt/jd/config:/jd/config `# 配置文件的主机挂载目录` \
--v /opt/jd/log:/jd/log `# 日志文件的主机挂载目录` \
--v /opt/jd/scripts:/jd/scripts `# 主要仓库的主机挂载目录` \
--v /opt/jd/own:/jd/own `# 扩展仓库和扩展脚本的主机挂载目录` \
-`# -v /opt/jd/jbot:/jd/jbot` `# 电报机器人主机挂载目录` \
--e ENABLE_ALL_ENV=true `# 是否在容器启动时预装环境包与常用模块` \
--e ENABLE_WEB_PANEL=true `# 是否在容器启动时开启控制面板服务` \
--e ENABLE_TG_BOT=false `# 是否在容器启动时开启电报机器人服务` \
+--name jd  \
+--hostname jd  \
+--network host  \
+--restart always \
+-v /opt/jd/config:/jd/config \
+-v /opt/jd/log:/jd/log  \
+-v /opt/jd/scripts:/jd/scripts  \
+-v /opt/jd/own:/jd/own \
+-e ENABLE_ALL_ENV=true  \
+-e ENABLE_WEB_PANEL=true  \
+-e ENABLE_TG_BOT=false \
 supermanito/helloworld:latest
