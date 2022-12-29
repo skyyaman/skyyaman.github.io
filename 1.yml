@@ -1,13 +1,13 @@
 docker run -dit \
---name jd \
---hostname jd  \
---network host  \
---restart always \
--v /opt/jd/config:/jd/config  \
--v /opt/jd/log:/jd/log \
--v /opt/jd/scripts:/jd/scripts  \
--v /opt/jd/own:/jd/own \
--e ENABLE_ALL_ENV=true  \
--e ENABLE_WEB_PANEL=true  \
--e ENABLE_TG_BOT=false  \
-registry.cn-hangzhou.aliyuncs.com/supermanito/helloworld:latest
+   -v /opt/ql/config:/ql/config \
+   -v /opt/ql/log:/ql/log \
+   -v /opt/ql/db:/ql/db \
+   -v /opt/ql/scripts:/ql/scripts\
+   -v /opt/ql/repo:/ql/repo \
+   -v /opt/ql/raw:/ql/raw \
+   -v /opt/ql/jbot:/ql/jbot \
+   -p 5700:5700 \
+   --name qinglong \
+   --hostname qinglong \
+   --restart always \
+   whyour/qinglong:latest
