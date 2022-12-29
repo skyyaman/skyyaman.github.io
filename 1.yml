@@ -1,0 +1,13 @@
+docker run -dit \
+--name jd \
+--hostname jd  \
+--network host  \
+--restart always \
+-v /opt/jd/config:/jd/config  \
+-v /opt/jd/log:/jd/log \
+-v /opt/jd/scripts:/jd/scripts  \
+-v /opt/jd/own:/jd/own \
+-e ENABLE_ALL_ENV=true  \
+-e ENABLE_WEB_PANEL=true  \
+-e ENABLE_TG_BOT=false  \
+registry.cn-hangzhou.aliyuncs.com/supermanito/helloworld:latest
