@@ -1329,6 +1329,7 @@ cdninstagram.com
 ||autodraw.com
 ||blog.google
 ||blogblog.com
+bing.com
 blogspot.com
 /^https?:\/\/[^\/]+blogspot\.(.*)/
 .blogspot.hk
