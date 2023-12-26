@@ -1,0 +1,163 @@
+
+<!--  var testnamelist = {{backend_data|safe}}; --> 
+
+
+<style type="text/css">
+  /*自定义下拉框样式*/
+  select{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      cursor: pointer;
+  }
+  /*清楚IE选择框的默认样式，隐藏下拉箭头*/
+  select::-ms-expand { 
+      display: none; 
+  }
+  select.select-custom{
+      border: none;
+      outline: none;
+      background: transparent url(img/icon-select-arrow.png) no-repeat right center;
+      padding-right: 1.1em;
+      background-size: 0.8em 0.6em;
+      font-size: 16px;
+      width:190px;
+      line-height: 1.5;
+  }
+  select.select-custom option:hover{
+      background-color: #f00;
+  }
+  .select-custom-wrap{
+      display: inline-block;
+      position:absolute;
+      padding: 0 4px;
+      width:190px;
+      border: 1px solid #848484;      
+  }
+  .cls_input {
+      width:130px;
+      height:26px;
+      font-size: 16px;
+      border: 1px solid #848484;
+      background-color: #e2e2e2;
+      z-index: 99
+  }
+  .cls_input_span {
+      position:absolute;
+      border-top:0pt solid #c1c1c1;
+      border-left:0pt solid #c1c1c1;
+      border-bottom:0pt solid #c1c1c1;
+      width:120px;
+      height:30px;
+  }
+  .select-custom option:nth-child(n) {
+      background-color: #e2e2e2;
+      color: #140343;
+      width:190px;
+      height:30px;
+      font-size: 16px;
+  }
+  .container {display: flex;width: 550px;margin: 5px;justify-content: space-between}
+
+
+</style>
+
+  <span class="select-custom-wrap">
+    <select id="level1" class="select-custom" onchange="updateLevel1()">        
+        <!-- 第一级选项将由 JavaScript 动态填充 -->        
+    </select>
+  </span>
+<span class="cls_input_span">
+  <input type="text" id="id_input1" class="cls_input" value="---入学年份---">
+</span>
+  
+
+<script>
+    // 模拟后端返回的数据，格式为嵌套数组
+    var backendData = window.parent.backend_data;
+    // 更新第二级下拉框的选项
+    function updateLevel1() {
+        const level1Select = document.getElementById("level1");
+        const level2Select = document.getElementById("level2");
+        const selectedLevel1 = level1Select.value;
+        document.getElementById('id_input1').value = document.getElementById('level1').options[document.getElementById('level1').selectedIndex].value;
+        // 清空第二级和第三级下拉框
+        level2Select.innerHTML = '<option value="select" class="cls_option_defined">请选择</option>';
+        document.getElementById("level3").innerHTML = '<option value="select" class="cls_option_defined">请选择</option>';
+
+        // 如果选择了有效的第一级，则填充对应的第二级选项
+        if (selectedLevel1 !== "select") {
+            const selectedCategory = backendData.find(category => category.year === selectedLevel1);
+            if (selectedCategory) {
+              const uniqueGrades = new Set();
+
+              selectedCategory.subcategories.forEach(subcategory => {        
+                uniqueGrades.add(subcategory.grade);  // 将 subcategory.grade 添加到 Set 中 唯一值
+              });
+              const uniqueGradesArray = Array.from(uniqueGrades);
+              
+              uniqueGradesArray.forEach(uniqueGrade => {    // 将唯一的 grade 值添加到 level2Select 中
+                  const option = document.createElement("option");
+                  option.value = uniqueGrade;
+                  option.textContent = uniqueGrade;
+                  level2Select.appendChild(option);
+              });
+            }
+        }
+    }
+
+    // 更新第三级下拉框的选项
+    function updateLevel2() {
+        const level1Select = document.getElementById("level1");
+        const level2Select = document.getElementById("level2");
+        const level3Select = document.getElementById("level3");
+        const selectedLevel1 = level1Select.value;
+        const selectedLevel2 = level2Select.value;
+        document.getElementById('id_input2').value = document.getElementById('level2').options[document.getElementById('level2').selectedIndex].value;
+        // 清空第三级下拉框
+        level3Select.innerHTML = '<option value="select">请选择</option>';
+
+        // 如果选择了有效的第一级和第二级，则填充对应的第三级选项
+        if (selectedLevel1 !== "select" && selectedLevel2 !== "select") {
+            const selectedCategory = backendData.find(category => category.year === selectedLevel1);
+            const selectedSubcategory = selectedCategory.subcategories.filter(subcategory => subcategory.grade === selectedLevel2);
+            console.log(selectedSubcategory)
+            if (selectedSubcategory) {
+              selectedSubcategory.forEach(item => {
+                const option = document.createElement("option");
+                option.value = item.name;
+                option.textContent = item.name;
+                level3Select.appendChild(option);
+              });
+            }
+        }
+    }
+    function updateLevel3() {
+      document.getElementById('id_input3').value = document.getElementById('level3').options[document.getElementById('level3').selectedIndex].value;
+      //console.log(document.getElementById('id_input1').value,document.getElementById('id_input2').value,document.getElementById('id_input3').value)
+    }
+    // 提交表单的函数
+    function submitForm() {
+        const level1Value = document.getElementById("level1").value;
+        const level2Value = document.getElementById("level2").value;
+
+        // 在这里可以执行提交操作，例如发送数据到服务器
+        // 在这个例子中，将选择的结果输出到控制台
+        console.log("选择的第一级:", level1Value);
+        console.log("选择的第二级:", level2Value);
+    }
+
+    // 页面加载时初始化第一级下拉框
+    document.addEventListener("DOMContentLoaded", function () {
+        const level1Select = document.getElementById("level1");
+
+        backendData.forEach(category => {
+            const option = document.createElement("option");
+            option.value = category.year;
+            option.textContent = category.year;
+            level1Select.appendChild(option);
+        });
+    });
+</script>
+
