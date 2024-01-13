@@ -18,6 +18,7 @@
 !---------403/451/503/520 & URL Redirects---------
 !--ehentai
 |http://85.17.73.31/
+skyya.x3322.net
 !--||adorama.com
 ||afreecatv.com
 ||agnesb.fr
