@@ -12,3 +12,13 @@ CCTV10,http://110.80.17.38:9901/tsfile/live/0010_1.m3u8?key=txiptv
 CCTV11,http://110.80.17.38:9901/tsfile/live/0011_1.m3u8?key=txiptv
 CCTV12,http://110.80.17.38:9901/tsfile/live/0012_1.m3u8?key=txiptv
 CCTV13,http://110.80.17.38:9901/tsfile/live/0013_1.m3u8?key=txiptv
+测试,#genre#
+凤凰香港,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+港臺32,https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+澳門综艺,https://epg.pw/stream/af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0.m3u8
+澳視葡語,https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+凤凰香港,http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
+香港明珠,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+香港开电视,http://61.140.114.47:808/hls/106/index.m3u8
+凤凰香港台,http://yuju666888.x3322.net:808/hls/106/index.m3u8
+香港有線新聞,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
