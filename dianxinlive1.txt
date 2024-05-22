@@ -15,16 +15,11 @@ CCTV13,http://110.80.17.38:9901/tsfile/live/0013_1.m3u8?key=txiptv
 CCTV14,http://110.80.17.38:9901/tsfile/live/0014_1.m3u8?key=txiptv
 CCTV15,http://110.80.17.38:9901/tsfile/live/0015_1.m3u8?key=txiptv
 CCTV16,http://110.80.17.38:9901/tsfile/live/0016_1.m3u8?key=txiptv
-
 测试,#genre#
 凤凰香港,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 CCTV14少儿,http://110.80.17.38:9901/tsfile/live/0014_1.m3u8?key=txiptv
 兵团卫视,http://110.80.17.38:9901/tsfile/live/0015_1.m3u8?key=txiptv
 宁夏卫视,http://110.80.17.38:9901/tsfile/live/0016_1.m3u8?key=txiptv
-
-测试2,#genre#
-CCTV4k,http://livews-tp4k.cctv.cn/live/4K0219.stream/1-429094975.ts?wsSecret=67eb5a1743c9351341cd2460fae1e4be&wsTime=1716380246
-
 央视频道,#genre#
 CCTV-1,http://223.151.49.74:59901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-1,http://218.89.240.144:59901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
