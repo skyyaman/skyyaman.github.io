@@ -1,0 +1,7 @@
+{
+      "key": "drpy_js_555电影[V2]",
+      "name": "555电影[V2][js]",
+      "type": 3,
+      "api": "./libs/drpy2.min.js",
+      "ext": "./js/555电影[V2].js"
+    },
