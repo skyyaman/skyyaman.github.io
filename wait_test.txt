@@ -1,4 +1,4 @@
-//"api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+//https://github.com/qirenzhidao/tvbox18
 {
     "spider": "./fan.txt;md5;5ee96d541532306c3acc8c0fc229acbf",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
