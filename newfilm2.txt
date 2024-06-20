@@ -1,6 +1,6 @@
 //"api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
 {
-    "spider": "./fan.txt;md5;5ee96d541532306c3acc8c0fc229acbf",
+    "spider": "./jar/kkys.jar;md5;5ee96d541532306c3acc8c0fc229acbf",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -8,6 +8,7 @@
             "name": "💡酷看┃秒播",
             "type": 3,
             "api": "csp_Kkys",
+            "jar": "./jar/kkys.jar",
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
@@ -63,6 +64,32 @@
                 "日本动漫",
                 "欧美动漫"
             ]
+        },
+        {
+            "key": "卫总影院",
+            "name": "卫总|影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "数组": "myui-vodlist__thumb lazyload&&</a",
+                "副标题": "pic-text text-right\">&&</span",
+                "简介": "剧情介绍</h3>&&<div class=\"myui-panel myui-panel-bg clearfix",
+                "线路数组": "<li><a href=\"\\#playlist&&</li",
+                "线路标题": ">&&</a",
+                "播放数组": "<ul class=\"myui-content__list sort-list&&</ul",
+                "跳转播放链接": "var now=\"&&\"",
+                "搜索数组": "lazyload\"&&</a",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索标题": "title=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "搜索url": "https://wzznl.buzz/search.php?page={pg}&searchword={wd}&searchtype=",
+                "分类url": "https://wzznl.buzz/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan={lang}&state=&money=&ver=&jq=",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#纪录片$11#剧情片$12#大陆剧$13#港台剧$14#欧美剧$15#日韩剧$16"
+            }
         },
         {
             "key": "豪华资源",
