@@ -83,7 +83,7 @@
             "key": "时常",
             "name": "👉时常",
             "type": 3,
-			"jar": "./jar/时常.jar",
+	    "jar": "./jar/时常.jar;md5;52a7187a09053f22828cc9ca829b1b73",
             "api": "csp_qiao3",
             "searchable": 1,
             "quickSearch": 1,
