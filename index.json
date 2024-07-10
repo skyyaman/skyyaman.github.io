@@ -48,12 +48,12 @@
             "key": "卫总影院",
             "name": "👉卫总",
             "type": 3,
-            "api": "csp_XBPQ111",
-            "jar": "./jar/XBPQ111.jar", //安全着想。。。
+            "api": "csp_XBPQ",
+            "jar": "./jar/卫总.jar", //安全着想。。。
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./js/卫总111.json"
+            "ext": "./js/卫总.json"
         },
         {
             "key": "极速资源",
