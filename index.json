@@ -1,127 +1,20 @@
-//"api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+//数据源满20自动变两列
 {
     //"spider": "https://gitlab.com/guot55/bh/-/raw/main/pg/pg.jar",
     "spider": "./jar/加速.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
-        {
-            "key": "kk",
-            "name": "👉可可",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/可可.jar",
-            "api": "csp_XBPQ",
-            "ext": "./jar/可可.json"
-        },
-        {
-            "key": "酷看",
-            "name": "👉酷看",
-            "type": 3,
-            "api": "csp_Kkys",
-            "jar": "./jar/kkys.jar",
-            "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "荐片",
-            "name": "👉荐片",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "playerType": "1",
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/jp.js"
-        },
-        {
-            "key": "畅梦",
-            "name": "👉畅梦",
-            "type": 3,
-            "ua": "okhttp/3.15",
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/畅梦.js"
-        },
-        {
-            "key": "卫总影院",
-            "name": "👉卫总",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/卫总.jar", //安全着想。。。
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./js/卫总.json"
-        },
-        {
-            "key": "极速资源",
-            "name": "👉极速",
-            "type": 1,
-            "api": "https://jszyapi.com/api.php/provide/vod/",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "日剧",
-                "马泰剧",
-                "内地剧",
-                "欧美剧",
-                "香港剧",
-                "韩剧",
-                "台湾剧",
-                "恐怖片",
-                "动画片",
-                "剧情片",
-                "战争片",
-                "动作片",
-                "记录片",
-                "爱情片",
-                "喜剧片",
-                "科幻片",
-                "灾难片",
-                "悬疑片",
-                "犯罪片",
-                "中国动漫",
-                "日本动漫",
-                "欧美动漫"
-            ]
-        },
-        {
-            "key": "时常",
-            "name": "👉时常",
-            "type": 3,
-            "jar": "./jar/时常.jar;md5;52a7187a09053f22828cc9ca829b1b73",
-            "api": "csp_qiao3",
-            "searchable": 1,
-            "quickSearch": 1,
-            "playerType": 1,
-            "filterable": 0,
-            "ext": "https://sc1080.top|e59d44b2eef03ad9|e59d44b2eef03ad9"
-        },
-        {
-            "key":"👉乐视",
-            "name":"👉乐视",
-            "type":3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/xbpq.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "api":"csp_XBPQ",
-            "ext": "./js/乐视.json"
-        },      
-        {
-            "key": "csp_Lib",
-            "name": "👉LibVio",
-            "type": 3,
-            "jar": "./jar/Yoursmile.jar;md5;2AF9C2C95BF862E8D0AA204F7D2E8FEE",
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.libvio.cc/"
-        }
-    ],
+        { "key": "LibVio", "name": "👉LibVio", "type": 3, "jar": "./jar/Yoursmile.jar;md5;2AF9C2C95BF862E8D0AA204F7D2E8FEE", "api": "csp_Libvio", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.libvio.cc/" },
+        { "key": "可可", "name": "👉可可", "type": 3, "searchable": 1, "changeable": 1, "jar": "./jar/可可.jar", "api": "csp_XBPQ", "ext": "./jar/可可.json" },
+        { "key": "酷看", "name": "👉酷看", "type": 3, "api": "csp_Kkys", "jar": "./jar/kkys.jar", "timeout": 15, "searchable": 1, "quickSearch": 1, "changeable": 1 },
+        { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},
+        { "key": "畅梦", "name": "👉畅梦", "type": 3, "ua": "okhttp/3.15", "api": "./js/drpy2.min.js", "ext": "./js/畅梦.js" },
+        { "key": "卫总", "name": "👉卫总", "type": 3, "api": "csp_XBPQ", "jar": "./jar/卫总.jar","ext": "./js/卫总.json", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+        { "key": "极速", "name": "👉极速", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "changeable": 1, "categories": ["日剧", "马泰剧", "内地剧", "欧美剧", "香港剧", "韩剧", "台湾剧", "恐怖片", "动画片", "剧情片", "战争片", "动作片", "记录片", "爱情片", "喜剧片", "科幻片", "灾难片", "悬疑片", "犯罪片", "中国动漫", "日本动漫", "欧美动漫"] },
+        { "key": "飞刀", "name": "👉飞刀", "type": 1, "api": " http://www.feidaozy.com/api.php/provide/vod/" ,"searchable": 1, "quickSearch": 1},
+        { "key": "时常", "name": "👉时常", "type": 3, "jar": "./jar/时常.jar;md5;52a7187a09053f22828cc9ca829b1b73", "api": "csp_qiao3", "searchable": 1, "quickSearch": 1, "playerType": 1, "filterable": 0, "ext": "https://sc1080.top|e59d44b2eef03ad9|e59d44b2eef03ad9" },
+        { "key": "乐视", "name": "👉乐视", "type": 3, "searchable": 1, "quickSearch": 1, "filterable": 1, "jar": "./jar/xbpq.jar;md5;bb155c3f0133bbce4756ad52003f5968", "api": "csp_XBPQ", "ext": "./js/乐视.json" }
+      ],
     "lives": [
         {
             "name": "longlongago",
