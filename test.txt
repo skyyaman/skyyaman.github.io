@@ -1,122 +1,70 @@
-
-北京卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=beijing&token=c443e2376c11f82b
-北京卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=bjws
-北京卫视,http://114.132.99.29:8812/JRST.php?id=科技频道CyFqVAOiS94sBAV
-北京卫视,http://114.132.99.29:8812/JRST.php?id=科技频道HBr9baamOvy9nJN
-北京卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226222/1.m3u8
-浙江卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=zhejiang&token=c443e2376c11f82b
-浙江卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=zjws
-浙江卫视,http://114.132.99.29:8812/JRST.php?id=科技频道l88DuOVdEzSPuoM
-浙江卫视,http://114.132.99.29:8812/JRST.php?id=科技频道JggLBXRxdqj1zc6
-浙江卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225798/1.m3u8
-河北卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=hebei&token=c443e2376c11f82b
-河北卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hbws
-河北卫视,http://114.132.99.29:8812/JRST.php?id=科技频道k3biEuAFUI0GttB
-黑龙江卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=heilongjiang&token=c443e2376c11f82b
-黑龙江卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hljws
-黑龙江卫视,http://114.132.99.29:8812/JRST.php?id=科技频道C0uNAwvVF7cFDFr
-黑龙江卫视,http://114.132.99.29:8812/JRST.php?id=科技频道nABasrOCPOOqx72
-黑龙江卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
-山西卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=shanxi&token=c443e2376c11f82b
-山西卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=shanxi
-山西卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226392/index.m3u8
-深圳卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=shenzhen&token=c443e2376c11f82b
-深圳卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=szws
-深圳卫视,http://114.132.99.29:8812/JRST.php?id=科技频道lR7i461mTEmj5T0
-深圳卫视,http://114.132.99.29:8812/JRST.php?id=科技频道ORVIuBn9k4vPS2c
-深圳卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226205/1.m3u8
-四川卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=sichuan&token=c443e2376c11f82b
-四川卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=scws
-四川卫视,http://114.132.99.29:8812/JRST.php?id=科技频道gFrRmUlccpz5v3Z
-四川卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225768/1.m3u8
-天津卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=tianjin&token=c443e2376c11f82b
-天津卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=tjws
-天津卫视,http://114.132.99.29:8812/JRST.php?id=科技频道Nj8MzYykl3CFVpE
-厦门卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=xiamen&token=c443e2376c11f82b
-厦门卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=xmws
-安徽卫视,http://ttww.doudouzi888.com:1998/iptv/houtai123/proxy/cibn/梦想直播-9b47bed3963bf3b26b169de854bceff6.php?id=anhui&token=c443e2376c11f82b
-安徽卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=ahws
-安徽卫视,http://114.132.99.29:8812/JRST.php?id=科技频道Qpc1a13FVsitBEI
-安徽卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225773/1.m3u8
-CCTV-16,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cctv16
-CCTV-16,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cctv164k
-CCTV-16,http://114.132.99.29:8812/JRST.php?id=科技频道oD0VklxaabfP4rM
-CCTV-16,http://114.132.99.29:8812/JRST.php?id=科技频道9KntqWeQzj8zSje
-CCTV-4K,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cctv4k
-CCTV-4K,http://114.132.99.29:8812/JRST.php?id=科技频道nA9x8KvckDwYOdS
-CGTN,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cgtn
-CGTN,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225604/index.m3u8
-CGTN,http://39.134.66.66/PLTV/88888888/224/3221225510/index.m3u8
-中国教育1台,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=zgjy1
-中国教育2台,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=zgjy2
-中国教育4台,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=zgjy4
-三沙卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=ssws
-兵团卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=btws
-兵团卫视,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226214/1.m3u8
-康巴卫视,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=kbws
-卡酷少儿,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=kkse
-金鹰卡通,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=jykt
-金鹰卡通,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225744/1.m3u8
-哈哈炫动,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hhxd
-中国天气,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=zgtq
-财富天下,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cftx
-茶频道,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=cpd
-快乐垂钓,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=klcd
-欢笑剧场4K,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hxjc
-欢笑剧场4K,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hxjc4k
-都市剧场,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=dsjc
-动漫秀场,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=dmxc
-新视觉,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=xsj
-金色学堂,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=jsxt
-生活时尚,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=shss
-东方财经,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=dfcj
-星光影院,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=xgyy
-谍战剧场,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=dzjc
-华语影院,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=hyyy
-全球大片,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=qqdp
-热门剧场,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=rmjc
-青春动漫,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=qcdm
-宝宝动画,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=bbdh
-电竞天堂,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=djtt
-热门综艺,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=rmzy
-健康养生,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=jkys
-戏曲精选,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=xqjx
-百变课堂,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=bbkt
-看天下精选,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=ktxjx
-纪实人文,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=jsrw
-北京纪实科教,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=bjjskj
-五星体育,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=wxty
-五星体育,http://114.132.99.29:8812/JRST.php?id=科技频道Tv6s73G5X0QFVJY
-东方购物,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=dfgw
-福建电视剧,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjdsj
-福建教育,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjjy
-福建经济,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjjj
-福建旅游,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjly
-福建少儿,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjse
-福建文体,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjwt
-福建乡村振兴公共,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjgg
-福建新闻,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjxw
-福建综合,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=fjzh
-浦东电视台,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=pudong
-上海都市,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=shds
-上海教育,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=shjy
-西藏藏语,http://ttww.doudouzi888.com:1998/iptv/dl/bestv.php?id=xzzy
-都市,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
-影视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-少儿,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-法制,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
-体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-宠物,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
-游戏解说,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-咪咕体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-中国教育1,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
-中国教育2,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
-中国教育4,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
-CCTV-4K超高清,http://150.138.40.183/liveali-tpgq.cctv.cn/live/cctv4k.m3u8
-CCTV-4K超高清,http://36.156.208.131/liveali-tpgq.cctv.cn/live/cctv4k.m3u8
-CCTV-4K超高清,http://61.170.81.240/liveali-tpgq.cctv.cn/live/cctv4k.m3u8
-CCTV9-纪录,http://61.170.81.240/liveali-tpgq.cctv.cn/live/cctv9.m3u8
-CCTV9-纪录,http://39.134.24.165/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226197/1.m3u8
-重温经典,http://1.62.64.234/0b926d37065dc656266be75dd9d25565.v.smtcdns.net/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8 
-重温经典,http://124.231.213.131:9999/tsfile/live/1111_1.m3u8 
-经典再现,http://183.222.72.116:6868/rtp/239.10.0.130:5140 
+东南卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
+东方卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/index.m3u8
+东方卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
+北京卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/index.m3u8
+北京卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
+吉林卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
+四川卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
+天津卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225740/index.m3u8
+天津卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8
+安徽卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
+山东卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
+广东卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
+江苏卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/index.m3u8
+江苏卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
+江西卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
+河北卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
+河南卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
+浙江卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/index.m3u8
+浙江卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
+海南卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+海南卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225639/index.m3u8
+深圳卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/index.m3u8
+深圳卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
+湖北卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/index.m3u8
+湖北卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
+湖南卫视 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
+湖南卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
+贵州卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
+重庆卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
+青海卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8
+宁夏卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225632/index.m3u8
+甘肃卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8
+新疆卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
+西藏卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8
+安多卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
+星空卫视,http://wouu.net:9977/udp/239.93.0.156:2193
+黑莓动画 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
+古装剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+未知卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
+惊悚悬疑 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
+军事评论 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
+爱情喜剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+精品大剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
+泰剧剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+怡伴健康 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
+军旅剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
+家庭剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+中国功夫 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
+农业致富 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
+潮妈辣婆 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
+超级综艺 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
+超级体育 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+超级电影 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
+炫舞未来 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
+纪实人文 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+东北热剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+欢乐剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
+黑莓电影 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+新闻综合 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
+超级电视剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
+动作电影卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
+北京纪实科教 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
+NewTV武搏世界 2.5M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
+NewTV精品纪录 2.5M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
+NewTV精品体育 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
+NewTV金牌综艺 2.5M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
+哒啵赛事 4M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
+咪咕全民热练 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
+咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3咪咕视频 
+咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
