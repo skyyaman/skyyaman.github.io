@@ -4,7 +4,7 @@
     "spider": "./jar/加速.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
-        { "key": "LibVio", "name": "👉LibVio", "type": 3, "jar": "./jar/Yoursmile.jar;md5;2AF9C2C95BF862E8D0AA204F7D2E8FEE", "api": "csp_Libvio", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.libvio.cc/" },
+        { "key": "LibVio", "name": "👉LibVio", "type": 3, "jar": "./jar/Yoursmile.jar;md5;2AF9C2C95BF862E8D0AA204F7D2E8FEE", "api": "csp_Libvio", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.libvio.fun/" },
         { "key": "比特","name": "👉比特","jar": "./jar/比特.jar;md5;ba8110069297293eb2a9bdd190cff284","type": 3,"api": "csp_Bttwo"},
         { "key": "可可", "name": "👉可可", "type": 3, "searchable": 1, "changeable": 1, "jar": "./jar/可可.jar", "api": "csp_XBPQ", "ext": "./js/可可.json" },
         { "key": "酷看", "name": "👉酷看", "type": 3, "api": "csp_Kkys", "jar": "./jar/kkys.jar", "timeout": 15, "searchable": 1, "quickSearch": 1, "changeable": 1 },
