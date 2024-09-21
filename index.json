@@ -18,7 +18,7 @@
         { "key": "卧龙","name":"👉卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         { "key": "天空","name":"👉天空","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         { "key": "飞速","name":"👉飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-	{"key": "Kuaikan","name": "快看","type": 3,"jar": "https://github.com/chengxueli818913/TV/blob/817572692a933b6456a2aadeaa53e80ea451c981/spider.jar","api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1}
+	{"key": "Kuaikan","name": "快看","type": 3,"jar": "https://raw.githubusercontent.com/chengxueli818913/TV/817572692a933b6456a2aadeaa53e80ea451c981/spider.jar","api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1}
         //{ "key": "飞刀", "name": "👉飞刀", "type": 1, "api": " http://www.feidaozy.com/api.php/provide/vod/" ,"searchable": 1, "quickSearch": 1},
         //{ "key": "时常", "name": "👉时常", "type": 3, "jar": "./jar/时常.jar;md5;52a7187a09053f22828cc9ca829b1b73", "api": "csp_qiao3", "searchable": 1, "quickSearch": 1, "playerType": 1, "filterable": 0, "ext": "https://sc1080.top|e59d44b2eef03ad9|e59d44b2eef03ad9" },
         //{ "key": "LibVio", "name": "👉LibVio", "type": 3, "jar": "./jar/Yoursmile.jar;md5;2AF9C2C95BF862E8D0AA204F7D2E8FEE", "api": "csp_Libvio", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.libvio.fun/" },
