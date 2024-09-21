@@ -18,16 +18,6 @@
         { "key": "卧龙","name":"👉卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         { "key": "天空","name":"👉天空","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         { "key": "飞速","name":"👉飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-        {
-			"key": "看了么",
-			"name": "😗看了么 ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/yw88075/tvbox/refs/heads/main/XBPQ/%E7%9C%8B%E4%BA%86%E5%90%97.json"
-		},
 	    {
 			"key": "看了2",
 			"name": "😗看了2 ",
@@ -36,7 +26,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/yw88075/tvbox/refs/heads/main/XBPQ/看了吗.json"
+			"ext": "./js/看了吗.json"
 		},
         //{ "key": "飞刀", "name": "👉飞刀", "type": 1, "api": " http://www.feidaozy.com/api.php/provide/vod/" ,"searchable": 1, "quickSearch": 1},
         //{ "key": "时常", "name": "👉时常", "type": 3, "jar": "./jar/时常.jar;md5;52a7187a09053f22828cc9ca829b1b73", "api": "csp_qiao3", "searchable": 1, "quickSearch": 1, "playerType": 1, "filterable": 0, "ext": "https://sc1080.top|e59d44b2eef03ad9|e59d44b2eef03ad9" },
