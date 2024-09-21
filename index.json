@@ -17,7 +17,7 @@
         { "key": "多瑙","name":"👉多瑙","type":3,"api":"./js/drpy2.min.js","ext":"./js/多瑙.js"},
         { "key": "卧龙","name":"👉卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         { "key": "天空","name":"👉天空","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-        { "key": "飞速","name":"👉飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
+        { "key": "飞速","name":"👉飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
         {
 			"key": "看了么",
 			"name": "😗看了么 ",
