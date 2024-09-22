@@ -5,7 +5,8 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},
-        {"key": "瓜子","name": "❤️瓜子", "type": 3,"api": "http://我不是.摸鱼儿.top/json/js/drpy.min.js","filterable": 1,"order_num": 0,"changeable": 0,"ext": "./js/瓜子ext.js"},
+        {"key":"U酷","name":"U酷","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/", "searchable": 1,"changeable": 1,"categories": ["国产动漫","日本动漫","欧美动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","欧美剧","韩国剧","台湾剧","日本剧","泰国剧","纪录片","动画片","电影解说","其他片","其他剧","体育赛事","短剧","伦理片"]},
+	{"key": "瓜子","name": "❤️瓜子", "type": 3,"api": "http://我不是.摸鱼儿.top/json/js/drpy.min.js","filterable": 1,"order_num": 0,"changeable": 0,"ext": "./js/瓜子ext.js"},
         {"key":"瓜子2","name":"🍉瓜子2","type":3,"jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
 	{"key":"天天","name":"🦉天天","jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1},
 	{"key":"FreeOK","name":"️🆗FreeOK","type":3,"api":"csp_FreeOK","searchable":1,"quickSearch":1,"filterable":1},
