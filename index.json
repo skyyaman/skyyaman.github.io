@@ -1,4 +1,5 @@
 //数据源满20自动变两列
+//https://raw.githubusercontent.com/xyp76/TVBox/refs/heads/main/DC.txt
 {
     //"spider": "https://gitlab.com/guot55/bh/-/raw/main/pg/pg.jar",
     "spider": "./jar/加速.jar",
