@@ -5,7 +5,7 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},
-        { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
+        { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1727398313929/0927.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
 	{"key": "瓜子","name": "❤️瓜子", "type": 3,"api": "http://我不是.摸鱼儿.top/json/js/drpy.min.js","filterable": 1,"order_num": 0,"changeable": 0,"ext": "./js/瓜子ext.js"},
         {"key":"瓜子2","name":"🍉瓜子2","type":3,"jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
 	{"key":"天天","name":"🦉天天","jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1},
