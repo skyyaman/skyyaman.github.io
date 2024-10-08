@@ -8,6 +8,17 @@
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},
         { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
 	{"key":"金牌","name":"🥇金牌|杏坛","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/n3rddd/N3RD/612a110e6b398349a4907e0c8c45cf281e561ba5/JN/dr_py/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/n3rddd/N3RD/612a110e6b398349a4907e0c8c45cf281e561ba5/JN/dr_py/js/%E9%87%91%E7%89%8C%E5%BD%B1%E9%99%A2.js"},
+	    {
+      "key": "追剧影视",
+      "name": "🏅追剧┃1080P",
+      "type": 3,
+      "api": "csp_AppZJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://gitdl.cn/github.com/uc666/show/blob/1d7ffc7d8f2be3bacd0171eebf7f33594d402be1/jar/0914.jar;md5;03c83adc48ceacbda2ab7fae8b1c6597",
+      "ext": "http://z.kzjtv.com/"
+    },
 	    { "key": "白白","name": "✍️素白白", "type": 3,"searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_SuBaiBai","playerType": 1, "filterable": 1,"ext": ""},
         { "key": "奇优","name": "🦌奇优","type": 3,"changeable": 0,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_Qiyou","playerType": "1"},
         { "key": "摘星", "name": "✨摘星", "type": 3, "api": "http://我不是.摸鱼儿.top/json/js/drpy.min.js","searchable": 1, "quickSearch": 1,"filterable": 1,"order_num": 0,"changeable": 0, "ext": "./js/摘星ext.js"},
