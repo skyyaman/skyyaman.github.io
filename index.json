@@ -4,30 +4,21 @@
     //"spider": "./jar/加速.jar",
     "spider": "./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
-    //10、19大良不行：金牌 索尼 快看影视 视频库 摘星  瓜子 可可 酷看 飞速 星辰 文才 先生
     "sites": [
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},        
-        { "key": "南瓜","name": "🎃南瓜┃杏坛","type": 3,"api": "csp_Nangua","jar":"./jar/南瓜.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true}},
         { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
+        { "key": "魔都", "name": "🤣魔都┃大良","type":1,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"https://caiji.moduapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
+        { "key": "农民", "name": "💡农民|大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1},
         { "key": "纽约", "name": "🏙纽约|大良","type": 3, "api": "csp_XPathFilter","searchable": 1,"quickSearch": 1, "filterable": 1,"ext": "./js/纽约.json","jar": "./jar/纽约.jar;md5;3f392906996ac13aaeb8c91956f95f7f"},
-        { "key": "黑木耳", "name": "🪓黑木耳|大良", "type": 4, "jar": "./jar/黑木耳.jar;md5;733c1f92be365eddf38a5bae8d2a405e","api": "https://json.doube.eu.org/app/index.php?site=webheimuer","searchable": 1, "quickSearch": 1,"filterable": 0,"changeable": 0},
-        { "key": "茶杯", "name": "🍸️茶杯┃杏坛","type": 3,"api": "csp_XBPQ", "searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./js/茶杯.json","jar": "./jar/茶杯.jar;md5;70235CDCA3C95116FFC00BEA3A99C2C6"},
         { "key": "卫总", "name": "🌍卫总┃eighteen", "type": 3, "api": "csp_XBPQ", "jar": "./jar/卫总.jar","ext": "./js/卫总.json", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "360资源", "name": "🌍360┃eighteen", "type": 1, "changeable": 0, "api": "https://360zy.com/api.php/provide/vod", "playUrl": "json:http://110.42.3.99:880/rmm.php/?url="},
-        //{ "key": "君君", "name": "🚗君君┃杏坛", "type": 3,"searchable": 1, "quickSearch": 1, "api": "./js/君君api.js", "ext": { "host": "http://122.228.85.203:1000/api.php/app/", "*": [ "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="]}},
         { "key": "低端", "name": "👇低端┃杏坛", "type": 3,"api": "csp_Ddys","searchable": 1,"quickSearch": 1,"filterable": 1 },
-        { "key": "立播", "name": "立播┃网盘不可用", "type": 3, "api": "csp_Libvio", "searchable": 1, "filterable": 1, "changeable": 1,"ext": { "token": "http://127.0.0.1:9978/file/TVBox/token.txt","cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt", "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt","site": "https://libvio.link"}},
-        { "key": "瓜子2", "name":"🍉瓜子2","type":3,"jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
-        { "key": "天天", "name":"🦉天天","jar":"https://gitdl.cn/raw.githubusercontent.com/bluefriendCN/bin/main/Yoursmile.jar;md5;F25A81AB3BED12055AFD36B301F3511E","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1},
+        { "key": "南瓜", "name": "🎃南瓜┃杏坛","type": 3,"api": "csp_Nangua","jar":"./jar/南瓜.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true}},
         { "key": "畅梦", "name": "👉畅梦", "type": 3, "ua": "okhttp/3.15", "api": "./js/drpy2.min.js", "ext": "./js/畅梦.js" },
+        { "key": "天天", "name":"💡天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
         { "key": "极速", "name": "👉极速", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "changeable": 1, "categories": ["日剧", "马泰剧", "内地剧", "欧美剧", "香港剧", "韩剧", "台湾剧", "恐怖片", "动画片", "剧情片", "战争片", "动作片", "记录片", "爱情片", "喜剧片", "科幻片", "灾难片", "悬疑片", "犯罪片", "中国动漫", "日本动漫", "欧美动漫"] },
+        { "key": "三六零","name":"💘三六┃大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1},
         { "key": "卧龙", "name":"👉卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
-        //{ "key": "飞速", "name":"🚗飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-      //{ "key": "旺旺", "name": "🎇旺旺┃办公室", "type": 3, "jar":"./jar/星星旺旺.txt;md5;e4d01b08559fb19c33e964e2ca421b87","api": "csp_WexNmys", "searchable": 1, "changeable": 1},
-        //{ "key": "星辰", "name": "✨星辰┃办公室", "type": 3, "jar":"./jar/星星旺旺.txt;md5;e4d01b08559fb19c33e964e2ca421b87","api": "csp_Wexbaipiao", "searchable": 1,"changeable": 1},
-        //{ "key": "文才", "name": "🌺文才┃办公室", "type": 3, "jar":"./jar/星星旺旺.txt;md5;e4d01b08559fb19c33e964e2ca421b87","api": "csp_Wexwencai","searchable": 1,"changeable": 1},
-        //{ "key": "先生", "name": "🎇先生┃办公室", "type": 3, "jar":"./jar/星星旺旺.txt;md5;e4d01b08559fb19c33e964e2ca421b87","api": "csp_Wexdyxs","searchable": 1,"changeable": 1},
-        //{ "key": "新6V", "name": "🛩️新6V┃办公室", "type": 3, "jar":"./jar/星星旺旺.txt;md5;e4d01b08559fb19c33e964e2ca421b87","api": "csp_WexXb6v","searchable": 1, "changeable": 0}
         ],
     "lives": [
         {
