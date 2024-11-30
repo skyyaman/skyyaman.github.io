@@ -10,7 +10,6 @@
         { "key": "南瓜", "name": "🎃南瓜┃杏坛","type": 3,"api": "csp_Nangua","jar":"./jar/南瓜.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true}},
         { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
         { "key": "农民", "name": "💡农民|大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1},
-        { "key": "糯米", "name": "💘糯米|大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
         { "key": "纽约", "name": "🏙纽约|大良","type": 3, "api": "csp_XPathFilter","searchable": 1,"quickSearch": 1, "filterable": 1,"ext": "./js/纽约.json","jar": "./jar/纽约.jar;md5;3f392906996ac13aaeb8c91956f95f7f"},
         { "key": "卫总", "name": "🌍卫总┃eighteen", "type": 3, "api": "csp_XBPQ", "jar": "./jar/卫总.jar","ext": "./js/卫总.json", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "360资源", "name": "🌍360┃eighteen", "type": 1, "changeable": 0, "api": "https://360zy.com/api.php/provide/vod", "playUrl": "json:http://110.42.3.99:880/rmm.php/?url="},
