@@ -6,20 +6,21 @@
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},        
-        { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
         //{ "key": "魔都", "name": "🤣魔都┃大良","type":1,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"https://caiji.moduapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "电影", "连续剧", "综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "惊悚片", "家庭片", "古装片", "历史片", "悬疑片", "犯罪片", "灾难片", "记录片", "短片", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "短剧"]},
         { "key": "AI2", "name":"AI2┃大良","type":3,"jar":"http://cdn.qiaoji8.com/fix241114.jar;md5;9bb70df776325973562070580f4a29f6","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="},
         { "key": "农民", "name": "💡农民|大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1},
-        { "key": "纽约", "name": "🏙纽约|大良","type": 3, "api": "csp_XPathFilter","searchable": 1,"quickSearch": 1, "filterable": 1,"ext": "./js/纽约.json","jar": "./jar/纽约.jar;md5;3f392906996ac13aaeb8c91956f95f7f"},
         { "key": "魔都", "name": "🤣魔都┃eighteen","type":1,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"https://caiji.moduapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "里番动漫", "电影", "连续剧", "综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "惊悚片", "家庭片", "古装片", "历史片", "悬疑片", "犯罪片", "灾难片", "记录片", "短片", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "短剧", "伦理片"]},
         { "key": "卫总", "name": "🌍卫总┃eighteen", "type": 3, "api": "csp_XBPQ", "jar": "./jar/卫总.jar","ext": "./js/卫总.json", "searchable": 1, "quickSearch": 1, "filterable": 1 },
         { "key": "360",  "name": "🌍360┃eighteen","type": 1,"api": "https://360zy.com/api.php/provide/vod?","searchable": 1,"changeable": 1,"categories": ['电影', '连续剧', '综艺', '动漫', '伦理片', '动作片', '喜剧片', '爱情片', '科幻片', '恐怖片', '剧情片', '战争片', '国产剧', '香港剧', '韩国剧', '欧美剧', '体育', 'NBA', '惊悚片', '家庭篇', '古装片', '历史片', '悬疑片', '犯罪片', '灾难片', '纪录片', '短片', '动画片', '台湾剧', '日本剧', '海外剧', '泰国剧', '大陆综艺', '港台综艺', '日韩综艺', '欧美综艺', '国产动漫', '欧美动漫', '日韩动漫', '足球', '篮球', '未分类', '西部片', '爽文短剧', '现代都市', '脑洞悬疑']},
+        {"key":"柠檬","name":"柠檬影院","type":3,"api":"csp_Nmvod","playerType":1,"ext":"eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ==","jar":"http://cdn.qiaoji8.com/fix241114.jar;md5;9bb70df776325973562070580f4a29f6"},
         { "key": "低端", "name": "👇低端┃杏坛", "type": 3,"api": "csp_Ddys","searchable": 1,"quickSearch": 1,"filterable": 1 },
-        { "key": "南瓜", "name": "🎃南瓜┃杏坛","type": 3,"api": "csp_Nangua","jar":"./jar/南瓜.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true}},
         { "key": "畅梦", "name": "👉畅梦", "type": 3, "ua": "okhttp/3.15", "api": "./js/drpy2.min.js", "ext": "./js/畅梦.js" },
         { "key": "天天", "name":"💡天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
         { "key": "极速", "name": "👉极速", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1, "changeable": 1, "categories": ["日剧", "马泰剧", "内地剧", "欧美剧", "香港剧", "韩剧", "台湾剧", "恐怖片", "动画片", "剧情片", "战争片", "动作片", "记录片", "爱情片", "喜剧片", "科幻片", "灾难片", "悬疑片", "犯罪片", "中国动漫", "日本动漫", "欧美动漫"] },
         { "key": "三六零","name":"💘三六┃大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1},
+        { "key": "南瓜", "name": "🎃南瓜┃杏坛","type": 3,"api": "csp_Nangua","jar":"./jar/南瓜.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"danmu": true}},
+        { "key": "纽约", "name": "🏙纽约|大良","type": 3, "api": "csp_XPathFilter","searchable": 1,"quickSearch": 1, "filterable": 1,"ext": "./js/纽约.json","jar": "./jar/纽约.jar;md5;3f392906996ac13aaeb8c91956f95f7f"},
+        { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
         { "key": "卧龙", "name":"👉卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
         ],
     "lives": [
@@ -248,7 +249,7 @@
     ],
     "parses": [
         {
-            "name": "巧技AAA",
+            "name": "专业解析20年",
             "type": 1,
             "url": "https://zy.qiaoji8.com/neibu.php?url=",
             "ext": {
