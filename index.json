@@ -8,6 +8,7 @@
         { "key": "荐片", "name": "👉荐片", "type": 3, "api": "./js/drpy2.min.js", "ext": "./js/jp.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},        
         { "key": "苹果", "name": "🍎苹果","type": 3, "searchable": 1, "changeable": 1,"jar":"./jar/白白苹果.txt;md5;5f7ad832093d5ffd021bfd3d665b5a4a","api": "csp_LiteApple", "playerType": 1,"filterable": 1,"ext": "" },
         //{ "key": "魔都", "name": "🤣魔都┃大良","type":1,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"https://caiji.moduapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "电影", "连续剧", "综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "惊悚片", "家庭片", "古装片", "历史片", "悬疑片", "犯罪片", "灾难片", "记录片", "短片", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "短剧"]},
+        { "key": "AI2", "name":"AI2┃大良","type":3,"jar":"http://cdn.qiaoji8.com/fix241114.jar;md5;9bb70df776325973562070580f4a29f6","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="},
         { "key": "农民", "name": "💡农民|大良","type":3,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1},
         { "key": "纽约", "name": "🏙纽约|大良","type": 3, "api": "csp_XPathFilter","searchable": 1,"quickSearch": 1, "filterable": 1,"ext": "./js/纽约.json","jar": "./jar/纽约.jar;md5;3f392906996ac13aaeb8c91956f95f7f"},
         { "key": "魔都", "name": "🤣魔都┃eighteen","type":1,"jar":"./jar/欧歌.jar;md5;62f18005177794427b32473e25413428","api":"https://caiji.moduapi.cc/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"categories": ["国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "里番动漫", "电影", "连续剧", "综艺", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "惊悚片", "家庭片", "古装片", "历史片", "悬疑片", "犯罪片", "灾难片", "记录片", "短片", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "短剧", "伦理片"]},
@@ -247,135 +248,15 @@
     ],
     "parses": [
         {
-            "name": "777",
-            "type": 0,
-            "url": "https://jx.777jiexi.com/player/?url="
-        },
-        {
-            "name": "杰森",
-            "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url="
-        },
-        {
-            "name": "战狼",
-            "type": 0,
-            "url": "https://jx.zhanlangbu.com/?url="
-        },
-        {
-            "name": "ok",
-            "type": 0,
-            "url": "https://okjx.cc/?url="
-        },
-        {
-            "name": "bozrc",
-            "type": 0,
-            "url": "https://jx.bozrc.com:4433/player/?url=",
+            "name": "巧技AAA",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/neibu.php?url=",
             "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "leshi",
-                    "LS",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ],
+                "flag": ["qq","腾讯","qiyi", "爱奇艺", "奇艺","youku","优酷", "sohu", "搜狐","letv","乐视","mgtv", "芒果","tnmb","seven", "bilibili", "1905"],
                 "header": {
-                    "User-Agent": ""
+                    "User-Agent": "okhttp/4.9.1"
                 }
             }
-        },
-        {
-            "name": "不累",
-            "type": 0,
-            "url": "https://blbfq.f3322.net/player/analysis.php?v=",
-            "ext": {
-                "flag": [
-                    "qiyi",
-                    "qq",
-                    "letv",
-                    "sohu",
-                    "youku",
-                    "mgtv",
-                    "bilibili",
-                    "wasu",
-                    "xigua",
-                    "1905"
-                ]
-            }
-        },
-        {
-            "name": "cod",
-            "type": 0,
-            "url": "https://ksksl.codjx.com/?url="
-        },
-        {
-            "name": "byg解析",
-            "type": 0,
-            "url": "https://byg.ziqj5.shop/?url="
-        },
-        {
-            "name": "xmflv",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url="
-        },
-        {
-            "name": "365",
-            "type": 0,
-            "url": "https://chaxun.truechat365.com/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "iqiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
-            }
-        },
-        {
-            "name": "26db",
-            "type": 0,
-            "url": "http://vip.26db.cn/g/?url="
-        },
-        {
-            "name": "看看",
-            "type": 0,
-            "url": "https://jx.m3u8.pw/?url="
-        },
-        {
-            "name": "FreeOK",
-            "type": 0,
-            "url": "https://play.86516.tk/OKPlayer/?url="
-        },
-        {
-            "name": "free",
-            "type": 0,
-            "url": "https://h5.freejson.xyz/player/?url="
         }
     ],
     "flags": [
