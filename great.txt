@@ -1450,6 +1450,7 @@ blogspot.com
 !--||googlecapital.com
 ||googlechinawebmaster.com
 ||googlecode.com
+||challenges.cloudflare.com
 ||googlecommerce.com
 ||googledomains.com
 ||googlearth.com
