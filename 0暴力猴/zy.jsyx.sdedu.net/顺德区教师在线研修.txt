@@ -1,0 +1,181 @@
+// ==UserScript==
+// @name         顺德区教师在线研修(long)
+// @namespace    http://tampermonkey.net/
+// @version      2024/11/13
+// @description  哪里能不打龟，求！
+// @author       longlongloveyou
+// @match        https://zy.jsyx.sdedu.net/*
+// @icon         https://jsyx.sdedu.net/themes/zs-techerEducation/images/wechat-logo.png
+// @grant        none
+// @license      longlongloveyou
+// @downloadURL https://update.greasyfork.org/scripts/516928/%E9%A1%BA%E5%BE%B7%E5%8C%BA%E6%95%99%E5%B8%88%E5%9C%A8%E7%BA%BF%E7%A0%94%E4%BF%AE%28long%29.user.js
+// @updateURL https://update.greasyfork.org/scripts/516928/%E9%A1%BA%E5%BE%B7%E5%8C%BA%E6%95%99%E5%B8%88%E5%9C%A8%E7%BA%BF%E7%A0%94%E4%BF%AE%28long%29.meta.js
+// ==/UserScript==
+
+(function() {
+	var option = document.createElement("div");
+	option.style="cursor: pointer;backgroundColor:gray；color:DarkOrange;text-align:center;line-height:40px;font-size:30px; background-repeat: no-repeat; background-size: 100%; width: 90px; height: 90px; border-radius: 0px;position:fixed;left:60px;bottom:200px; z-index:999;"
+	option.style.width = "100px";
+	option.style.height = "50px";
+	option.style.backgroundColor = "gray";// 设置背景颜色
+	// 设置文字颜色
+	option.style.color = "red";
+	option.setAttribute("id","rains");
+	option.innerText = "开关";
+	document.body.insertBefore(option, document.body.firstElementChild);
+	var timer;
+	var startstatus = 0;
+	//次数
+	var number = 0;
+	var player=document.getElementsByTagName('video')[0]
+	document.getElementById("rains").addEventListener("click", StartOrStop);
+	StartOrStop()
+	function StartOrStop(){
+		//获取播放状态
+		var rains = document.getElementById("rains");
+		player.muted=true;
+		if (startstatus == 0){
+			console.log('开始脚本')
+			//开始脚本
+			timer = setInterval(start, 9200);
+			if(player.paused){player.play();}
+			startstatus = 1;
+			rains.innerText = "已开";
+			rains.style.color = "green";
+		}else if (startstatus == 1) {
+			//停止脚本
+			console.log('停止脚本')
+			clearInterval(timer);
+			//已经播放 暂停播放
+			//play.click();
+			startstatus = 0;
+			rains.innerText = "已关";
+			rains.style.color = "red";
+		}
+	}
+	function start(){
+		if(number % 200 == 0){
+			  console.clear();
+		}
+		number += 1;
+		if (isover()) {
+                   StartOrStop()
+                   return
+                }	//判断是否结束
+		play();	
+		sendmsg()	
+		if($("input[name='response']").length>0)
+		{
+			console.log('1');
+			var x=0,y=$("input[name='response']").length;
+			var index=parseInt(Math.random()*y);
+			$("input[name='response']")[index].checked='true';
+			$('.m-common-btn .m-reExam-btn a button').click()
+		}
+	}
+	function play(){
+		if($(".g-study-prompt p ")[0].innerText.indexOf("您已完成观看")>=0){
+			$("#studySelectAct a")[1].click();
+			return;
+		}
+		var timer1 = $(".g-study-prompt p span")[0].innerText;
+		var timer2 = $(".g-study-prompt p span")[1].innerText;
+		if (parseInt(timer1)<=parseInt(timer2)){
+			$("#studySelectAct a")[1].click();
+		}
+	}
+	function getcouseid(){
+	  const htmlContent = document.documentElement.innerHTML;//当前的htmlcode
+	  const regex = /\/(a_[a-f0-9]{32})\/study\/video\/user\/([a-f0-9]{32})\//;
+	  const match = htmlContent.match(regex);
+	  return match    //把得到的id通过数组返回
+	}
+	function isover(){
+		const htmlContent = document.documentElement.innerHTML;//当前的htmlcode
+		if(htmlContent.indexOf("已经是最后一个活动")>=0){
+			console.log('已是最后一个视频');
+			return true;
+		}
+		if(htmlContent.indexOf("您已完成观看")>=0){
+			var element = document.querySelector('a');
+			if (element.classList.contains('btn next disable')) {
+				console.log('已是最后一个视频');
+				return true;
+			} else {
+				console.log('您已完成观看,下一个');
+				$("#studySelectAct a")[1].click();
+				return false
+			}
+		}
+		return false
+	}
+	function sendmsg(){
+		const id=getcouseid()
+		//console.log(id)
+		const id1=getcouseid()[1]
+		const id2=getcouseid()[2]
+	
+	  $.ajax({
+		url:'/'+id1+'/study/video/user/'+id2+'/updateViewTime',
+		type:'post',
+		data:'_method=PUT&isLimit='+true,
+		success:function(data){
+			console.log('服务器返回信息:',data.responseMsg)
+			if(data.responseCode == '01' && data.responseMsg == 'more video is open'){
+				player.pause();
+				mylayerFn.btns({
+					content: '系统检测到您的账号已打开其他视频的观看页面, 为防止多个视频活动同时计时, 请为此前视频活动作以下选择',
+					icon: 3,
+					btns: [
+						{content:"计时观看", type:1, close: true, fn:function(){
+								$.ajax({
+									url:'/'+id1+'/study/video/user/updateVideoStatus',
+									type:'post',
+									data:'_method=PUT&id='+id2,
+									success:function(data){
+										player.play();
+									}
+								});
+							}},
+						{content:"不计时观看", type:2, close: true,fn: function(){
+								setResult = false;
+								player.play();
+							}}
+					]
+				});
+			}else{
+				var viewTime = data.responseData;
+				if(viewTime != ''){
+					viewTime = parseInt(viewTime);
+					//观看时长与要求时长比较，观看时长 >= 要求时长，更新时长，并更新数据库，以及更新结果
+					if(viewTime >= parseInt('14') * 60){
+						if(!isComplete){
+							//mylayerFn.btns({
+							//content: '您已完成这个活动',
+							//icon: 3,
+							//btns: [
+							//{content:"确定", type:1, close: true}
+							//]
+							//});
+							//$.put('/a_994481bd760c408395b13a9c58b4ade9/study/video/user/af2f9d6c7a7a07dc40c89eede87011e4/updateViewTime', 'toDb='+true);
+							$.ajax({
+								url:'/'+id1+'/study/video/user/'+id2+'/updateViewTime',
+								type:'post',
+								data:'_method=PUT&toDb='+true,
+								success: function(){
+								}
+							});
+						}
+						isComplete = true;
+						isAlert = false;
+	
+					}
+					if($('#viewTimeTxt')){
+						$('#viewTimeTxt').text(Math.floor(viewTime / 60));
+					}
+				}
+			}
+		}
+	})
+	}
+	})();
