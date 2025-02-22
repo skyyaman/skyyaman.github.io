@@ -1,11 +1,11 @@
 //数据源满20自动变两列
 //https://raw.githubusercontent.com/xyp76/TVBox/refs/heads/main/DC.txt
 {
-    "spider": "./jar/巧技.jar",    
+    "spider": "./jar/巧技.jar;md5;7c25913285b8e695fae08e05f9a3df83",    
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         { "key": "荐片", "name": "👉荐片", "type": 3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d", "api": "./js/荐片api.js", "ext": "./js/荐片ext.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},         
-        { "key": "巧技", "name": "巧技一┃App", "type": 3, "jar":"http://cdn.qiaoji8.com/fix250221.jar;md5;7c25913285b8e695fae08e05f9a3df83","api": "csp_qiao2",            "playerType": 2,            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"},
+        { "key": "巧技", "name": "巧技┃杏坛", "type": 3, "api": "csp_qiao2",            "playerType": 2,"ext": "./js/巧技.txt"},
         { "key": "农民", "name": "👨🏻‍🌾农民|办公室",	"type": 3, "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c","api": "csp_Nongm","ext": "https://wwgz.cn"},
         { "key": "来看", "name": "👨🏻‍🌾来看|办公室", "type": 3, "jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c","api": "csp_Lkdy"},
         { "key": "文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.jar;md5;0e3d57414d7927d36066d0e69914f477","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
@@ -23,7 +23,7 @@
         { "key": "旺旺", "name": "🍵旺旺┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/旺旺.json"}, 
         { "key":"可可2", "name": "🍵可可2┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/可可.txt"},        
         { "key": "美剧", "name": "🎃美剧┃磁力","type":3,"jar":"./jar/欧歌.jar","api":"csp_MeijuTT","searchable":1,"quickSearch":1,"filterable":1},
-        { "key": "夕云", "name": "☁夕云┃大良","type": 3,"api": "csp_XBPQ","jar":"./jar/夕云.jar","ext": {"首页": "电视剧$21","分类":"电影$20#电视剧$39#动漫$46#综艺$47","分类url":"https://www.xyxy.live/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html[]"}},
+        { "key": "夕云", "name": "☁夕云┃大良","type": 3,"jar":"./jar/夕云.jar","api": "csp_XBPQ","ext": {"首页": "电视剧$21","分类":"电影$20#电视剧$39#动漫$46#综艺$47","分类url":"https://www.xyxy.live/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html[]"}},
         { "key": "三四", "name": "👣三四┃大良","type":3,"jar":"./jar/348.jar","api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/348.json"},
         { "key": "非凡", "name": "👣非凡┃大良","type":3,"jar":"./jar/348.jar","api":"csp_XBPQ","ua": "okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/非凡.json"},
         { "key": "荐片", "name": "👉荐片", "type": 3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d", "api": "./js/荐片api.js", "ext": "./js/荐片ext.js","searchable": 1, "quickSearch": 1, "changeable": 1, "playerType": "1"},        
