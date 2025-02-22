@@ -200,6 +200,7 @@ share.dmhy.org
 !--We are confused as well
 ||ontrac.com
 @@|http://blog.ontrac.com
+||grok.com
 ||openai.com
 ||pandora.com
 .pandora.tv
