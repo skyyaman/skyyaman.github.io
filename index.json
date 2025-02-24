@@ -71,12 +71,11 @@
         {"name":"磁力广告","hosts":["magnet"],"regex":["更多", "社區", "xuu", "最新", "直播", "更新", "社区", "有趣", "英皇体育", "全中文AV在线", "澳门皇冠赌场", "哥哥快来", "美女荷官", "裸聊", "新片首发", "UUE29"]}
       ],
     "parses": [
-        {"name": "巧技1","type": 1,"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905"]}},
-        {"name": "巧技2","type": 1,"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx"]}},
-        {"name": "巧技3","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
-        {"name": "欧歌","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-        {"name": "解析聚合","type": 3,"url": "Demo"},
-        {"name": "Json轮询","type": 2,"url": "Sequence"}
+        {"name":"解析聚合","type":3,"url":"Demo"},
+        {"name":"Json轮询","type":2,"url":"Sequence"},
+        {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
+        {"name":"巧技二","type":1,"url":"https://zy.qiaoji8.com/gouzi.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905", "NetFilx"], "header": {"User-Agent": "okhttp/4.9.1"}}},
+        {"name": "欧歌","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}}
       ],
     "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
     "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
