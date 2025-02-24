@@ -145,9 +145,8 @@
       "name": "🎇热播┃杏坛",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 1,
-      //"ext": "caHR0cDovL3YucmJvdHYuY24=",
-      "ext": "http://v.rbotv.cn",
+      "playerType": 1,      
+      "ext": "caHR0cDovL3YucmJvdHYuY24=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
