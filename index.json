@@ -15,6 +15,7 @@
         {"key":"AI3","name":"👪AI3┃仅搜索","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ=="},
         {"key":"追剧","name":"追剧┃杏坛","type":3,"api":"csp_TTian","playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24="},
         {"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
+        {"key":"农民","name":"👨🏻‍🌾农民┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c","api":"csp_Nongm","ext":"https://wwgz.cn"},
         {"key":"来看","name":"👨🏻‍🌾来看┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c","api":"csp_Lkdy"},
         {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.jar;md5;0e3d57414d7927d36066d0e69914f477","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.jar;md5;0e3d57414d7927d36066d0e69914f477","api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
@@ -70,8 +71,12 @@
         {"name":"磁力广告","hosts":["magnet"],"regex":["更多", "社區", "xuu", "最新", "直播", "更新", "社区", "有趣", "英皇体育", "全中文AV在线", "澳门皇冠赌场", "哥哥快来", "美女荷官", "裸聊", "新片首发", "UUE29"]}
       ],
     "parses": [
-        {"name":"巧技解析","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
-        {"name":"欧歌解析","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}}
+        {"name": "巧技1","type": 1,"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905"]}},
+        {"name": "巧技2","type": 1,"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=","ext": {"flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili","1905","NetFilx"]}},
+        {"name": "巧技3","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
+        {"name": "欧歌","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+        {"name": "解析聚合","type": 3,"url": "Demo"},
+        {"name": "Json轮询","type": 2,"url": "Sequence"}
       ],
     "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
     "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
