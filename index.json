@@ -6,6 +6,7 @@
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
     //type: 1 从url直接获取无须jar 3 从jar中获取要有jar
     //playerType: 1 内置播放器 2 外置播放器
+    //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         {"key":"木偶","name":"👪木偶┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"},
         {"key":"巧技","name":"👪巧技┃杏坛","type":3,"api":"csp_qiao2","playerType":2,"ext":"./js/巧技.txt"},
@@ -71,12 +72,10 @@
       ],
     "parses": [
         {"name":"解析聚合","type":3,"url":"Demo"},
-        //{"name":"Json轮询","type":2,"url":"Sequence"},
         {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905"], "header": {"User-Agent": "okhttp/4.9.1"}}},
         {"name":"巧技二","type":1,"url":"https://zy.qiaoji8.com/gouzi.php?url=","ext":{"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "tnmb", "seven", "bilibili", "1905", "NetFilx"], "header": {"User-Agent": "okhttp/4.9.1"}}},
         {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-    	  {"name":"-云解析-","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
-
+        {"name": "欧歌","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header": {"user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}}
       ],
     "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
     "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
