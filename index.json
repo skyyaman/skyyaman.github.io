@@ -17,7 +17,6 @@
         {"key":"追剧","name":"追剧┃杏坛","type":3,"api":"csp_TTian","playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24="},
         {"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
         //{"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
-        {"key":"农民","name":"👨🏻‍🌾农民┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt","api":"csp_Nongm","ext":"https://wwgz.cn"},
         {"key":"来看","name":"👨🏻‍🌾来看┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt","api":"csp_Lkdy"},
         {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
