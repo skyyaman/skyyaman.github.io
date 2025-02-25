@@ -26,7 +26,6 @@
         {"key":"米兔","name":"🐰米兔┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737710777074/012403.jar","quickSearch":0,"api":"csp_MiTuApp","ext":"s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"},
         {"key":"快看","name":"🍵快看┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"饺子","name":"🍵饺子┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_Jiaozi","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"金牌","name":"🍵金牌┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_WebJP","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"瓜子","name":"🍵瓜子┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"真心","name":"🍵真心┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"1905","name":"🍵1905┃大良","type":3,"jar":"./jar/欧歌.jar","api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
