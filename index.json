@@ -1,6 +1,6 @@
 {  
+    //"spider": "./jar/巧技.jar;md5;7c25913285b8e695fae08e05f9a3df83",
     "spider": "./jar/巧技.jar",
-    //"spider": "http://git.longs.us.kg/https://github.com/skyyaman/skyyaman.github.io/blob/main/jar/%E5%B7%A7%E6%8A%80.jar",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
@@ -18,10 +18,10 @@
         {"key":"AI3","name":"👪AI3┃仅搜索","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ=="},
         {"key":"追剧","name":"追剧┃杏坛","type":3,"api":"csp_TTian","playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24="},
         {"key":"荐片","name":"👉荐片┃推荐","type":3,"jar":"./jar/追剧.jar","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
-        {"key":"天天","name":"🦢天天┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_AppRJ","ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"},
-        {"key":"疑旺","name":"🦢旺旺┃疑似", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_Wwys","ext": "https://www.wwgz.cn"},
-        {"key":"苹果","name":"🦢苹果┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_LiteApple","searchable": 1, "quickSearch": 1,"filterable": 1},
-        {"key":"来看","name":"👨🏻‍🌾来看┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt","api":"csp_Lkdy"},
+        {"key":"天天","name":"🍎天天┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_AppRJ","ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"},
+        {"key":"疑旺","name":"🍎旺旺┃疑似", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_Wwys","ext": "https://www.wwgz.cn"},
+        {"key":"苹果","name":"🍎苹果┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_LiteApple","searchable": 1, "quickSearch": 1,"filterable": 1},
+        {"key":"来看","name":"🍎来看┃办公室","type":3,"jar":"./jar/肥猫.jar","api":"csp_Lkdy"},
         {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
         {"key":"奥特","name":"🏝奥特┃无广","type":3,"jar":"./jar/玩偶.jar","api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/"},
