@@ -1,6 +1,6 @@
 {  
-    //"spider": "./jar/巧技.jar;md5;7c25913285b8e695fae08e05f9a3df83",
-    "spider": "./jar/巧技.jar",
+    //"spider": "./jar/巧技.jar",
+    "spider": "http://git.longs.us.kg/https://github.com/skyyaman/skyyaman.github.io/blob/main/jar/%E5%B7%A7%E6%8A%80.jar",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
