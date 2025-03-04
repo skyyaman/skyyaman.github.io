@@ -8,6 +8,7 @@
     //playerType: 1 内置播放器 2 外置播放器
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
+        {"key": "Douban","name": "豆瓣热门","type": 3,"jar":"./jar/肥猫.jar","api": "csp_Douban","searchable": 0},
         {"key":"木偶","name":"👪木偶┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"},
         {"key":"巧技","name":"👪巧技┃杏坛","type":3,"api":"csp_qiao2","playerType":2,"ext":"./js/巧技.txt"},
         {"key":"主角","name":"👪主角┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44"},
@@ -16,8 +17,11 @@
         {"key":"AI2","name":"👪AI2┃仅搜索","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk="},
         {"key":"AI3","name":"👪AI3┃仅搜索","type":3,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ=="},
         {"key":"追剧","name":"追剧┃杏坛","type":3,"api":"csp_TTian","playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24="},
-        {"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
-        //{"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
+        //{"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar;md5;eb7676582d076a5505be5f23530e4f4d","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
+        {"key":"荐片","name":"👉荐片","type":3,"jar":"./jar/追剧.jar","api":"./js/荐片api.js","ext":"./js/荐片ext.js","searchable":1,"quickSearch":1,"changeable":1,"playerType":"1"},
+        {"key":"天天","name":"🦢天天┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_AppRJ","ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"},
+        {"key":"疑旺","name":"🦢旺旺┃疑似", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_Wwys","ext": "https://www.wwgz.cn"},
+        {"key":"苹果","name":"🦢苹果┃杏坛", "type": 3,"jar":"./jar/肥猫.jar", "api": "csp_LiteApple","searchable": 1, "quickSearch": 1,"filterable": 1},
         {"key":"来看","name":"👨🏻‍🌾来看┃办公室","type":3,"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt","api":"csp_Lkdy"},
         {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.jar","api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"}},
@@ -36,9 +40,8 @@
         {"key":"夕云","name":"☁夕云┃大良","type":3,"jar":"./jar/夕云.jar","api":"csp_XBPQ","ext":{"首页": "电视剧$21", "分类": "电影$20#电视剧$39#动漫$46#综艺$47", "分类url": "https://www.xyxy.live/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html[]"}},
         {"key":"三四","name":"👣三四┃大良","type":3,"jar":"./jar/348.jar","api":"csp_XBPQ","ua":"okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/348.json"},
         {"key":"非凡","name":"👣非凡┃大良","type":3,"jar":"./jar/348.jar","api":"csp_XBPQ","ua":"okhttp/3.15","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/非凡.json"},
-        {"key":"天天","name":"☀天天┃影视","type":3,"jar":"./jar/追剧.jar","api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"极速","name":"☀极速","type":1,"api":"https://jszyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"changeable":1,"categories":["日剧", "马泰剧", "内地剧", "欧美剧", "香港剧", "韩剧", "台湾剧", "恐怖片", "动画片", "剧情片", "战争片", "动作片", "记录片", "爱情片", "喜剧片", "科幻片", "灾难片", "悬疑片", "犯罪片", "中国动漫", "日本动漫", "伦理片", "欧美动漫"]},
-        {"key":"卧龙","name":"☀卧龙","type":1,"jar":"./jar/追剧.jar","api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
+        {"key":"卧龙","name":"☀卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
       ],
     "lives": [
         {"name":"longlongago","type":0,"url":"./txt/cctv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
