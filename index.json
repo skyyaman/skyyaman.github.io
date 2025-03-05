@@ -1,6 +1,6 @@
 {  
     //"spider": "./jar/巧技.jar;md5;7c25913285b8e695fae08e05f9a3df83",
-    "spider": "./jar/巧技.jar",
+    "spider": "./jar/巧技2.jar",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
@@ -8,9 +8,13 @@
     //playerType: 1 内置播放器 2 外置播放器
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key": "Douban","name": "豆瓣热门","type": 3,"jar":"./jar/肥猫.jar","api": "csp_Douban","searchable": 0},
+        {"key":"Douban","name": "豆瓣热门","type": 3,"jar":"./jar/肥猫.jar","api": "csp_Douban","searchable": 0},
         {"key":"木偶","name":"👪木偶┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"},
         {"key":"巧技","name":"👪巧技┃杏坛","type":3,"api":"csp_qiao2","playerType":2,"ext":"./js/巧技.txt"},
+        {"key":"油条","name":"🍋油条┃App", "type": 3, "api": "csp_Muou", "playerType": 2, "ext": "caHR0cDovL3UzYS50dHhnenMuY2585LyY5LyY5YWUfDQuMS45" },
+        {"key":"剧评","name":"🍋剧评┃App", "type": 3,"api": "csp_Jpys", "playerType": 1,"ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="},
+        {"key":"玉米","name":"🍋玉米┃App", "type": 3,  "api": "csp_Xdai","playerType": 1, "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg==" },
+        {"key":"柠檬","name":"🍋柠檬┃App","type": 3, "api": "csp_Nmvod", "playerType": 2, "ext": "eaHR0cHM6Ly9ubXZvZC5jbjozMTY2L3dlYmNsb3VkL3JlbGF5LnBocD91cmw9"},
         {"key":"主角","name":"👪主角┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44"},
         {"key":"雨滴","name":"👪雨滴┃杏坛","type":3,"api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="},
         {"key":"现代","name":"👪现代┃杏坛","type":3,"api":"csp_Xdai","playerType":1,"ext":"caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="},
