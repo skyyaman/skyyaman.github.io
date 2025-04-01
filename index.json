@@ -8,10 +8,11 @@
     //playerType: 1 内置播放器 2 外置播放器
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"Douban","name": "豆瓣热门","type": 3,"jar":"./jar/肥猫.jar","api": "csp_Douban","searchable": 0},
+        {"key":"Douban","name": "豆瓣热门","type":3,"jar":"./jar/肥猫.jar","api": "csp_Douban","searchable": 0},
         {"key":"木偶","name":"👪木偶┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"},
         {"key":"巧技","name":"👪巧技┃杏坛","type":3,"api":"csp_qiao2","playerType":2,"ext":"./js/巧技.txt"},
-        {"key":"油条","name":"🍋油条┃App", "type": 3, "api": "csp_Muou", "playerType": 2, "ext": "caHR0cDovL3UzYS50dHhnenMuY2585LyY5LyY5YWUfDQuMS45" },
+        {"key":"油条","name":"🍋油条┃App", "type":3,"api": "csp_Muou", "playerType": 2, "ext": "caHR0cDovL3UzYS50dHhnenMuY2585LyY5LyY5YWUfDQuMS45" },
+        {"key":"私人","name":"😅私人┃影视","type":3,"jar": "./jar/蜡笔.jar","api": "csp_Siren"},
         {"key":"剧评","name":"🍋剧评┃App", "type": 3,"api": "csp_Jpys", "playerType": 1,"ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="},
         {"key":"玉米","name":"🍋玉米┃App", "type": 3,  "api": "csp_Xdai","playerType": 1, "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg==" },
         {"key":"主角","name":"👪主角┃杏坛","type":3,"api":"csp_Muou","playerType":2,"ext":"caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44"},
