@@ -4,26 +4,21 @@
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
     //type: 1 从url直接获取无须jar 3 从jar中获取要有jar
-    //playerType: 1 内置播放器 2 外置播放器
+    //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         {"key":"Douban","name": "豆瓣热门","type":3,"jar":"./jar/肥猫.txt","api": "csp_Douban","searchable": 0,"returnFormat": "txt"},
         {"key":"蝴蝶","name":"🐴蝴蝶┃大良","type":3,"api":"csp_Hudie","playerType": 2,"ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"},
         {"key":"驿站","name":"🐴驿站┃大良","type":3,"api":"csp_Muou", "playerType": 2,"ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh "},
         {"key":"巧二","name":"🐴巧技┃搜索","type":3,"api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i1g411302gk7gj3k72h781gl8k9839kl7i0707"},
-        {"key":"永夜","name":"🐴永夜┃大良","type": 3,"api":"csp_Muou","playerType": 2,"ext": "7lj763gg0939790i5g64qiaoji9ki3hj5k98jil1g6j6jg2458hhjjh9i4i62271j0hj124lj80ll9i8"},
-        {"key":"专业","name":"🐴专业┃大良","type": 3,"api":"csp_Shark","playerType": 1,"ext": "7lj763gg402i7942432l89j2hi5095jiljhhj910il8771225g4415l4lj02150l179l44g2965180ig3812h0iik5k557k6k0693g4glig6j7lj27962kl76hhg5g58k2lhikh1kk263g64ik0i6i1hi2kh5g6371g5lh6020kgihgj819828g5701k"},
         {"key":"星河","name":"🐴星河┃大良","type": 3,"api":"csp_Xdai","playerType": 2,"ext": "7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"},
-        {"key":"柠檬","name":"🐴柠檬┃大良","type": 3,"api":"csp_Nmvod","playerType": 2,"ext": "7lj763gg402i79425l279ijih4128l9ig8lh9h0h9gi62h24504217liki13141i1k9g5igkj6429h946408gl8lgh"},
         {"key":"好客","name":"🐴好客┃大良","type": 3,"api": "csp_Shark","playerType": 1, "ext": "7lj763gg402i7942503399i0h6489gjiljhhj910il8771225g4415l4lj02150l179l44g2965180ig3812h0iil7ki11g9k4786042k5h3j8kl22812gk477h5414ik9kl93hgkg266i29j112204797l45i677ih6l66h26k2jjgj819328"},
         {"key":"影港","name":"🎃影港┃磁力","type": 3,"api": "csp_Dygang"},
-        {"key":"天天","name":"🍎天天┃杏坛","type":3,"jar":"./jar/肥猫.txt", "api": "csp_AppRJ","ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK","returnFormat": "txt"},
-        {"key":"巧技","name":"👪巧技┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_qiao2","playerType":2,"ext":"./js/巧技.txt","returnFormat": "txt"},
         {"key":"私人","name":"😅私人┃影视","type":3,"jar": "./jar/蜡笔.txt","api": "csp_Siren","returnFormat": "txt"},
         {"key":"玉米","name":"🍋玉米┃App", "type": 3,"jar":"./jar/巧技2.txt","api": "csp_Xdai","playerType": 1, "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg==","returnFormat": "txt" },
         {"key":"雨滴","name":"👪雨滴┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA=","returnFormat": "txt"},
-        {"key":"AI2","name":"👪AI2┃仅搜索","type":3,"jar":"./jar/巧技2.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk=","returnFormat": "txt"},
-        {"key":"AI3","name":"👪AI3┃仅搜索","type":3,"jar":"./jar/巧技2.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ==","returnFormat": "txt"},
+        {"key":"AI2","name":"👪AI2┃仅搜索","type":3,"jar":"./jar/巧技2.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk=","returnFormat": "txt"},
+        {"key":"AI3","name":"👪AI3┃仅搜索","type":3,"jar":"./jar/巧技2.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"haHR0cDovLzE3NS4xNzguODAuMjA5L21iL3N4eXMvYXBpLnBocC9wcm92aWRlL3ZvZC98b2todHRwLzQuOS4xfHFpYW9qaQ==","returnFormat": "txt"},
         {"key":"追剧","name":"👪追剧┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_TTian","playerType":1,"ext":"daHR0cDovL3YubGt1eXMuY24=","returnFormat": "txt"},
         {"key":"热播","name":"👪热播┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_TTian","playerType":1,"ext":"caHR0cDovL3YucmJvdHYuY24=","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
         //{"key":"荐片","name":"💡荐片┃影视","type":3,"jar":"./jar/欧歌0413.txt","api":"csp_Jianpian","playerType":1,"ext":"http://api2.rinhome.com","returnFormat": "txt"},
@@ -31,12 +26,12 @@
         {"key":"低端","name":"💡低端┃影视","type":3,"jar":"./jar/欧歌0413.txt","api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
         {"key":"移动","name":"💡移动┃影视","type":3,"jar":"./jar/欧歌0413.txt","api":"csp_YDjisu","searchable":1,"changeable":1,"returnFormat": "txt"},
         {"key":"糯米","name":"😅糯米┃秒播","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_NmyswvGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"贱贱","name":"😅荐片┃P2P","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_JPJGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"贱贱","name":"😅荐片┃P2P","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_JPJGuard","timeout":10,"playerType":1,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"比特","name":"😅比特┃手机","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"在线","name":"😅在线┃秒播","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_ZxzjGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
         {"key":"即看","name":"😅即看┃多线","type":3,"jar":"./jar/欧歌0504.txt","api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsub1+2maloq8lmJuL821WUsZJAZft2UtrrwhKK5Zxt1toWyFctBUmThhuDAjVuU="},
         {"key":"疑旺","name":"🍎旺旺┃推荐", "type": 3,"jar":"./jar/肥猫.txt", "api": "csp_Wwys","ext": "https://www.wwgz.cn","returnFormat": "txt"},
-        {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.txt","api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"returnFormat": "txt"},
+        {"key":"文采","name":"💮文采┃大良","type":3,"jar":"./jar/玩偶.txt","api":"csp_Jpys","playerType":1,"searchable":1,"quickSearch":1,"changeable":1,"returnFormat": "txt"},
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.txt","api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"},"returnFormat": "txt"},
         {"key":"量子","name":"🥑量子┃办公室","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","playurl":"json:http://jx.84jia.com/m3u8ts.php?url=","searchable":1,"quickSearch":1,"changeable":0,"filterable":0},
         {"key":"快看","name":"🍵快看┃大良","type":3,"jar":"./jar/欧歌.txt","api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
