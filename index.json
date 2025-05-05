@@ -27,20 +27,9 @@
         {"key":"即看","name":"😅即看┃多线","type":3,"jar":"./jar/欧歌0504.txt","playerType":2,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsub1+2maloq8lmJuL821WUsZJAZft2UtrrwhKK5Zxt1toWyFctBUmThhuDAjVuU="},
         {"key":"腾讯","name":"🐥腾讯┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/qq_ext.txt","returnFormat": "txt"},
         {"key":"aqy","name":"🐥爱奇艺┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3, "api": "./qqapi/qq_api.js","ext": "./js/AQY.js"},
-        {
-      "key": "优酷视频",
-      "name": "优酷｜视频","jar":"./jar/腾讯.txt","playerType":2,
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js"
-    },
-    {
-      "key": "芒果视频",
-      "name": "芒果｜视频","jar":"./jar/腾讯.txt","playerType":2,
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js"
-    },{"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.txt","playerType":0,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"},"returnFormat": "txt"},
+        {"key":"优酷","name":"🐥优酷┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/优酷.js"},
+        {"key":"芒果","name":"🐥芒果┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/芒果.js"},
+        {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.txt","playerType":0,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"},"returnFormat": "txt"},
         {"key":"快看","name":"🍵快看┃大良","type":3,"jar":"./jar/欧歌.txt","playerType":2,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
         {"key":"饺子","name":"🍵饺子┃大良","type":3,"jar":"./jar/欧歌.txt","playerType":2,"api":"csp_Jiaozi","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
         {"key":"瓜子","name":"🍵瓜子┃推荐","type":3,"jar":"./jar/欧歌.txt","playerType":2,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
