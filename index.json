@@ -21,7 +21,7 @@
         {"key":"热播","name":"👪热播┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_TTian","playerType":2,"ext":"caHR0cDovL3YucmJvdHYuY24=","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
         {"key":"农民","name":"💡农民┃大良","type":3,"jar":"./jar/欧歌0413.txt","playerType":2,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/农民.txt","returnFormat": "txt"},
         {"key":"低端","name":"💡低端┃影视","type":3,"jar":"./jar/欧歌0413.txt","playerType":2,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1,"returnFormat": "txt"},
-        {"key":"移动","name":"💡移动┃影视","type":3,"jar":"./jar/欧歌0413.txt","api":"csp_YDjisu","searchable":1,"changeable":1,"returnFormat": "txt"},
+        {"key":"移动","name":"💡移动┃影视","type":3,"jar":"./jar/欧歌0413.txt","playerType":2,"api":"csp_YDjisu","searchable":1,"changeable":1,"returnFormat": "txt"},
         {"key":"贱贱","name":"😅荐片┃推荐","type":3,"jar":"./jar/欧歌0504.txt","playerType":1,"api":"csp_JPJGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"在线","name":"😅在线┃秒播","type":3,"jar":"./jar/欧歌0504.txt","playerType":2,"api":"csp_ZxzjGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
         {"key":"即看","name":"😅即看┃多线","type":3,"jar":"./jar/欧歌0504.txt","playerType":2,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsub1+2maloq8lmJuL821WUsZJAZft2UtrrwhKK5Zxt1toWyFctBUmThhuDAjVuU="},
