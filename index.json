@@ -1,5 +1,5 @@
 {  
-    "spider": "./jar/巧技0410.txt",
+    "spider": "./jar/欧歌0509.txt",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
@@ -7,13 +7,17 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        //{"key":"Douban","name": "豆瓣热门","type":3,"jar":"./jar/肥猫.txt","api": "csp_Douban","searchable": 0,"returnFormat": "txt"},
-        {"key":"Douban","name": "豆瓣热门","type":3,"jar":"./jar/欧歌0504.txt","api": "csp_Douban","searchable": 0,"returnFormat": "txt"},
-        {"key":"蝴蝶","name":"🐴蝴蝶┃大良","type":3,"api":"csp_Hudie","playerType": 2,"ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"},
-        {"key":"驿站","name":"🐴驿站┃大良","type":3,"api":"csp_Muou", "playerType": 2,"ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh "},
-        {"key":"巧二","name":"🐴巧技┃搜索","type":3,"api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i1g411302gk7gj3k72h781gl8k9839kl7i0707"},
-        {"key":"星河","name":"🐴星河┃大良","type": 3,"api":"csp_Xdai","playerType": 2,"ext": "7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"},
-        {"key":"影港","name":"🎃影港┃磁力","type": 3,"api": "csp_Dygang"},
+        {"key":"Douban","name":"豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        {"key":"下饭","name":"下饭┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.83.156.150:1010/api.php/app/"},
+        {"key":"HG","name":"HG┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/"},
+        {"key":"面包","name":"面包┃影视","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/面包.txt"},
+        {"key":"永乐","name":"永乐┃较慢","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/永乐.txt"},
+
+        {"key":"蝴蝶","name":"🐴蝴蝶┃大良","type":3,"jar":"./jar/巧技0410.txt","api":"csp_Hudie","playerType": 2,"ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"},
+        {"key":"驿站","name":"🐴驿站┃大良","type":3,"jar":"./jar/巧技0410.txt","api":"csp_Muou", "playerType": 2,"ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh "},
+        {"key":"巧二","name":"🐴巧技┃搜索","type":3,"jar":"./jar/巧技0410.txt","api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i1g411302gk7gj3k72h781gl8k9839kl7i0707"},
+        {"key":"星河","name":"🐴星河┃大良","type":3,"jar":"./jar/巧技0410.txt","api":"csp_Xdai","playerType": 2,"ext": "7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"},
+        {"key":"影港","name":"🎃影港┃磁力","type":3,"jar":"./jar/巧技0410.txt","api": "csp_Dygang"},
         {"key":"私人","name":"😅私人┃影视","type":3,"jar": "./jar/蜡笔.txt","playerType": 2,"api": "csp_Siren","returnFormat": "txt"},
         {"key":"雨滴","name":"👪雨滴┃杏坛","type":3,"jar":"./jar/巧技2.txt","api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA=","returnFormat": "txt"},
         {"key":"AI2","name":"👪AI2┃仅搜索","type":3,"jar":"./jar/巧技2.txt","playerType": 2,"api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":1,"ext":"faHR0cDovLzE3NS4xNzguODAuMjA5L21iL2FwaS5waHAvcHJvdmlkZS92b2QvfE1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTkuMC4wLjAgU2FmYXJpLzUzNy4zM3xxaWFvamk=","returnFormat": "txt"},
