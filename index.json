@@ -7,12 +7,11 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"Douban","name":"豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
-        {"key":"下饭","name":"下饭┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.83.156.150:1010/api.php/app/"},
-        {"key":"HG","name":"HG┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/"},
-        {"key":"面包","name":"面包┃影视","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/面包.txt"},
-        {"key":"永乐","name":"永乐┃较慢","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/永乐.txt"},
-
+        {"key":"Douban","name":"😉豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        {"key":"下饭","name":"😉下饭┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.83.156.150:1010/api.php/app/"},
+        {"key":"HG","name":"😉HG┃影视","type":3,"api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/"},
+        {"key":"面包","name":"😉面包┃影视","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/面包.txt"},
+        {"key":"永乐","name":"😉永乐┃较慢","type":3,"api":"csp_XBPQ","playerType": 1,"ext":"./js/永乐.txt"},
         {"key":"蝴蝶","name":"🐴蝴蝶┃大良","type":3,"jar":"./jar/巧技0410.txt","api":"csp_Hudie","playerType": 2,"ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"},
         {"key":"驿站","name":"🐴驿站┃大良","type":3,"jar":"./jar/巧技0410.txt","api":"csp_Muou", "playerType": 2,"ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh "},
         {"key":"巧二","name":"🐴巧技┃搜索","type":3,"jar":"./jar/巧技0410.txt","api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i1g411302gk7gj3k72h781gl8k9839kl7i0707"},
