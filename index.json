@@ -61,11 +61,50 @@
         {"key":"aqy","name":"🐥爱奇艺┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3, "api": "./qqapi/qq_api.js","ext": "./js/AQY.js","returnFormat": "txt"},
         {"key":"优酷","name":"🐥优酷┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/优酷.js","returnFormat": "txt"},
         {"key":"芒果","name":"🐥芒果┃视频","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/芒果.js","returnFormat": "txt"},
-        {"key":"腾讯1","name":"🐥腾讯1┃视频","jar":"https://gitee.com/xtzx/tv/raw/master/tvbox/jar/%E8%85%BE%E8%AE%AF.txt","playerType":2,"type": 3,"api": "https://gitee.com/xtzx/tv/raw/master/tvbox/qqapi/qq_api.js","ext": "https://gitee.com/xtzx/tv/raw/master/tvbox/js/腾讯.js","returnFormat": "txt"},
-        {"key":"aqy1","name":"🐥爱奇艺1┃视频","jar":"https://gitee.com/xtzx/tv/raw/master/tvbox/jar/%E8%85%BE%E8%AE%AF.txt","playerType":2,"type": 3, "api": "https://gitee.com/xtzx/tv/raw/master/tvbox/qqapi/qq_api.js","ext": "https://gitee.com/xtzx/tv/raw/master/tvbox/js/爱奇艺.js","returnFormat": "txt"},
-        {"key":"优酷1","name":"🐥优酷1┃视频","jar":"https://gitee.com/xtzx/tv/raw/master/tvbox/jar/%E8%85%BE%E8%AE%AF.txt","playerType":2,"type": 3,"api": "https://gitee.com/xtzx/tv/raw/master/tvbox/qqapi/qq_api.js","ext": "https://gitee.com/xtzx/tv/raw/master/tvbox/js/优酷.js","returnFormat": "txt"},
-        {"key":"芒果1","name":"🐥芒果1┃视频","jar":"https://gitee.com/xtzx/tv/raw/master/tvbox/jar/%E8%85%BE%E8%AE%AF.txt","playerType":2,"type": 3,"api": "https://gitee.com/xtzx/tv/raw/master/tvbox/qqapi/qq_api.js","ext": "https://gitee.com/xtzx/tv/raw/master/tvbox/js/芒果.js","returnFormat": "txt"},
-        
+        {
+"key":"腾讯弹幕",
+"name":"腾讯",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"quickSearch":0,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
+},
+{
+"key":"优酷弹幕",
+"name":"优酷",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"quickSearch":0,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/优酷弹幕.js"
+},
+{
+"key":"芒果弹幕",
+"name":"芒果",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"quickSearch":0,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
+},
+{
+"key":"爱奇艺弹幕",
+"name":"爱奇艺",
+"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+"type":3,
+"api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
+"searchable":1,
+"quickSearch":0,
+"changeable":1,
+"ext":"https://gitee.com/yiwu369/6758/raw/master/JS/爱奇艺弹幕.js"
+},
         
         
         {"key":"立播","name":"🌟立播┃大良","type":3,"jar":"./jar/玩偶.txt","playerType":0,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive": "tvfan/Cloud-drive.txt", "from": "4k|auto"},"returnFormat": "txt"},
