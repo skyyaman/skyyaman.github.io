@@ -1,5 +1,6 @@
 {  
-    "spider": "./jar/欧歌0509.txt",
+    //"spider": "./jar/欧歌0509.txt",
+    "spider": "./jar/腾讯.txt",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
@@ -8,33 +9,9 @@
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         {"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
-        {"key":"苹果",
-"name":"苹果秒播",
-"type":3,
-"jar":"./jar/苹果.txt",
-"api":"csp_LiteAppleGuard",
-"searchable":1,
-"quickSearch":0,
-"changeable":1
-},
-{
-"key":"HD",
-"name":"HDApp",
-"jar":"http://tv.laohu.cool/lh250220.jar;md5;6878c4945c8ddfa80b052f14311377f2",
-"type":3,"playerType": 1,
-"api":"csp_Hudie",
-"ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-},
-{
-"key":"Wexsaohuo",
-"name":"火火秒播",
-"jar":"https://gitee.com/yiwu369/6758/raw/master/jar/wex.jar",
-"type":3,"playerType": 1,
-"api":"csp_WexsaohuoGuard",
-"searchable":1,
-"quickSearch":0,
-"changeable":1
-},
+        {"key":"苹果","name":"苹果秒播","type":3,"jar":"./jar/苹果.txt","api":"csp_LiteAppleGuard","playerType": 1,"searchable":1,"quickSearch":0,"changeable":1},
+        {"key":"HD","name":"HDApp","jar":"http://tv.laohu.cool/lh250220.jar","type":3,"playerType": 1,"api":"csp_Hudie","ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"},
+        {"key":"Wexsaohuo","name":"火火秒播","jar":"https://gitee.com/yiwu369/6758/raw/master/jar/wex.jar","type":3,"playerType": 1,"api":"csp_WexsaohuoGuard","searchable":1,"quickSearch":0,"changeable":1},
 
         {"key":"下饭","name":"☺️一┃办公室","type":3,"jar": "./jar/欧歌0509.txt","api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.83.156.150:1010/api.php/app/"},
         {"key":"HG","name":"☺️二┃办公室","type":3,"jar": "./jar/欧歌0509.txt","api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/"},
