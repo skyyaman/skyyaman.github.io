@@ -8,11 +8,11 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        //{"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
         {"key":"贱贱","name":"😅荐片┃推荐","type":3,"playerType":1,"api":"csp_JPJGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"巧二","name":"🤑巧技┃搜索","type":3,"jar":"./jar/巧技0524.txt","api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"},
         {"key": "趣看","name": "🤑趣看┃杏坛","type": 3,"jar":"./jar/巧技0524.txt","api": "csp_Muou","playerType": 2,"ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"},
-        {"key": "巧三","name": "巧三┃杏坛","type": 3,"jar":"./jar/巧技0524.txt","api": "csp_AppYsV2","playerType": 2,"ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"},
+        {"key": "巧三","name": "🤑巧三┃杏坛","type": 3,"jar":"./jar/巧技0524.txt","api": "csp_AppYsV2","playerType": 2,"ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"},
         {"key":"苹果","name":"苹果秒播","type":3,"jar":"./jar/苹果.txt","api":"csp_LiteAppleGuard","playerType": 1,"searchable":1,"quickSearch":0,"changeable":1},
         {"key":"HD","name":"HDApp","jar":"http://tv.laohu.cool/lh250220.jar","type":3,"playerType": 1,"api":"csp_Hudie","ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"},
         {"key":"Wexsaohuo","name":"火火秒播","jar":"https://gitee.com/yiwu369/6758/raw/master/jar/wex.jar","type":3,"playerType": 1,"api":"csp_WexsaohuoGuard","searchable":1,"quickSearch":0,"changeable":1},
@@ -59,10 +59,8 @@
   {"name":"-聚合-","type":3,"url":"Demo"},
   {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
   {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+  {"name": "巧技三","type": 1, "url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz", "Ace" ], "header": { "User-Agent": "okhttp/4.9.1"}}},
   {"name":"欧歌解析","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-  {"name":"-关注-","type":1,"url":"https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=1&url="},
-  {"name":"-欧歌-","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=2&url="},
-  {"name":"-公众号-","type":1,"url":"https://2.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=3&url="},
   {"name":"欧歌APP","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="},
   {"name":"线路1","type":0,"url":"https://bfq.cfwlgzs.cn/player?url=","ext":{"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
   {"name":"线路3","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
