@@ -66,6 +66,7 @@
     "parses":
   [
   {"name":"-聚合-","type":3,"url":"Demo"},
+  {"name":"Json轮询","type":2,"url":"Sequence"},
   {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
   {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
   {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
