@@ -61,21 +61,20 @@
         {"name":"longlongago","type":0,"url":"./txt/cctv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
       ],
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-    "parses":
-  [
-  {"name":"-聚合-","type":3,"url":"Demo"},
-  {"name":"Json轮询","type":2,"url":"Sequence"},
-  {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
-  {"name":"巧技二","type":1,"url":"https://zy.qia oji8.com/gouzi.php?url=","ext":{"flag":["qq","腾讯","奇艺","爱奇艺","奇艺","youku","优酷","sohu","搜狐","乐视","乐视","mgtv","芒果","tnmb","七","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4 .9.1"}}},
-  {"name":"巧技三","type":1,"url":"https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz", "Ace" ], "header": { "User-Agent": "okhttp/4.9.1"}}},
-  {"name":"欧歌解析","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-  {"name":"线路3","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-  {"name":"欧歌APP","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="},
-  {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
-  {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-  {"name":"线路1","type":0,"url":"https://bfq.cfwlgzs.cn/player?url=","ext":{"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
-  {"name":"线路4","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36","referer":"https://jiejie.uk/"}}},
-  ],
+    "parses":[
+      {"name":"-聚合-","type":3,"url":"Demo"},
+      {"name":"Json轮询","type":2,"url":"Sequence"},
+      {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
+      {"name":"巧技二","type":1,"url":"https://zy.qia oji8.com/gouzi.php?url=","ext":{"flag":["qq","腾讯","奇艺","爱奇艺","奇艺","youku","优酷","sohu","搜狐","乐视","乐视","mgtv","芒果","tnmb","七","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4 .9.1"}}},
+      {"name":"巧技三","type":1,"url":"https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz", "Ace" ], "header": { "User-Agent": "okhttp/4.9.1"}}},
+      {"name":"欧歌解析","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+      {"name":"线路3","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+      {"name":"欧歌APP","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="},
+      {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
+      {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+      {"name":"线路1","type":0,"url":"https://bfq.cfwlgzs.cn/player?url=","ext":{"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
+      {"name":"线路4","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36","referer":"https://jiejie.uk/"}}}
+    ],
   
   "hosts": [
           "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -84,7 +83,6 @@
           "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
           "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
       ],
-  
   "flags":
     ["youku","优酷","优 酷","优酷视频","qq","腾讯","腾 讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","爱 奇 艺","m1905","xigua","letv","leshi","乐视","乐 视","sohu","搜狐","搜 狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","芒 果 T V","bilibili","哔 哩","哔 哩 哔 哩"],
   "rules":[
@@ -112,8 +110,8 @@
   {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
   {"name":"农民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]}
    ],
-  "ijk":
-    [{"group":"软解码","options":
+  "ijk":[
+    {"group":"软解码","options":
       [{"category":4,"name":"opensles","value":"0"},
       {"category":4,"name":"overlay-format","value":"842225234"},
       {"category":4,"name":"framedrop","value":"1"},
@@ -144,6 +142,8 @@
       {"category":4,"name":"mediacodec-auto-rotate","value":"1"},
       {"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
       {"category":4,"name":"mediacodec-hevc","value":"1"},
-      {"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com"]
+      {"category":1,"name":"dns_cache_timeout","value":"600000000"}
+      ]}],
+  "ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com"]
 }
   
