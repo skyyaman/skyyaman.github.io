@@ -1,5 +1,4 @@
 {  
-    //"spider": "./jar/欧歌0509.txt",
     "spider": "./jar/欧歌0504.txt",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
