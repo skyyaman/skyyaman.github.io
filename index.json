@@ -24,9 +24,7 @@
         {"key":"影港","name":"🎃影港┃磁力","type":3,"jar":"./jar/巧技0611.txt","api": "csp_Dygang"},
         {"key":"AI2","name":"🎃AI2┃搜索","type":3,"jar":"./jar/巧技0611.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"7lj763gg0939795i067li482k704i2igg2k6980j95i631231j400hlgh707531k54864lh88k5h9781740hh287h9k035k8kg697852k5lj9kh276i575jk6kgk444kkkl8j1gggj370h768h473015hll64h265j82hg5667h79k93j4jk16l6215l327l71i922ilh6499j4k9h66297k5gjh4ii39j5107h837lh5104k477449hj1104h1i384l164k779h4595jlkh577l8i6570l23h4hg71hj92243h9076glj4k1k3il2404gl2i4i445ii0ji55578"},
         {"key":"AI3","name":"🎃AI3┃搜索","type":3,"jar":"./jar/巧技0611.txt","api":"csp_AI","searchable":1,"quickSearch":1,"filterable":0,"playerType":2,"ext":"7lj763gg0939795i067li482k704i2igg2k6980j95i631231j5203kgkg585g1k12j84jhl881j8396340hh487l3h30kk8l42l6851klhgjlk836ig69hj36k31i5ikhlki3gjli7k"},
-        {"key":"苹果","name":"苹果秒播","type":3,"jar":"./jar/苹果.txt","api":"csp_LiteAppleGuard","playerType": 1,"searchable":1,"quickSearch":0,"changeable":1},
         {"key":"HD","name":"HDApp","jar":"http://tv.laohu.cool/lh250220.jar","type":3,"playerType": 1,"api":"csp_Hudie","ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"},
-        {"key":"Wexsaohuo","name":"火火秒播","jar":"https://gitee.com/yiwu369/6758/raw/master/jar/wex.jar","type":3,"playerType": 1,"api":"csp_WexsaohuoGuard","searchable":1,"quickSearch":0,"changeable":1},
         {"key":"下饭","name":"☺️一┃办公室","type":3,"jar": "./jar/欧歌0509.txt","api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.83.156.150:1010/api.php/app/"},
         {"key":"HG","name":"☺️二┃办公室","type":3,"jar": "./jar/欧歌0509.txt","api":"csp_AppYsV2","playerType": 1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/"},
         {"key":"面包","name":"☺️三┃办公室","type":3,"jar": "./jar/欧歌0509.txt","api":"csp_XBPQ","playerType": 1,"ext":"./js/面包.txt"},
@@ -67,17 +65,16 @@
   [
   {"name":"-聚合-","type":3,"url":"Demo"},
   {"name":"Json轮询","type":2,"url":"Sequence"},
-  {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
-  {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
   {"name":"巧技一","type":1,"url":"https://zy.qiaoji8.com/neibu.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","bilibili"],"header":{"User-Agent":"okhttp/4.9.1"}}},
+  {"name":"巧技二","type":1,"url":"https://zy.qia oji8.com/gouzi.php?url=","ext":{"flag":["qq","腾讯","奇艺","爱奇艺","奇艺","youku","优酷","sohu","搜狐","乐视","乐视","mgtv","芒果","tnmb","七","bilibili","1905","NetFilx"],"header":{"User-Agent":"okhttp/4 .9.1"}}},
   {"name":"巧技三","type":1,"url":"https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz", "Ace" ], "header": { "User-Agent": "okhttp/4.9.1"}}},
   {"name":"欧歌解析","type":"1","url":"https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌APP&mz=0&url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
-  {"name":"欧歌APP","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="},
-  {"name":"线路1","type":0,"url":"https://bfq.cfwlgzs.cn/player?url=","ext":{"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
   {"name":"线路3","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+  {"name":"欧歌APP","type":1,"url":"https://3.nxog.eu.org/jx.php?ou=公众号欧歌APP&mz=4&url="},
+  {"name":"QQ1","type":0,"url":"https://cdn.zyc888.top/?url="},
+  {"name":"QQ2","type":0,"url":"http://www.ckplayer.vip/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}},
+  {"name":"线路1","type":0,"url":"https://bfq.cfwlgzs.cn/player?url=","ext":{"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
   {"name":"线路4","type":0,"url":"https://jx.m3u8.tv/jiexi/?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36","referer":"https://jiejie.uk/"}}},
-  {"name":"线路6","type":0,"url":"https://jx.yangtu.top?url="},
-  {"name":"线路7","type":0,"url":"https://player.mrgaocloud.com/player/?url="}
   ],
   
   "hosts": [
