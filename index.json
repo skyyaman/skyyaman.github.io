@@ -8,7 +8,7 @@
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         //{"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
-        //{"key":"贱贱","name":"😅荐片┃推荐","type":3,"playerType":1,"api":"csp_JPJGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"贱贱","name":"😅荐片┃推荐","type":3,"playerType":1,"api":"csp_JPJGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0},
         //{"key":"巧二","name":"🤑巧技┃搜索","type":3,"jar":"./jar/巧技0611.txt","api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"},
         //{"key":"趣看","name":"🤑趣看┃杏坛","type": 3,"jar":"./jar/巧技0611.txt","api": "csp_Muou","playerType": 2,"ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"},
         //{"key":"巧三","name":"🤑巧三┃杏坛","type": 3,"jar":"./jar/巧技0611.txt","api": "csp_AppYsV2","playerType": 2,"ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"},
