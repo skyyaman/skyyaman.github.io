@@ -8,7 +8,8 @@
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         //{"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
-        {"key":"布布","name":"🎁布布┃速度","type":3,"api":"csp_Czsapp","searchable":1,"playerType":1,"quickSearch":1,"filterable":0,"ext":"7lj763gg402i7942463j9j9jg3498k93lhggih54828g332i1j"},
+        {"key":"星河","name":"🎁星河┃杏坛","type":3,"api":"csp_Xdai","playerType":2,"ext":"7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"},
+        {"key":"布布","name":"🎁布布┃电信","type":3,"api":"csp_Czsapp","searchable":1,"playerType":1,"quickSearch":1,"filterable":0,"ext":"7lj763gg402i7942463j9j9jg3498k93lhggih54828g332i1j"},
         {"key":"贱贱","name":"😅荐片┃推荐","type":3,"jar": "./jar/欧歌0504.txt","playerType":1,"api":"csp_JPJGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"趣看","name":"🎁趣看┃杏坛","type": 3,"api": "csp_Muou","playerType": 2,"ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"},
         {"key":"巧三","name":"🎁巧三┃杏坛","type": 3,"api": "csp_AppYsV2","playerType": 2,"ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"},
