@@ -1,5 +1,5 @@
 {
-"spider":"./jar/s18.jar",
+"spider":"./jar/s18.txt",
 "lives":[],
 "sites":[
 {"key":"AIvin","name":"a站","type":0,"api":"http://lbapiby.com/api.php/provide/vod/at/xml","searchable":0,"quickSearch":0,"filterable":0},
