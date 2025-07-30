@@ -8,8 +8,6 @@
 {"key":"kxgav","name":"白嫖资源(已修复)","type":0,"api":"https://www.kxgav.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"*乐播资源","name":"🔞乐播资源","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":0,"filterable":0},
 {"key":"zp100","name":"🔞乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":0},
-<<<<<<< HEAD
-=======
 {"key":"💞探探资源💞","name":"💞探探资源💞","type":1,"api":"https://apittzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*AIvin","name":"AIvin","type":0,"api":"http://lbapiby.com/api.php/provide/vod/at/xml"},
 {"key":"kkzy.me","name":"成人51","type":1,"api":"https://kkzy.me/api.php/provide/vod/","quickSearch":1,"searchable":1,"filterable":1},
@@ -66,7 +64,6 @@
 {"key":"Nbys","name":"🛫泥巴┃飞","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"fan","name":"导航https://饭太硬.top","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"cc","name":"请勿相信视频中广告","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"changeable":0}
->>>>>>> c14f585799cb340016c498716c5d689db2eb2169
 ],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
