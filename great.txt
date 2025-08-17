@@ -19,6 +19,7 @@
 !--ehentai
 |http://85.17.73.31/
 !--||adorama.com
+||claude.ai
 ||challenges.cloudflare.com
 ||afreecatv.com
 ||agnesb.fr
