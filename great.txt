@@ -21,6 +21,7 @@
 !--||adorama.com
 ||claude.ai
 ||intercom.io
+||dl.google.com
 ||challenges.cloudflare.com
 ||afreecatv.com
 ||agnesb.fr
