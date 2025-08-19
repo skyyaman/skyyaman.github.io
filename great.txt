@@ -20,6 +20,7 @@
 ||google.com
 ||cloudflare.com
 ||repo.maven.apache.org
+||claw.cloud
 !---------403/451/503/520 & URL Redirects---------
 ||blogjav.net
 ||zoominfo.com
