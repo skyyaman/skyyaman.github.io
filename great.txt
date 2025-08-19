@@ -2,6 +2,9 @@
 ||intercom.io
 ||dl.google.com
 ||google.com
+||google.com.jp
+||google.com.sg
+||google.com.hk
 ||cloudflare.com
 ||repo.maven.apache.org
 ||claw.cloud
