@@ -1,26 +1,13 @@
 [AutoProxy 0.2.9]
-! Checksum: fHDatrEDSXfUuZ7sX8rjbQ
-! Expires: 6h
-! Title: GFWList4LL
-! GFWList with EVERYTHING included
-! Last Modified: Sat, 16 Aug 2025 07:55:26 +0000
-!
-! HomePage: https://github.com/gfwlist/gfwlist
-! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
-!
-! GFWList is unlikely to fully comprise the real
-! rules being deployed inside GFW system. We try
-! our best to keep the list up to date. Please
-! contact us regarding URL submission / removal,
-! or suggestion / enhancement at issue tracker:
-! https://github.com/gfwlist/gfwlist/issues/.
-
 ||intercom.io
 ||dl.google.com
 ||google.com
 ||cloudflare.com
 ||repo.maven.apache.org
 ||claw.cloud
+||gvt2.com
+||googletagmanager.com
+
 !---------403/451/503/520 & URL Redirects---------
 ||blogjav.net
 ||zoominfo.com
@@ -1062,10 +1049,8 @@ blogspot.com
 ||googlescholar.com
 ||googlesource.com
 !--||googlesyndication.com
-!--||googletagmanager.com
 !--||googletagservices.com
 ||googleusercontent.com
-.googlevideo.com
 ||googlevideo.com
 ||googleweblight.com
 ||googlezip.net
