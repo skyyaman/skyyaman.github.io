@@ -19,7 +19,21 @@ CCTV17,http://php.cqshushu.ggff.net/jzb.php?id=cctv17&公众号【医工学习�
 
 🌐央视1080p,#genre#
 CCTV1,https://migu.188766.xyz/?migutoken=b1225aab265399dad0f5323c35192a23&id=CCTV1&pp=1
-CCTV2,https://migu.188766.xyz/?migutoken=b1225aab265399dad0f5323c35192a23&id=CCTV2&pp=1
+CCTV2,https://migu.188766.xyz/?migutoken=b9ccf198af003ffc95e17f8251df6f8a&id=CCTV2&pp=1
+CCTV2,https://migu.188766.xyz/?migutoken=fe7d0141ceaa378a4973269b6df2a788&id=CCTV2&pp=1
+CCTV3,https://migu.188766.xyz/?migutoken=fb6855a89c1b2291db2b9899126776ba&id=CCTV3&pp=1
+CCTV4,https://migu.188766.xyz/?migutoken=58064ef34c5054d61e0f002ef56d1116&id=CCTV4%E7%BE%8E%E6%B4%B2&type=yy
+CCTV4,https://migu.188766.xyz/?migutoken=20e29762c2cf3d9930f5ac7c7281f0aa&id=CCTV4%E6%AC%A7%E6%B4%B2&type=yy
+CCTV5,https://migu.188766.xyz/?migutoken=d98da43ff5bf0423b260d3250286a85d&id=CCTV5&pp=1
+CCTV6,https://migu.188766.xyz/?migutoken=0d971466a711d4a0ea837ac9d29da02f&id=CCTV6&pp=1
+CCTV7,https://migu.188766.xyz/?migutoken=b49b19f011eabe4d1f08e4192f035448&id=CCTV7&pp=1
+CCTV8,https://migu.188766.xyz/?migutoken=51efa2f9018c449b165ec10980e84bf0&id=CCTV8&pp=1
+CCTV9,https://migu.188766.xyz/?migutoken=88f9254bfa0d2f0fdaa35e3633cc035d&id=CCTV9&pp=1
+CCTV10,https://migu.188766.xyz/?migutoken=1cbe65d253543b406bc765d6c4f4df22&id=CCTV10&pp=1
+CCTV11,https://migu.188766.xyz/?migutoken=12e5fb3beadfe3ad2303bbf31312076c&id=CCTV11&pp=1
+CCTV12,https://migu.188766.xyz/?migutoken=f898c5323ee1d4b3fbb2e52ce10ac7af&id=CCTV12&pp=1
+CCTV17,https://migu.188766.xyz/?migutoken=304c529ff2d1edb8b1d5c30a6b3a71af&id=CCTV17&pp=1
+
 央视854*480,#genre#
 CCTV1,http://8.138.7.223/tv/migu3.php?id=cctv1
 CCTV2,http://8.138.7.223/tv/migu3.php?id=cctv2
@@ -38,25 +52,6 @@ CCTV13,http://8.138.7.223/tv/migu3.php?id=cctv13
 CCTV14,http://8.138.7.223/tv/migu3.php?id=cctv14
 CCTV15,http://8.138.7.223/tv/migu3.php?id=cctv15
 CCTV17,http://8.138.7.223/tv/migu3.php?id=cctv17
-🌐央视ipv6,#genre#
-cctv1,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010011/index.m3u8
-CCTV-2财经,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?
-CCTV-3综艺,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?
-CCTV-4中文国际,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?
-CCTV-5体育,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?
-CCTV-5+体育赛事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
-CCTV-6电影,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?
-CCTV-7国防军事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?
-CCTV-8电视剧,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?
-CCTV-9纪录,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?
-CCTV-10科教,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?
-CCTV-11戏曲,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?
-CCTV-12社会与法,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?
-CCTV-13新闻,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?
-CCTV-14少儿,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226947/1.m3u8?
-CCTV-15音乐,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8?
-CCTV-16奥林匹克,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227002/1.m3u8?
-CCTV-17农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226318/1.m3u8?
 
 地方卫视,#genre#
 浙江卫视,http://php.cqshushu.ggff.net/jzb.php?id=zjws&公众号【医工学习日志】$IPV4•线路39
