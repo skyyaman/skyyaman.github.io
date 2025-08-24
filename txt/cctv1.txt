@@ -10,3 +10,10 @@ Japanim TV,https://foxkidstv.be:3369/stream/play.m3u8
 广东卫视4K,http://ikuai.haleeyo.cn:9003/udp/239.77.0.27:5146
 💓4K(Auto),#genre#
 纯享4K,http://fjcm-2117.live.iptv.darwinchow.com/PLTV/88888888/224/3221226825/index.m3u8
+🌐央视频道,#genre#
+CCTV1,http://106.53.99.30/tv/20250717.php?id=0001
+CCTV1,http://153.0.171.163:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1,http://116.128.242.83:9901/tsfile/live/0001_1.m3u8
+CCTV1,http://ygbh.site/php/bfgd.php?id=484
+CCTV1,https://migu.188766.xyz/?migutoken=b1225aab265399dad0f5323c35192a23&id=CCTV1&pp=1
+CCTV1,https://tv-1.iill.top/migu/cctv1
