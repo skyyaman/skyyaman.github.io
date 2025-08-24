@@ -25,6 +25,7 @@ CCTV3,https://migu.188766.xyz/?migutoken=fb6855a89c1b2291db2b9899126776ba&id=CCT
 CCTV4,https://migu.188766.xyz/?migutoken=58064ef34c5054d61e0f002ef56d1116&id=CCTV4%E7%BE%8E%E6%B4%B2&type=yy
 CCTV4,https://migu.188766.xyz/?migutoken=20e29762c2cf3d9930f5ac7c7281f0aa&id=CCTV4%E6%AC%A7%E6%B4%B2&type=yy
 CCTV5,https://migu.188766.xyz/?migutoken=d98da43ff5bf0423b260d3250286a85d&id=CCTV5&pp=1
+CCTV5+,https://migu.188766.xyz/?migutoken=a5fac982699d98b82a0d0312ce01fd44&id=CCTV5p&pp=1
 CCTV6,https://migu.188766.xyz/?migutoken=0d971466a711d4a0ea837ac9d29da02f&id=CCTV6&pp=1
 CCTV7,https://migu.188766.xyz/?migutoken=b49b19f011eabe4d1f08e4192f035448&id=CCTV7&pp=1
 CCTV8,https://migu.188766.xyz/?migutoken=51efa2f9018c449b165ec10980e84bf0&id=CCTV8&pp=1
