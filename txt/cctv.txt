@@ -84,16 +84,6 @@ RTHK32,http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 湖南爱晚,http://p2.vzan.com/527645544/149039617847513156/live.m3u8
 湖南娱乐,http://php.jdshipin.com:8880/TVOD/iptv.php?id=hnyl
 
-常德新闻综合,http://218.75.139.74:1935/live/xinwen/playlist.m3u8
-常德新闻综合,http://220.169.109.72:802/udp/239.76.255.10:9000
-常德新闻综合,http://220.169.109.72:802/udp/239.76.248.10:1234
-常德新闻综合,http://a21709.tv.netsite.cc/proxy/1299968106/1299968106.m3u8
-常德新闻综合 8M1080,rtp://239.76.255.10:9000
-
-常德公共频道,http://218.75.139.74:1935/live/gonggong/playlist.m3u8
-常德公共频道,http://220.169.109.72:802/udp/239.76.255.11:9000
-常德公共频道,http://220.169.109.72:802/udp/239.76.248.11:1234
-常德公共频道,rtp://239.76.255.11:9000
 
 历年春晚,#genre#
 1983年,https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
