@@ -2,6 +2,7 @@
 "spider":"./jar/18.jar",
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
+{"key":"*91麻豆","name":"*91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"ms4nii","name":"美少女资源(已修复)","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"KxrbspE","name":"淫水机资源(已修复)","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"gdlsE","name":"香奶儿资源(已修复)","type":0,"api":"https://www.gdlsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1},
