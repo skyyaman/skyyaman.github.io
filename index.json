@@ -35,7 +35,7 @@
         //{"key":"aqy","name":"🐥爱奇艺┃电信","jar":"./jar/腾讯.txt","playerType":2,"type": 3, "api": "./qqapi/qq_api.js","ext": "./js/AQY.js","returnFormat": "txt"},
         //{"key":"优酷","name":"🐥优酷┃电信","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/优酷.js","returnFormat": "txt"},
         //{"key":"芒果","name":"🐥芒果┃电信","jar":"./jar/腾讯.txt","playerType":2,"type": 3,"api": "./qqapi/qq_api.js","ext": "./js/芒果.js","returnFormat": "txt"},
-        {"key":"1905","name":"🍵1905┃大良","type":3,"jar":"./jar/欧歌.txt","playerType":0,"api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0,"returnFormat": "txt"},
+        {"key":"1905","name":"🍵1905┃大良","type":3,"jar":"./jar/欧歌.txt","playerType":0,"api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0,"returnFormat": "txt"}
         ],
     "lives": [
         {"name":"longlongago","type":0,"url":"./txt/cctv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
