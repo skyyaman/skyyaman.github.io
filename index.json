@@ -7,7 +7,7 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        //{"key":"Douban","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
         {"key":"云云","name":"🥵云云┃无搜","type":3,"jar":"./jar/巧技0711.txt","api":"csp_Qiji", "playerType": 2, "ext": "7lj763gg402i79425h2384j4g949j899hll9990i9kjl6l740h1342hjlg1848401g8610h9995i998j351gl38kklkj1hkhll757010k7hji6h377ih37k060g35161jhl3i5h0l2702g7299452l4297k5697g5390lk6935k2i9g48l8j2kh27l1g014k7j9475g8"},
         {"key":"巧三","name":"🎁巧三┃杏坛","type":3,"api":"csp_AppYsV2","playerType": 2,"ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"},
         {"key":"巧二","name":"🎁巧技┃搜索","type":3,"api":"csp_qiao2","playerType": 2,"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"},        
@@ -22,7 +22,7 @@
         //{"key":"荐片","name":"☺️荐片┃大良","type":3,"jar": "./jar/潇洒0728.txt","api": "csp_Jianpian", "playerType": "2"},
         {"key":"天堂","name":"☺️天堂┃大良","type":3,"jar":"./jar/潇洒0728.txt","api": "csp_DyGod", "searchable": 1, "quickSearch": 1, "filterable": 1},
         {"key":"80S","name":"☺️80S┃大良", "type":3,"jar":"./jar/潇洒0728.txt","api": "csp_BLSGod", "playerType": 1, "searchable": 1, "quickSearch": 1, "filterable": 1},
-        {"key":"和友","name":"☺️和友┃杏坛","type":3,"jar":"./jar/潇洒0903.txt","api": "csp_AppSy", "ext": {"url": "", "site": "http://qcb.sxtzg.com/api.txt", "siteKey": "rectangleadsadxa", "listKey": "gHSLmx3JQRasgztO", "parsesKey": "gHSLmx3JQRasgztO"}},
+        //{"key":"和友","name":"☺️和友┃杏坛","type":3,"jar":"./jar/潇洒0903.txt","api": "csp_AppSy", "ext": {"url": "", "site": "http://qcb.sxtzg.com/api.txt", "siteKey": "rectangleadsadxa", "listKey": "gHSLmx3JQRasgztO", "parsesKey": "gHSLmx3JQRasgztO"}},
         {"key":"云qi","name":"☺️云云┃杏坛","type":3,"jar":"./jar/潇洒0903.txt", "quickSearch": 1, "api": "csp_AppQi", "ext": {"url": "", "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt", "dataKey": "staraugust123456", "dataIv": "staraugust123456", "deviceId": "", "version": "120"}},
         {"key":"咖啡","name":"☺️咖啡┃杏坛","type":3,"jar":"./jar/潇洒0903.txt", "quickSearch": 1, "api": "csp_AppQi", "ext": {"url": "", "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt", "dataKey": "37kj83zs1q16jk6t", "dataIv": "37kj83zs1q16jk6t", "deviceId": "", "version": "101", "ua": ""}},
         {"key":"蓝鹰","name":"☺️蓝鹰┃杏坛","type":3,"jar":"./jar/潇洒0903.txt", "quickSearch": 1, "api": "csp_AppQi", "ext": {"url": "", "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt", "dataKey": "ca94b06ca359d80e", "dataIv": "ca94b06ca359d80e", "deviceId": "", "version": "120"}},
