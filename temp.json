@@ -24,6 +24,7 @@
       "api": "csp_LocalFile"
     },
     {
+      {"key":"*91麻豆","name":"*91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":0,"quickSearch":0},
       "key": "csp_woogkk","name":"夸快┃非会员4K","type":3,"changeable":"0","api":"csp_woog","filterable":1,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=a3;md5;468e5883e1e500c3003b24ee8b6d0dcd","ext":{"site_urls":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun"],"url_key":"UC","threadinfo":{"chunksize":291,"threads":60}}},
 
 {"key":"csp_欧歌123","name":"夸快┃配置","type":3,"api":"csp_Config","searchable":0,"quickSearch": 0,"filterable": 1,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=cf;md5;67571a165ff0861ddf17e517d9c329c0"},
