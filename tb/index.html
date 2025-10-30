@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图形化开奖卡片展示</title>
+    <style>
+    .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .card-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+  }
+  .card-item.selected {
+    border-color: #ff9800;
+    background-color: #fff3e0;
+    font-weight: bold;
+  }
+  .selected-images {
+    margin-top: 15px;
+    display: flex;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .selected-images img {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f0f0f0;
+        }
+        #canvas {
+            border: 1px solid #ccc;
+        }
+        #input-form {
+            margin-bottom: 20px;
+        }
+        input[type="date"], input[type="text"] {
+            margin-right: 10px;
+            padding: 5px;
+        }
+        button {
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        #random-cards {
+            margin-top: 30px;
+            text-align: center;
+        }
+        #random-cards h2 {
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            color: #333;
+        }
+        .random-card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .random-card-container img {
+            width: 300px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .random-card-container img:hover {
+            transform: scale(1.05);
+        }
+        .card-label {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>图形化开奖卡片展示</h1>
+    
+    <div id="input-form">
+        <label for="date">日期 (YYYY-MM-DD):</label>
+        <input type="date" id="date" required>
+        
+        <label for="winners">中奖卡片 (用逗号分隔, 最多5个):</label>
+        <input type="text" id="winners" placeholder="例如: 彩妆卡,药品卡,运动卡" required>
+        
+        <button onclick="addEntry()">添加</button>
+        <button onclick="saveToFile()">保存到文件</button>
+        <button onclick="loadFromFile()">从文件加载</button>
+        <label for="selectN">选择统计范围 N：</label>
+
+<input type="text" placeholder="从N张最少中抽取" id="selectN" >
+<button onclick="drawRandomCards()">随机抽取最少中奖卡片</button>
+    </div>
+    
+    <canvas id="canvas" width="1700" height="600"></canvas>
+
+    <div id="random-cards">
+        <!-- 随机抽取的卡片图片将在这里展示 -->
+    </div>
+<!-- 手动选择区 -->
+<div id="cardSelection" class="card-list"></div>
+
+<!-- 选中卡片显示区 -->
+<div id="selectedDisplay" class="selected-images"></div>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const allCards = [
+            "彩妆卡", "药品卡", "运动卡", "农具卡", "书籍卡", "办公卡", "护肤卡", "文玩卡", "家居卡", "食品卡",
+            "潮玩卡", "饮料卡", "母婴卡", "箱包卡", "宠物卡", "五金卡", "户外卡", "植物卡", "数码卡", "厨具卡",
+            "床品卡", "出行卡", "灯具卡", "鞋履卡", "洗护卡", "节庆卡", "茶香卡", "美发卡", "餐具卡", "配饰卡",
+            "服饰卡", "乐器卡", "家电卡", "美酒卡", "建材卡", "健康卡", "家具卡", "生鲜卡", "童装卡", "厨电卡"
+        ];
+const selectedCards = new Set();
+        let entries = JSON.parse(localStorage.getItem('entries')) || [];
+/*
+        function drawChart() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // 背景样式
+            const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            gradient.addColorStop(0, '#87CEEB');
+            gradient.addColorStop(1, '#FFDAB9');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // 绘制卡片名称（第一行）
+            ctx.fillStyle = '#000';
+            ctx.font = '12px Arial';
+            const cardWidth = canvas.width / allCards.length;
+            allCards.forEach((card, index) => {
+                const x = index * cardWidth + cardWidth / 2;
+                ctx.fillText(card, x - ctx.measureText(card).width / 2, 20);
+            });
+
+            // 绘制日期和卡片列
+            const dateHeight = 50;
+            const barWidth = 20;
+            const spacing = 10;
+
+            entries.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            for (let i = 0; i < entries.length; i++) {
+                const entry = entries[i];
+                const y = (i + 1) * (dateHeight + spacing) + 10;
+
+                // 绘制日期
+                ctx.fillStyle = '#000';
+                ctx.font = '16px Arial';
+                ctx.fillText(entry.date, 10, y + 20);
+
+                // 绘制卡片状态
+                allCards.forEach((card, index) => {
+                    const x = index * cardWidth + barWidth;
+                    if (entry.winners.includes(card)) {
+                        ctx.fillStyle = '#FFA500';
+                        ctx.fillRect(x, y - 10, barWidth, 10);
+                        ctx.fillStyle = '#000';
+                        ctx.fillText('✓', x + 5, y);
+                    } else {
+                        ctx.fillStyle = '#888';
+                        ctx.fillRect(x, y - 10, barWidth, 10);
+                    }
+                });
+            }
+        }
+*/
+function drawChart(cardCounts = null) {
+    // === 动态调整 canvas 高度 ===
+    const baseHeight = 250; // 顶部柱状统计图等固定部分
+    const dateHeight = 50;  // 每条开奖记录的高度
+    const spacing = 10;     // 行间距
+
+    // 根据 entries 数量计算总高度
+    const totalHeight = baseHeight + (entries.length * (dateHeight + spacing)) + 100;
+
+    // 如果计算的高度大于当前高度，则动态扩展
+    if (canvas.height !== totalHeight) {
+        canvas.height = totalHeight;
+    }
+
+    // === 以下为绘图逻辑 ===
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // 背景渐变
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    gradient.addColorStop(0, '#87CEEB');
+    gradient.addColorStop(1, '#FFDAB9');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // 卡片列宽
+    const cardWidth = canvas.width / allCards.length;
+
+    // 顶部卡片标题
+    ctx.fillStyle = '#000';
+    ctx.font = '12px Arial';
+    allCards.forEach((card, index) => {
+        const x = index * cardWidth + cardWidth / 2;
+        ctx.fillText(card, x - ctx.measureText(card).width / 2, 20);
+    });
+
+    // 如果没有传入 cardCounts，重新计算
+    if (!cardCounts) {
+        cardCounts = {};
+        allCards.forEach(card => cardCounts[card] = 0);
+        entries.forEach(entry => {
+            entry.winners.forEach(card => {
+                if (cardCounts[card] !== undefined) {
+                    cardCounts[card]++;
+                }
+            });
+        });
+    }
+
+    // 找最大值用于比例缩放
+    const maxCount = Math.max(...Object.values(cardCounts), 1);
+    const barMaxHeight = 80;
+
+    // 绘制中奖次数柱状图（顶部）
+    allCards.forEach((card, index) => {
+        const count = cardCounts[card];
+        const barHeight = (count / maxCount) * barMaxHeight;
+        const x = index * cardWidth + cardWidth / 2;
+        const y = 40;
+
+        ctx.fillStyle = '#4682B4';
+        ctx.fillRect(x - 5, y + (barMaxHeight - barHeight), 10, barHeight);
+        ctx.fillStyle = '#000';
+        ctx.font = '10px Arial';
+        ctx.fillText(count, x - ctx.measureText(count).width / 2, y + barMaxHeight + 12);
+    });
+
+    // 绘制日期记录区
+    const startY = 150;
+    entries.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    for (let i = 0; i < entries.length; i++) {
+        const entry = entries[i];
+        const y = startY + (i * (dateHeight + spacing));
+
+        // 日期文字
+        ctx.fillStyle = '#000';
+        ctx.font = '16px Arial';
+        ctx.fillText(entry.date, 10, y + 20);
+
+        // 卡片中奖状态
+        allCards.forEach((card, index) => {
+            const x = index * cardWidth + 20;
+            if (entry.winners.includes(card)) {
+                ctx.fillStyle = '#FFA500';
+                ctx.fillRect(x, y - 10, 20, 10);
+                ctx.fillStyle = '#000';
+                ctx.fillText('✓', x + 5, y);
+            } else {
+                ctx.fillStyle = '#bbb';
+                ctx.fillRect(x, y - 10, 20, 10);
+            }
+        });
+    }
+}
+
+        function addEntry() {
+            const dateInput = document.getElementById('date').value;
+            const winnersInput = document.getElementById('winners').value.trim();
+
+            if (!dateInput || !winnersInput) {
+                alert('请填写日期和中奖卡片');
+                return;
+            }
+
+            const winners = winnersInput.split(' ').map(w => w.trim()).filter(w => w && allCards.includes(w));
+
+            if (winners.length > 5) {
+                alert('中奖卡片最多5个');
+                return;
+            }
+
+            const existingIndex = entries.findIndex(e => e.date === dateInput);
+            if (existingIndex !== -1) {
+                entries[existingIndex].winners = winners;
+            } else {
+                entries.push({ date: dateInput, winners });
+            }
+
+            localStorage.setItem('entries', JSON.stringify(entries));
+            drawChart();
+            document.getElementById('winners').value = '';
+        }
+
+        async function saveToFile() {
+            const data = JSON.stringify(entries, null, 2);
+            const blob = new Blob([data], { type: 'application/json' });
+            const fileHandle = await window.showSaveFilePicker({
+                suggestedName: 'lottery_entries.json',
+                types: [{
+                    description: 'JSON Files',
+                    accept: { 'application/json': ['.json'] },
+                }],
+            });
+            const writable = await fileHandle.createWritable();
+            await writable.write(blob);
+            await writable.close();
+            alert('数据已保存到本地文件！');
+        }
+
+        async function loadFromFile() {
+            const [fileHandle] = await window.showOpenFilePicker({
+                types: [{
+                    description: 'JSON Files',
+                    accept: { 'application/json': ['.json'] },
+                }],
+            });
+            const file = await fileHandle.getFile();
+            const text = await file.text();
+            entries = JSON.parse(text);
+            localStorage.setItem('entries', JSON.stringify(entries));
+            drawChart();
+            alert('数据已从文件加载！');
+        }
+/*
+        function drawRandomCards() {
+            // 收集所有曾经中奖的卡片
+            const wonCards = new Set();
+            entries.forEach(entry => {
+                entry.winners.forEach(card => wonCards.add(card));
+            });
+
+            // 未中奖的卡片
+            const unwonCards = allCards.filter(card => !wonCards.has(card));
+
+            if (unwonCards.length < 5) {
+                alert('未中奖卡片不足5张，无法抽取');
+                return;
+            }
+
+            // 随机抽取5张
+            const shuffled = [...unwonCards].sort(() => 0.5 - Math.random());
+            const selected = shuffled.slice(0, 5);
+
+            // 展示图片
+            const randomDiv = document.getElementById('random-cards');
+            randomDiv.innerHTML = `
+                <h2>随机抽取的未中奖卡片（共 ${unwonCards.length} 张可选）：</h2>
+                <div class="random-card-container">
+                    ${selected.map(card => `
+                        <div style="text-align: center;">
+                            <img src="./card/${card}.jpg" alt="${card}" title="${card}" 
+                                 onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIiBmaWxsPSIjOTk5Ij5QbGVhc2UgcGxhY2UgeW91ciBpbWFnZSBpbiBjYXJkLzwvdGV4dD48L3N2Zz4=';this.alt='图片缺失';">
+                            <div class="card-label">${card}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // 初始绘制
+        drawChart();
+        */
+    function drawRandomCards() {
+    // 从选择框读取 N 的值
+    const N = parseInt(document.getElementById('selectN').value);
+    const pickCount = 5; // 每次抽取数量固定为 5
+
+    // 1️⃣ 统计每张卡片的中奖次数
+    const cardCounts = {};
+    allCards.forEach(card => cardCounts[card] = 0);
+    entries.forEach(entry => {
+        entry.winners.forEach(card => {
+            if (cardCounts[card] !== undefined) {
+                cardCounts[card]++;
+            }
+        });
+    });
+/*
+    // 2️⃣ 按中奖次数升序排序
+    const sortedCards = Object.entries(cardCounts)
+        .sort((a, b) => a[1] - b[1])
+        .map(([card]) => card);
+
+    // 取前 N 张（中奖最少）
+    const leastWonCards = sortedCards.slice(0, N);
+
+*/
+    const sortedEntries = Object.entries(cardCounts).sort((a, b) => a[1] - b[1]);
+
+    // 前 N 张的最少中奖次数
+    const nthCount = sortedEntries[N - 1][1];
+
+    // 取出所有中奖次数 <= 第 N 张中奖次数 的卡片
+    const leastWonCards = sortedEntries
+        .filter(([_, count]) => count <= nthCount)
+        .map(([card]) => card);
+
+
+    if (leastWonCards.length < pickCount) {
+        alert(`最少中奖卡片不足 ${pickCount} 张，无法抽取`);
+        return;
+    }
+
+    // 3️⃣ 从中随机抽取 5 张
+    const shuffled = [...leastWonCards].sort(() => 0.5 - Math.random());
+    const selected = shuffled.slice(0, pickCount);
+
+    // 4️⃣ 展示结果
+    const randomDiv = document.getElementById('random-cards');
+    randomDiv.innerHTML = `
+        <h2>从中奖次数最少的 ${N} 张卡片中随机抽取：</h2>
+        <div class="random-card-container">
+            ${selected.map(card => `
+                <div style="text-align: center;">
+                    <img src="./card/${card}.jpg" alt="${card}" title="${card}" 
+                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIiBmaWxsPSIjOTk5Ij5QbGVhc2UgcGxhY2UgeW91ciBpbWFnZSBpbiBjYXJkLzwvdGV4dD48L3N2Zz4=';this.alt='图片缺失';">
+                    <div class="card-label">${card}</div>
+                    <div style="font-size: 0.9em; color: #777;">中奖次数：${cardCounts[card]}</div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+
+    // 最后重绘图表，显示统计柱
+    drawChart(cardCounts);
+}
+function initCardSelection() {
+  const container = document.getElementById('cardSelection');
+  container.innerHTML = '';
+  allCards.forEach(card => {
+    const div = document.createElement('div');
+    div.textContent = card;
+    div.className = 'card-item';
+    div.onclick = () => toggleCardSelection(card, div);
+    container.appendChild(div);
+  });
+}
+
+// 切换选中状态
+function toggleCardSelection(card, element) {
+  if (selectedCards.has(card)) {
+    selectedCards.delete(card);
+    element.classList.remove('selected');
+  } else {
+    if (selectedCards.size >= 5) {
+      alert('最多只能选择 5 张卡片！');
+      return;
+    }
+    selectedCards.add(card);
+    element.classList.add('selected');
+  }
+  updateSelectedDisplay();
+}
+
+// 更新下方图片显示
+function updateSelectedDisplay() {
+  const display = document.getElementById('selectedDisplay');
+  display.innerHTML = '';
+  selectedCards.forEach(card => {
+    const img = document.createElement('img');
+    // 假设图片命名规则为 “images/卡片名.jpg”
+    img.src = `card/${card}.jpg`;
+    img.alt = card;
+    display.appendChild(img);
+  });
+}
+
+// 初始化
+initCardSelection();
+    </script>
+</body>
+</html>
