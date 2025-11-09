@@ -23,7 +23,7 @@
         //{"key":"柠檬","name":"🥵柠檬┃大良","type":3,"jar":"./jar/巧技0711.txt", "api": "csp_Nmvod", "playerType": 2, "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"},
         //{"key":"主角","name":"🥵主角┃APP", "type":3,"jar":"./jar/巧技0711.txt", "api": "csp_Muou", "playerType": 2, "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"},
         //{"key":"原创","name":"🍚原创┃大良","type":3,"jar": "./jar/饭太硬0920.txt","api":"csp_YCyzGuard","timeout":30,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
-        {"key":"荐片","name":"🍚荐片┃大良","type":3,"jar": "./jar/饭太硬0920.txt","api":"csp_JPJGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
+        {"key":"荐片","name":"🍚荐片┃大良","type":3,"jar": "./jar/饭太硬0920.txt","api":"csp_JPJGuard","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0}
         //{"key":"荐二","name":"👋荐二┃大良","type":3,"jar": "./jar/光歌0920.txt","api":"csp_Jianpian","ext":"https://api.ztcgi.com"},
         //{"key":"哔哩","name":"☺️哔哩┃杏坛","type":3,"jar":"./jar/潇洒0920.txt", "api": "csp_BiliYS", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0, "style": {"type": "rect", "ratio": 1.433}, "ext": {"json": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/BLSP.json", "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
         //{"key":"80S","name":"☺️80S┃大良", "type":3,"jar": "./jar/潇洒0920.txt", "api": "csp_BLSGod", "playerType": 1, "searchable": 1, "quickSearch": 1, "filterable": 1},
@@ -33,7 +33,7 @@
         //{"key":"浪酷","name":"☺️浪酷┃大良","type":3,"jar":"./jar/潇洒0920.txt", "api": "csp_AppRJ", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.lkuys.cn"}},
         //{"key":"奇艺","name":"☺️奇艺┃大良","type":3,"jar":"./jar/潇洒0920.txt", "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js", "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js"},
         //{"key":"布蕾","name":"💥布蕾┃影视","jar":"./jar/小米0920.txt", "quickSearch": 0, "searchable": 1, "type": 3, "api": "csp_AppGet", "ext": "KgJbeb5sUfDKrPR2kL+eSnS2/p1vUzgiO9/kBzkhPIPRpqLXPCDc4tA9MXMdokFN"},
-        {"key":"爆炸","name":"💥爆炸┃影视","jar":"./jar/小米0920.txt", "quickSearch": 0, "type": 3, "api": "csp_AppMuou", "ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="},
+        //{"key":"爆炸","name":"💥爆炸┃影视","jar":"./jar/小米0920.txt", "quickSearch": 0, "type": 3, "api": "csp_AppMuou", "ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="},
         //{"key":"1905","name":"🍵1905┃大良","type":3,"jar":"./jar/欧歌.txt","playerType":0,"api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0,"returnFormat": "txt"}
         ],
     "lives": [
@@ -124,4 +124,5 @@
   "ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com"]
 }
   
+
 
