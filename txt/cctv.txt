@@ -56,7 +56,21 @@ CHC影迷电影,http://go.bkpcp.top/mg/ymdy
 CHC家庭影院,http://go.bkpcp.top/mg/jtyy
 
 湖南有线,#genre#
-深圳卫视4K,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/szws4K.m3u8
+湖南国际,http://118.248.192.76:7088/udp/239.76.252.240:9000
+湖南国际,http://118.248.192.76:7088/udp/239.76.253.102:9000
+湖南国际,http://118.248.192.76:7088/udp/239.76.252.124:9000
+湖南娱乐,http://118.248.192.76:7088/udp/239.76.253.105:9000
+湖南娱乐,http://118.248.192.76:7088/udp/239.76.252.121:9000
+湖南教育台,http://118.248.192.76:7088/udp/239.76.252.233:9000
+湖南电影,http://118.248.192.76:7088/udp/239.76.253.106:9000
+湖南电影,http://118.248.192.76:7088/udp/239.76.252.119:9000
+湖南电视剧,http://118.248.192.76:7088/udp/239.76.253.108:9000
+湖南电视剧,http://118.248.192.76:7088/udp/239.76.252.118:9000
+湖南经视,http://118.248.192.76:7088/udp/239.76.252.116:9000
+湖南经视,http://118.248.192.76:7088/udp/239.76.253.103:9000
+湖南都市,http://118.248.192.76:7088/udp/239.76.252.117:9000
+湖南都市,http://118.248.192.76:7088/udp/239.76.253.104:9000
+
 CCTV1,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CCTV1HD.m3u8
 CCTV2,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CCTV2HD.m3u8
 CCTV3,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CCTV3HD.m3u8
@@ -141,8 +155,6 @@ CETV4,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CETV4.m3u8
 金鹰卡通,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/jyktHD.m3u8
 快乐垂钓,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/klcd.m3u8
 先锋乒羽,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/xfpy.m3u8
-茶频道,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/cpd.m3u8
-快乐购,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/klgHD.m3u8
 长沙综合,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/csxw.m3u8
 株洲综合,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/zzxw.m3u8
 湘潭综合,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/xtxw.m3u8
@@ -158,10 +170,6 @@ CETV4,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CETV4.m3u8
 张家界综合,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/zjjxw.m3u8
 娄底综合,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/ldxw.m3u8
 CGTN,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CGTN.m3u8
-CGTN阿拉伯语,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CGTN_A.m3u8
-CGTN西班牙语,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CGTN_E.m3u8
-CGTN法语,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CGTN_F.m3u8
-CGTN俄语,http://116.162.127.31:2380/c3.cdn.hunancatv.com/live/CGTN_R.m3u8
 
 咪咕央视2,#genre#
 广东珠江,http://m.061899.xyz/mg/gdzj
@@ -191,9 +199,6 @@ cctv欧洲,http://m.061899.xyz/mg/cctv4o
 CETV-01,http://m.061899.xyz/mg/cetv1
 CETV-02,http://m.061899.xyz/mg/cetv2
 CETV-04,http://m.061899.xyz/mg/cetv4
-凤凰中文频标,http://m.061899.xyz/mg/fhzw
-凤凰资讯频标,http://m.061899.xyz/mg/fhzx
-凤凰香港频标,http://m.061899.xyz/mg/fhhk
 家庭影院,http://m.061899.xyz/mg/jtyy
 动作电影,http://m.061899.xyz/mg/dzdy
 影迷电影,http://m.061899.xyz/mg/ymdy
@@ -274,10 +279,6 @@ CCTV中学生,http://k.061899.xyz/k.php?id=zxs
 CCTV老故事,http://k.061899.xyz/k.php?id=lgs
 CGTN,http://k.061899.xyz/k.php?id=cgtn
 CGTN纪录,http://k.061899.xyz/k.php?id=cgtnjl
-CCTV西班牙语,http://k.061899.xyz/k.php?id=cgtne
-CCTV法语,http://k.061899.xyz/k.php?id=cgtnf
-CCTV阿拉伯语,http://k.061899.xyz/k.php?id=cgtna
-CCTV俄语,http://k.061899.xyz/k.php?id=cgtnr
 CETV 1 中国教育,http://k.061899.xyz/k.php?id=cetv1
 CETV 2 中国教育,http://k.061899.xyz/k.php?id=cetv2
 CETV 4 中国教育,http://k.061899.xyz/k.php?id=cetv4
@@ -359,9 +360,6 @@ NBA经典,http://k.061899.xyz/k.php?id=nba
 周杰伦现场,http://k.061899.xyz/k.php?id=zjlxc
 最强综艺趴,http://k.061899.xyz/k.php?id=zqzyp
 金色剧场,http://k.061899.xyz/k.php?id=jsjc
-凤凰中文,http://k.061899.xyz/k.php?id=fhzw
-凤凰资讯,http://k.061899.xyz/k.php?id=fhzx
-凤凰香港,http://k.061899.xyz/k.php?id=fhhk
 
 咪咕央视6,#genre#
 CCTV-1综合,http://j.s.bkpcp.top/jj/cctv1
@@ -434,11 +432,6 @@ CCTV-15,https://live.chinacert.cftest5.cn/mg/?id=673168223
 CCTV-17,https://live.chinacert.cftest5.cn/mg/?id=673168256
 CCTV-4欧洲,https://live.chinacert.cftest5.cn/mg/?id=608807419
 CCTV-4美洲,https://live.chinacert.cftest5.cn/mg/?id=608807416
-cgtn外语,https://live.chinacert.cftest5.cn/mg/?id=609006487
-cgtn阿拉伯语,https://live.chinacert.cftest5.cn/mg/?id=609154345
-cgtn西班牙语,https://live.chinacert.cftest5.cn/mg/?id=609006450
-cgtn法语,https://live.chinacert.cftest5.cn/mg/?id=609006476
-cgtn俄语,https://live.chinacert.cftest5.cn/mg/?id=609006446
 老故事,https://live.chinacert.cftest5.cn/mg/?id=884121956
 发现之旅,https://live.chinacert.cftest5.cn/mg/?id=624878970
 中学生,https://live.chinacert.cftest5.cn/mg/?id=708869532
@@ -605,7 +598,6 @@ CCTV13,http://38.75.136.137:98/gslb/dsdqpub/cctv13hd.m3u8?auth=testpub
 邵氏武侠,http://38.75.136.137:98/gslb/dsdqpub/lbsswx.m3u8?auth=testpub
 邵氏动作,http://38.75.136.137:98/gslb/dsdqpub/lbssdz.m3u8?auth=testpub
 邵氏喜剧,http://38.75.136.137:98/gslb/dsdqpub/lbssxj.m3u8?auth=testpub
-
 bv|cctv1hd,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
 bv|cctv2hd,http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
 bv|cctv3hd,http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
@@ -652,8 +644,6 @@ CCTV17,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/CCTV-17_
 CCTV4K,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/ys4Kcq_2000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 4K超高清电影 4K,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdy4k_800.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 欢笑剧场4K,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/hxjc-4k_800.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
-凤凰中文,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
-凤凰资讯,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/test2_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 安徽卫视,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/ahwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 北京卫视,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/bjwsH265_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 兵团卫视,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/btws_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
@@ -1048,16 +1038,6 @@ NewTV金牌综艺 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/T
 咪咕视频 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226383/1.m3u8
 咪咕视频 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226384/1.m3u8
 咪咕视频 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226400/1.m3u8
-北京家有购物 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226429/1.m3u8
-山西优购物 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226386/1.m3u8
-央广购物 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226363/1.m3u8
-江苏好享购物 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226344/1.m3u8
-湖南快乐购 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226341/1.m3u8
-江西风尚购物 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226342/1.m3u8
-5GO美妆个护 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226387/1.m3u8
-5GO美妆个护 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226389/1.m3u8
-5GO服饰内衣 4M1080,http://116.162.127.31:2380/ywotttv.bj.chinamobile.com/TVOD/88888888/224/3221226388/1.m3u8
-
 
 
 港澳台,#genre#
@@ -1073,54 +1053,14 @@ Now新闻,http://cdn.163189.xyz/163189/now
 凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 TVB星河3,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-中天新聞台,http://dungou.szius.com:8080/live/yifatv-ztxw01.flv
 明珠台,http://r.jdshipin.com/ZQ4kN
-有线综合台,http://vallest.uk/livehttpplay?channel_id=20152
-VIU6TV,http://vallest.uk/livehttpplay?channel_id=30033
-RTHK-31,http://vallest.uk/livehttpplay?channel_id=30066
-RTHK-32,http://vallest.uk/livehttpplay?channel_id=30067
-TVB Plus,http://bxtv.3a.ink/api.php?id=tvbp
 明珠台,http://bxtv.3a.ink/api.php?id=mz
-無線新聞台,http://bxtv.3a.ink/api.php?id=wxxw
-美亞電影台,http://bxtv.3a.ink/api.php?id=meiya
-PopC,http://bxtv.3a.ink/api.php?id=popc
-千禧經典台,http://bxtv.3a.ink/api.php?id=qxjd
 翡翠台,http://bxtv.3a.ink/api.php?id=fct
-鳳凰衛視中文台,http://bxtv.3a.ink/api.php?id=fhzw
-鳳凰衛視香港台,http://bxtv.3a.ink/api.php?id=fhhk
-中天新聞台,http://bxtv.3a.ink/api.php?id=ztxw
-鳳凰中文,http://j.s.bkpcp.top/js/fhzw
-鳳凰資訊,http://j.s.bkpcp.top/js/fhzx
-鳳凰香港,http://j.s.bkpcp.top/js/fhxg
-PopC,http://tl.061833.xyz/tl/popc
-凤凰卫视资讯台,http://t.061899.xyz/tl/js/js.php?id=fhwszxt
-TVB翡翠台,http://t.061899.xyz/tl/js/js.php?id=tvbfct
-TVB无线新闻台,http://t.061899.xyz/tl/js/js.php?id=tvbwxxwt
-中國電影頻道,http://tl.061833.xyz/tl/null-6
-千禧經典台,http://tl.061833.xyz/tl/null-3
-明珠台,http://tl.061833.xyz/tl/null-12
-美亞電影台,http://tl.061833.xyz/tl/null-5
-翡翠台,http://tl.061833.xyz/tl/null
-華語劇台,http://tl.061833.xyz/tl/null-4
-黄金华剧台,http://tl.061833.xyz/tl/null-9
-娛樂新聞台,http://tl.061833.xyz/tl/null-14
-Animax,http://tl.061833.xyz/tl/animax
-LoveNatureHD,http://tl.061833.xyz/tl/lovenaturehd
-myTVSUPERFREE,http://tl.061833.xyz/tl/mytvsuperfree
-ROCKAction,http://tl.061833.xyz/tl/rockaction
-ZooMoo,http://tl.061833.xyz/tl/zoomoo
-hoy76,http://hls.168.us.kg/u/76/master.m3u8
-hoy77,http://hls.168.us.kg/u/77/master.m3u8
-hoy78,http://hls.168.us.kg/u/78/master.m3u8
-翡翠台,http://hls.168.us.kg/u/81/master.m3u8
-tvbplus,http://hls.168.us.kg/u/82/master.m3u8
-无线新闻,http://hls.168.us.kg/u/83/master.m3u8
-viutv6,http://hls.168.us.kg/u/96/master.m3u8
-viutv,http://hls.168.us.kg/u/99/master.m3u8
-now直播,http://hls.168.us.kg/u/331/master.m3u8
-now新闻,http://hls.168.us.kg/u/332/master.m3u8
-now财经,http://hls.168.us.kg/u/333/master.m3u8
-NowSports,http://hls.168.us.kg/u/630/master.m3u8
+凤凰中文,http://m.061899.xyz/mg/fhzw
+凤凰资讯,http://m.061899.xyz/mg/fhzx
+凤凰香港,http://m.061899.xyz/mg/fhhk
+凤凰中文,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
+凤凰资讯,http://116.162.127.31:2380/hw1live.rxip.sc96655.com.huan.tv/live/test2_4000.m3u8?E=1&U=1&A=1&K=1&P=1&S=1
 
 
 历年春晚,#genre#
