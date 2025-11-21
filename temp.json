@@ -13,7 +13,13 @@
     
   ],
   "lives": [
-
+{
+            "name": "易发APP",
+            "type": 0,
+            "url": "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
+           "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+ },
   {
    "name": "组播",
    "type": 0,
