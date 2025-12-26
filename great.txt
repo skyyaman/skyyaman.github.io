@@ -10,6 +10,7 @@
 ||repo.maven.apache.org
 ||claw.cloud
 ||x.com
+||x.ai
 ||gvt2.com
 ||googletagmanager.com
 !---------403/451/503/520 & URL Redirects---------
