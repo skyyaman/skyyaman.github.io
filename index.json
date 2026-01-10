@@ -7,7 +7,9 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        //{"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
+        
+        {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_DoubanGuard","searchable":0,"returnFormat": "txt"},
         
         {"key":"文才","name":"📦️文才┃办公","type":3,"api":"csp_JpysGuard","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 10},
         {"key":"糯米","name":"📦️糯米┃办公","type":3,"api":"csp_NmysGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 10},
@@ -29,7 +31,7 @@
         {"key":"剧梦","name":"😻剧梦┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "https://www.jumengwu.com|1f0a873caf2550a5"},
         {"key":"八天","name":"😻八天┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "https://dy.8ttv.cn|1111111111111111"},
         {"key":"王某","name":"😻王某┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725"},
-        //{"key":"黑猫","name":"😻黑猫┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "http://app1-0-0.87333.cc|VwsHxkCViDXEExWa"},
+        //18{"key":"黑猫","name":"😻黑猫┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "http://app1-0-0.87333.cc|VwsHxkCViDXEExWa"},
         {"key":"兔子","name":"😻兔子┃办公","type":3,"jar":"./jar/肥猫260104.txt","api":"csp_AppGet", "ext": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt|dyyztvapiappyyds"},
 
         {"key":"客星","name":"🎁客星┃杏坛","type":3,"jar":"./jar/巧技1212.txt","api": "csp_Xdai", "playerType": 2, "ext": "7lj763gg0939790i413gi486k509jgi3ggk6j244j6j36j76041707h0lk124l0l0h867j83h576h3j66h4lk89lh5lh1jl3l170647kj09lklji74j56lg673li1h16"},
