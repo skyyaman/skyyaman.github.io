@@ -10,7 +10,14 @@
         //{"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
         
         {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_DoubanGuard","searchable":0,"returnFormat": "txt"},
-        
+         {
+      "key": "豆瓣",
+      "name": "推荐",
+      "type": 3,
+      "api": "csp_DoubanGuard",
+      "searchable": 0,
+      "changeable": 1
+    },
         {"key":"文才","name":"📦️文才┃办公","type":3,"api":"csp_JpysGuard","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 10},
         {"key":"糯米","name":"📦️糯米┃办公","type":3,"api":"csp_NmysGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 10},
         {"key":"苹果","name":"📦️苹果┃办公","type":3,"api":"csp_XpgGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 10},
