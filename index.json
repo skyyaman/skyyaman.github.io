@@ -43,8 +43,8 @@
         {"key":"荐二","name":"👋荐二┃大良","type":3,"jar": "./jar/光歌0920.txt","api":"csp_Jianpian","ext":"https://api.ztcgi.com"},
         {"key":"1905","name":"👋1905┃电信","type":3,"jar": "./jar/光歌260104.txt","api":"csp_Web1905","searchable":1,"quickSearch":1,"filterable":0},
         
-        {"key":"盘他","name": "🎸盘他┃4K","type": 3,"jar": "./jar/ok0920.txt", "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Panta"}, "timeout": 25},
-        {"key":"奇奇","name": "🐵奇奇┃弹幕","type": 3,"jar": "./jar/ok0920.txt", "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "QiQi", "danmu": true}, "timeout": 10},
+        {"key":"盘他","name": "🎸盘他┃4K","type": 3,"jar": "./jar/ok260125.txt", "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Panta"}, "timeout": 25},
+        {"key":"奇奇","name": "🐵奇奇┃弹幕","type": 3,"jar": "./jar/ok260125.txt", "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "QiQi", "danmu": true}, "timeout": 10},
     
         {"key": "麻雀", "name": "🐦麻雀┃杏坛", "type": 3,"jar": "./jar/小米260104.txt", "quickSearch": 1, "searchable": 1, "api": "https://13826.kstore.vip/%E9%BA%BB%E9%9B%80%E8%A7%86%E9%A2%91.js", "ext": ""}
         //{"key": "1905", "name": "🔥1905线路", "type": 3,"jar": "./jar/小米260104.txt", "api": "csp_Web1905", "searchable": 1, "quickSearch": 0, "filterable": 0}
