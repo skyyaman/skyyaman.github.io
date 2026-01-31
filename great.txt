@@ -1,5 +1,19 @@
 [AutoProxy 0.2.9]
 ||91md.me
+||tiktok.com
+||www.tiktok.com
+||api.tiktok.com
+||m.tiktok.com
+||tiktokcdn.com
+||tiktokcdn-us.com
+||tiktokcdn-eu.com
+||byteoversea.com
+||ibytedtos.com
+||ibyteimg.com
+||pstatp.com
+||muscdn.com
+||tiktokv.com
+||ttlivecdn.com
 ||intercom.io
 ||dl.google.com
 ||google.com
