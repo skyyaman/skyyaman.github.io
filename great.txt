@@ -1,5 +1,6 @@
 [AutoProxy 0.2.9]
 ||91md.me
+||auth.grokipedia.com
 ||tiktok.com
 ||tiktokcdn.com
 ||tiktokcdn-us.com
