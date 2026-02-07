@@ -8,15 +8,14 @@
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         //{"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
-        
-        {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api": "csp_DoubanGuard","searchable": 0,"changeable": 1},
-        {"key":"文才","name":"📦️文才┃电信","type":3,"api":"csp_JpysGuard","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 10},
-        {"key":"糯米","name":"📦️糯米┃移动","type":3,"api":"csp_NmysGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 10},
-        {"key":"苹果","name":"📦️苹果┃电信","type":3,"api":"csp_XpgGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "timeout": 10},
-        {"key":"云二","name":"📦️云云┃电信","type":3,"api":"csp_YunYunGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "timeout": 10},
-        {"key":"雄鹰","name":"📦️雄鹰┃电信","type":3,"api":"csp_XiongYingGuard","searchable":1,"quickSearch":1, "changeable": 0, "filterable": 1, "timeout": 10},
-        {"key":"厂长","name":"📦️厂长┃电信","type":3,"api":"csp_CzzyGuard","searchable":1,"quickSearch":1, "changeable": 0, "filterable": 1, "timeout": 10},
-        {"key":"荐片","name":"📦️荐一┃电信","type":3,"api":"csp_JianpianGuard","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout": 10},
+        {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_AweSomeGuard","searchable":0,"changeable":1,"ext":{"sp":"Douban"}},
+        {"key":"文才","name":"📦️文才┃电信","type":3,"api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Jpys"}, "timeout": 10},
+        {"key":"糯米","name":"📦️糯米┃移动","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Nmys"}, "timeout": 10},
+        {"key":"苹果","name":"📦️苹果┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Xpg"}, "timeout": 10},
+        {"key":"云二","name":"📦️云云┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "YunYun"}, "timeout": 10},
+        {"key":"雄鹰","name":"📦️雄鹰┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "XiongYing"}, "timeout": 10},
+        {"key":"厂长","name":"📦️厂长┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "Czzy"}, "timeout": 10},
+        {"key":"荐片","name":"📦️荐一┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Jianpian"}, "timeout": 10},
         
         {"key":"剧评","name":"🎁剧评┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Jpys","playerType": 1, "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
         {"key":"巧二","name":"🎁巧二┃搜索","type":3,"jar":"./jar/巧技260108.txt","api": "csp_qiao2","playerType": 2,"ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
