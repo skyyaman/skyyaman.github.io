@@ -1,5 +1,5 @@
 {  
-    "spider": "./jar/盒子260125.txt",
+    "spider": "./jar/盒子260207.txt",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
