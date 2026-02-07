@@ -9,10 +9,9 @@
     "sites": [
         //{"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_Douban","searchable":0,"returnFormat": "txt"},
         {"key":"豆瓣","name":"🐴豆瓣热门","type":3,"api":"csp_AweSomeGuard","searchable":0,"changeable":1,"ext":{"sp":"Douban"}},
+        {"key":"瓜子","name": "📦️瓜子┃移动","type":3,"api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Guazi"}, "timeout": 10},
         {"key":"文才","name":"📦️文才┃电信","type":3,"api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Jpys"}, "timeout": 10},
         {"key":"糯米","name":"📦️糯米┃移动","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Nmys"}, "timeout": 10},
-        {"key":"苹果","name":"📦️苹果┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Xpg"}, "timeout": 10},
-        {"key":"云二","name":"📦️云云┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "YunYun"}, "timeout": 10},
         {"key":"雄鹰","name":"📦️雄鹰┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "XiongYing"}, "timeout": 10},
         {"key":"厂长","name":"📦️厂长┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 0, "filterable": 1, "ext": {"sp": "Czzy"}, "timeout": 10},
         {"key":"荐片","name":"📦️荐一┃电信","type": 3, "api": "csp_AweSomeGuard", "searchable": 1, "quickSearch": 1, "changeable": 1, "filterable": 1, "ext": {"sp": "Jianpian"}, "timeout": 10},
@@ -24,11 +23,15 @@
         {"key":"星河","name":"🎁星河┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Qiji", "playerType": 2,"ext": "7lj763gg0939795i007ki485k612jli3hil9990l96j86i79025j08k7l8055g1h1i834kg3i900i0j06k4hg190k2lj0gk6k567614jl0k399gl72j06hkl3ilj1l"},
         {"key":"优质","name":"🎁优质┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Qiji","playerType": 2,"ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"},
         
-        {"key":"粉象","name":"🐘粉象┃移动","type": 3,"jar": "./jar/潇洒260125.txt", "changeable": 0, "api": "csp_AppFox", "ext": {"host": "http://host1.sopython.top/host.json", "ver": 2}},
-        {"key":"顾我","name":"🐘顾我┃杏坛","type": 3,"jar": "./jar/潇洒260125.txt", "api": "csp_AppQi", "changeable": 1, "quickSearch": 1, "filterable": 1, "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json", "dataKey": "kj37zs29q22jk96t", "dataIv": "kj37zs29q22jk96t", "init": "initV122", "ua": "okhttp/3.10.0"}},
-        {"key":"优兔","name":"🐘优兔┃杏坛","type": 3,"jar": "./jar/潇洒260125.txt", "api": "csp_AppQi", "ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt", "dataKey": "UrWKPnmQWJA8AQzd", "dataIv": "UrWKPnmQWJA8AQzd"}},
-        {"key":"哔哩","name":"🐘哔哩┃视频","type": 3,"jar": "./jar/潇洒260125.txt", "api": "csp_BiliYS", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0, "style": {"type": "rect", "ratio": 1.433}, "ext": {"json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLSP.json", "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
-        {"key":"修罗","name":"🐘修罗┃磁力","type": 3,"jar": "./jar/潇洒260125.txt", "api": "csp_Xlys", "ext": "https://xl01.com.de"},
+        {"key":"搜搜","name":"🐘搜搜┃大良","type":3,"jar":"./jar/潇洒260207.txt","api": "csp_AppFox", "searchable": 1, "changeable": 1, "ext": "https://www.zjcvod.com"},
+        {"key":"爱盈","name":"🐘爱盈┃大良","type":3,"jar":"./jar/潇洒260207.txt","api": "csp_AppQi", "searchable": 1, "changeable": 1, "ext": {"site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt", "dataKey": "sjvlwnhk6h9znl61", "dataIv": "sjvlwnhk6h9znl61", "version": "305", "ua": "okhttp/3.10.0"}},
+        {"key":"芬奇","name":"🐘芬奇┃大良","type":3,"jar":"./jar/潇洒260207.txt", "searchable": 1, "changeable": 1, "api": "csp_AppGet", "ext": {"site": "https://wsapi.dafenqi.mom/yuming.txt", "dataKey": "bH5mI8iK0tK7aQ5x", "dataIv": "bH5mI8iK0tK7aQ5x"}},
+        {"key": "苹果","name":"🐘苹果┃大良","type":3,"jar":"./jar/潇洒260207.txt", "api": "csp_LiteApple"},
+
+        {"key":"顾我","name":"🐘顾我┃杏坛","type": 3,"jar": "./jar/潇洒260207.txt", "api": "csp_AppQi", "changeable": 1, "quickSearch": 1, "filterable": 1, "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json", "dataKey": "kj37zs29q22jk96t", "dataIv": "kj37zs29q22jk96t", "init": "initV122", "ua": "okhttp/3.10.0"}},
+        {"key":"优兔","name":"🐘优兔┃杏坛","type": 3,"jar": "./jar/潇洒260207.txt", "api": "csp_AppQi", "ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt", "dataKey": "UrWKPnmQWJA8AQzd", "dataIv": "UrWKPnmQWJA8AQzd"}},
+        {"key":"哔哩","name":"🐘哔哩┃视频","type": 3,"jar": "./jar/潇洒260207.txt", "api": "csp_BiliYS", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0, "style": {"type": "rect", "ratio": 1.433}, "ext": {"json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLSP.json", "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
+        {"key":"修罗","name":"🐘修罗┃磁力","type": 3,"jar": "./jar/潇洒260207.txt", "api": "csp_Xlys", "ext": "https://xl01.com.de"},
 
         {"key":"荐三","name":"😻荐二┃杏坛","type":3,"jar":"./jar/肥猫260125.txt", "api": "csp_Jianpian", "playerType": 2, "ext": "https://ev2089.zxbwv.com"},
         {"key":"金牌","name":"😻金牌┃杏坛","type":3,"jar":"./jar/肥猫260125.txt","api":"csp_Jpys"},
