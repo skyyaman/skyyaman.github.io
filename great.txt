@@ -1,5 +1,6 @@
 [AutoProxy 0.2.9]
 ||nodesource.com
+||openclaw.ai
 ||91md.me
 ||groq.com
 ||auth.grokipedia.com
