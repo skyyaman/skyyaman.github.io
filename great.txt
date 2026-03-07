@@ -1,4 +1,5 @@
 [AutoProxy 0.2.9]
+||nodesource.com
 ||91md.me
 ||groq.com
 ||auth.grokipedia.com
