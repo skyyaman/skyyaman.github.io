@@ -22,10 +22,12 @@
         {"key":"小猪","name":"💡小猪┃杏坛","type":3,"jar":"./jar/装B3260311.txt","api":"csp_AppQi","searchable":1,"changeable":1,"ext":{"site":"https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt","dataKey":"k5t2fp3h9d25hn9y","dataIv":"k5t2fp3h9d25hn9y","ua":"okhttp/3.10.0"}},
         {"key":"橘子","name":"💡橘子┃杏坛","type":3,"jar":"./jar/装B3260311.txt","api":"csp_AppQi","searchable":1,"changeable":1,"ext":{"site":"https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt","dataKey":"jasaFBcdV3zrUDf2","dataIv":"jasaFBcdV3zrUDf2","version":"305","init":"initV122","ua":"okhttp/3.10.0"}},
 
+        {"key":"知秋","name":"🐯知秋┃杏坛","type": 3,"jar":"./jar/小虎260312.txt", "api": "csp_MYzhiqiu", "ext": "https://fishapi.wya6.com/fish/zhiqiu.php"},
+        {"key":"人人","name":"🐯人人┃杏坛","type": 3,"jar":"./jar/小虎260312.txt", "api": "csp_HBrenren"},
+
         {"key":"剧评","name":"🎁剧评┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Jpys","playerType": 1, "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
         {"key":"巧二","name":"🎁巧二┃搜索","type":3,"jar":"./jar/巧技260108.txt","api": "csp_qiao2","playerType": 2,"ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
         {"key":"巧五","name":"🎁巧五┃搜索","type":3,"jar":"./jar/巧技260108.txt","api": "csp_qiao2","playerType": 2,"ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"},
-        //{"key":"永夜","name":"🎁永夜┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Xdai","playerType": 2,"ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"},
         {"key":"优质","name":"🎁优质┃杏坛","type":3,"jar":"./jar/巧技260108.txt","api": "csp_Qiji","playerType": 2,"ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"},
         
         {"key":"搜搜","name":"🐘搜搜┃大良","type":3,"jar":"./jar/潇洒260207.txt","api": "csp_AppFox", "searchable": 1, "changeable": 1, "ext": "https://www.zjcvod.com"},
