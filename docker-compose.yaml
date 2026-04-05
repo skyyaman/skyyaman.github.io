@@ -1,15 +1,23 @@
 services:
-  av3a-assistant:
-    image: youshandefeiyang/av3a-assistant:amd64
-    container_name: av3a-assistant
-    privileged: true
+  iptv-api:
+    image: guovern/iptv-api:latest
+    container_name: iptv-api
     restart: unless-stopped
+    tty: true
+    stdin_open: true
+
     ports:
-      - "35442:35442"
-  allinone:
-    image: youshandefeiyang/allinone
-    container_name: allinone
-    privileged: true
-    restart: unless-stopped
-    ports:
-      - "35455:35455"
+      - "80:8080"
+
+    volumes:
+      - /iptv-api/config:/iptv-api/config
+      - /iptv-api/output:/iptv-api/output
+
+    environment:
+      PUBLIC_SCHEME: "http"
+      # Replace with your public domain or IP
+      PUBLIC_DOMAIN: "127.0.0.1"
+      PUBLIC_PORT: "80"
+      NGINX_HTTP_PORT: "8080"
+      CDN_URL: ""
+      HTTP_PROXY: ""
