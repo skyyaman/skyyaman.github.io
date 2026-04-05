@@ -6,7 +6,6 @@ services:
     restart: unless-stopped
     ports:
       - "35442:35442"
-
   allinone:
     image: youshandefeiyang/allinone
     container_name: allinone
