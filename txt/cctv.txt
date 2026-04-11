@@ -71,13 +71,7 @@ CCTV17,http://103.45.128.46:2001/jmb/IPTV.php?id=CCTV17
 长沙政法,https://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/CSZFMPP360.m3u8
 
 港澳台,#genre#
-cctv1,http://iptv.4666888.xyz/iptv2A.php?id=7
-cctv2,http://iptv.4666888.xyz/iptv2A.php?id=8
-cctv3,http://iptv.4666888.xyz/iptv2A.php?id=9
-cctv4,http://iptv.4666888.xyz/iptv2A.php?id=10
-cctv5,http://iptv.4666888.xyz/iptv2A.php?id=11
-cctv6,http://iptv.4666888.xyz/iptv2A.php?id=12
-cctv7,http://iptv.4666888.xyz/iptv2A.php?id=13
+
 鳳凰中文,http://iptv.4666888.xyz/iptv2A.php?id=27
 澳視澳門,http://iptv.4666888.xyz/iptv2A.php?id=41
 TVBS新聞,http://iptv.4666888.xyz/iptv2A.php?id=43
@@ -106,7 +100,9 @@ TVBS精采,http://iptv.4666888.xyz/iptv2A.php?id=47
 韓流美食,http://iptv.4666888.xyz/iptv2A.php?id=63
 娛樂百分百,http://iptv.4666888.xyz/iptv2A.php?id=64
 綜藝大贏家,http://iptv.4666888.xyz/iptv2A.php?id=65
-
+cctv2,http://iptv.4666888.xyz/iptv2A.php?id=8
+cctv3,http://iptv.4666888.xyz/iptv2A.php?id=9
+湖南卫视,http://iptv.4666888.xyz/iptv2A.php?id=13
 央视一,#genre#
 CCTV-1,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
 CCTV-2,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
