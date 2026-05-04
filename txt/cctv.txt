@@ -15,7 +15,7 @@ cctv5+,http://221.7.175.154:8445/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&a
 凤凰资讯,http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 
 央视2,#genre#
-cctv5+,http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv5plusnew/600/index.m3u8?msisdn=202605031802297a38c14c5d994a5c866b9f2e9f6fc4be&mdspid=&spid=699004&netType=0&sid=5500516288&pid=2028597139&timestamp=20260503180229&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886773&ParentNodeID=-99&assertID=5500516288&client_ip=171.8.79.254&SecurityKey=20260503180229&promotionId=&mvid=5102048803&mcid=500020&playurlVersion=WX-A1-9.4.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=ee944837e0d22d09c4913e7129e9c129
+CCTV-5,http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv5hdnew/600/index.m3u8?msisdn=202605041402030ebcde71264748d4a7f399b7701e4e6f&mdspid=&spid=699004&netType=0&sid=5500516171&pid=2028597139&timestamp=20260504140203&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886683&ParentNodeID=-99&assertID=5500516171&client_ip=171.8.79.254&SecurityKey=20260504140203&promotionId=&mvid=5102048712&mcid=500020&playurlVersion=WX-A1-9.4.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=04f89a5611e2750bfed46a37edd8e9db
 央视标清,#genre#
 cctv1,http://119.39.9.8:9901/tsfile/live/0001_1.m3u8
 cctv2,http://119.39.9.8:9901/tsfile/live/0002_1.m3u8
