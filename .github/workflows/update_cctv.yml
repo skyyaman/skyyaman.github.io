@@ -1,0 +1,41 @@
+name: Update CCTV1 List
+
+on:
+  schedule:
+    # 每3小时运行一次 (0, 3, 6, 9...)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Filter Data
+        run: |
+          # 确保目录存在
+          mkdir -p txt
+          
+          # 获取远程文件内容
+          # 使用 grep 筛选包含指定域名的行
+          # > 表示覆盖写入，如果你想保留旧内容并追加，请改用 >>
+          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/cctv1.txt
+          
+          echo "Data filtered and written to txt/cctv1.txt"
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 检查文件是否有变化
+          if git diff --quiet txt/cctv1.txt; then
+            echo "No changes detected, skipping push."
+          else
+            git add txt/cctv1.txt
+            git commit -m "Auto update cctv1.txt at $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
