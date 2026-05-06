@@ -44,10 +44,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          if git diff --quiet txt/cctv1.txt; then
-            echo "文件内容无变化，无需提交"
+          # 强制添加文件
+          git add txt/cctv1.txt
+          
+          # 检查是否有内容需要提交 (包括新创建的文件)
+          if git diff --staged --quiet; then
+            echo "文件内容与仓库一致，无需提交"
           else
-            git add txt/cctv1.txt
             git commit -m "Auto update cctv1.txt at $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
