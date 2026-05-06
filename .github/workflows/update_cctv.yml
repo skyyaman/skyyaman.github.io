@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p txt
           # 获取数据并过滤
-          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/temp_cctv.txt
+          curl -s https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/temp_cctv.txt
           
           # 调试：查看过滤到了多少行
           echo "过滤后的行数: $(wc -l < txt/temp_cctv.txt)"
