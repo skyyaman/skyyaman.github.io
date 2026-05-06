@@ -2,13 +2,19 @@ name: Update CCTV1 List
 
 on:
   schedule:
-    # 每3小时运行一次 (0, 3, 6, 9...)
     - cron: '0 */3 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch: 
+
+# 关键：显式授予写权限，否则无法 push 文件
+permissions:
+  contents: write
 
 jobs:
   update-list:
     runs-on: ubuntu-latest
+    env:
+      # 消除 Node.js 20 警告，强制使用 Node 24
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
       - name: Checkout repository
@@ -16,24 +22,30 @@ jobs:
 
       - name: Fetch and Filter Data
         run: |
-          # 确保目录存在
           mkdir -p txt
+          # 获取数据并过滤
+          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/temp_cctv.txt
           
-          # 获取远程文件内容
-          # 使用 grep 筛选包含指定域名的行
-          # > 表示覆盖写入，如果你想保留旧内容并追加，请改用 >>
-          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/cctv1.txt
+          # 调试：查看过滤到了多少行
+          echo "过滤后的行数: $(wc -l < txt/temp_cctv.txt)"
           
-          echo "Data filtered and written to txt/cctv1.txt"
+          # 如果文件不为空，则移动到正式位置
+          if [ -s txt/temp_cctv.txt ]; then
+            mv txt/temp_cctv.txt txt/cctv1.txt
+            echo "成功生成 cctv1.txt"
+          else
+            echo "错误：没有找到包含指定域名的行，跳过更新"
+            rm txt/temp_cctv.txt
+            exit 0
+          fi
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 检查文件是否有变化
           if git diff --quiet txt/cctv1.txt; then
-            echo "No changes detected, skipping push."
+            echo "文件内容无变化，无需提交"
           else
             git add txt/cctv1.txt
             git commit -m "Auto update cctv1.txt at $(date +'%Y-%m-%d %H:%M:%S')"
