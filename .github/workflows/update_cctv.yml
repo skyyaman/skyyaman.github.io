@@ -23,20 +23,36 @@ jobs:
       - name: Fetch and Filter Data
         run: |
           mkdir -p txt
-          # 获取数据并过滤
-          curl -s https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/temp_cctv.txt
+          # 1. 确保文件存在且包含标记，如果不存在则初始化
+          if [ ! -f txt/cctv.txt ]; then
+            echo -e "央视1,#genre#\n\n其他频道,#genre#" > txt/cctv.txt
+          fi
+
+          # 2. 获取并过滤最新的直播源
+          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/new_migu.txt
           
-          # 调试：查看过滤到了多少行
-          echo "过滤后的行数: $(wc -l < txt/temp_cctv.txt)"
-          
-          # 如果文件不为空，则移动到正式位置
-          if [ -s txt/temp_cctv.txt ]; then
-            mv txt/temp_cctv.txt txt/cctv1.txt
-            echo "成功生成 cctv1.txt"
+          if [ -s txt/new_migu.txt ]; then
+            echo "抓取成功，开始替换内容..."
+            
+            # 3. 使用临时文件进行安全替换
+            # 逻辑：
+            # - 寻找从 '央视1,#genre#' 开始，到下一个 ',#genre#' 之前的区间
+            # - 我们先用 awk 提取出 '央视1' 之后的所有分类标题行，找到紧随其后的那一个
+            NEXT_GENRE=$(grep ",#genre#" txt/cctv.txt | grep -A 1 "央视1,#genre#" | tail -n 1)
+            
+            echo "当前分类: 央视1,#genre#"
+            echo "下一个分类: $NEXT_GENRE"
+
+            # 4. 执行替换逻辑
+            # 先删除 央视1 到 下一个分类 之间的所有行（不包含这两个标记行本身）
+            sed -i "/央视1,#genre#/,/$NEXT_GENRE/{ /央视1,#genre#/b; /$NEXT_GENRE/b; d }" txt/cctv.txt
+            
+            # 在 央视1,#genre# 行之后插入新抓取的内容
+            sed -i "/央视1,#genre#/r txt/new_migu.txt" txt/cctv.txt
+            
+            echo "更新完成！"
           else
-            echo "错误：没有找到包含指定域名的行，跳过更新"
-            rm txt/temp_cctv.txt
-            exit 0
+            echo "未抓取到内容，跳过。"
           fi
 
       - name: Commit and Push changes
@@ -45,12 +61,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # 强制添加文件
-          git add txt/cctv1.txt
+          git add txt/cctv.txt
           
           # 检查是否有内容需要提交 (包括新创建的文件)
           if git diff --staged --quiet; then
             echo "文件内容与仓库一致，无需提交"
           else
-            git commit -m "Auto update cctv1.txt at $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto update cctv.txt at $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
