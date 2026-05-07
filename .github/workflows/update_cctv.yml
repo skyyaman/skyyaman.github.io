@@ -2,7 +2,7 @@ name: Update CCTV1 List
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch: 
 
 # 关键：显式授予写权限，否则无法 push 文件
