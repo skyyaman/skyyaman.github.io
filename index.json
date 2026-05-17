@@ -2,10 +2,11 @@
 {
 "wallpaper":"https://xn--b44b-mb1gy821b.v.nxog.top/m/t/",
 "logo":"https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-"spider":"https://ncstatic-file.clewm.net/rsrc/2026/0517/19/1a07cac36b753f753eba18e2e2625977.jpg;md5;e3cbedfaa1280c7e109b3cb1763660a6",
+"spider":"./jar/光歌260507.txt",
 "warningText":"。。。",
 
 "sites": [
+{"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0},
 {"key":"金牌","name":"🥇金牌┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Jpys","ext":"https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
         {"key":"1905","name":"🥇1905┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
 
@@ -14,7 +15,7 @@
         {"key":"骚火","name":"😺骚火┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_SaoHuo", "playerType": 2, "ext": "https://shdy5.us"},
         {"key":"老鹰","name":"😺老鹰┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppQi", "searchable": 1, "changeable": 1, "ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt", "dataKey": "zxPtEUDGVllIUhDB", "dataIv": "zxPtEUDGVllIUhDB", "ua": "okhttp/3.10.0"}},
         {"key":"黑猫","name":"😺黑猫┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "http://app1-0-0.87333.cc", "dataKey": "VwsHxkCViDXEExWa", "dataIv": "VwsHxkCViDXEExWa"}},
-        
+
         {"key":"奴娜","name":"😺奴娜┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppYsV2", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.nntv.in/api.php/v1.vod"},
         {"key":"猎豹","name":"😺猎豹┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://444421.xyz", "dataKey": "#getapp@TMD@2025", "dataIv": "#getapp@TMD@2025"}},
         {"key":"王子","name":"😺王子┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"url": "https://app.95112475.xyz", "dataKey": "5a9w6x58dsq6z3a6", "dataIv": "5a9w6x58dsq6z3a6"}},
