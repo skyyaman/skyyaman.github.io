@@ -1,5 +1,5 @@
 {  
-    "spider": "./jar/光歌260507.txt",
+    "spider": "./jar/盒子260507.txt",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     //type 是站点数据获取方式的总开关，1 表示标准接口不需要jar，3 表示自定义爬虫从jar中获取地址
     //ext中以base64编码，以c开头 配置类型 j开头 json类型 f开头文件类型
@@ -7,8 +7,8 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"金牌","name":"🥇金牌┃移动","type":3,"api":"csp_Jpys","ext":"https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
-        {"key":"1905","name":"🥇1905┃移动","type":3,"api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
+        {"key":"金牌","name":"🥇金牌┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Jpys","ext":"https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
+        {"key":"1905","name":"🥇1905┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
 
         {"key":"热播","name":"😺热播┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppRJ","searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
         {"key":"三六","name":"😺三六┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_SP360"},
