@@ -5,7 +5,7 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch: 
 
-# 关键：显式授予写权限，否则无法 push 文件
+# 显式授予写权限
 permissions:
   contents: write
 
@@ -13,7 +13,6 @@ jobs:
   update-list:
     runs-on: ubuntu-latest
     env:
-      # 消除 Node.js 20 警告，强制使用 Node 24
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
     steps:
@@ -23,36 +22,61 @@ jobs:
       - name: Fetch and Filter Data
         run: |
           mkdir -p txt
-          # 1. 确保文件存在且包含标记，如果不存在则初始化
+          # 1. 确保目标文件存在，如果不存在则初始化
           if [ ! -f txt/cctv.txt ]; then
             echo -e "央视1,#genre#\n\n其他频道,#genre#" > txt/cctv.txt
           fi
 
-          # 2. 获取并过滤最新的直播源
-          curl -s https://kakaxi.indevs.in/ipv4.txt | grep "http://hlsztemgsplive.miguvideo.com:8080" > txt/new_migu.txt
+          # 2. 动态获取东八区（北京时间）的当天日期
+          # GitHub Actions 默认是 UTC 时间，需要临时指定 TZ="Asia/Shanghai"
+          TARGET_DATE=$(TZ="Asia/Shanghai" date +'%Y%m%d')
+          echo "今天的目标日期特征码: msisdn=${TARGET_DATE}"
+
+          # 3. 定义多个抓取网址（用空格隔开）
+          URLS=(
+            "https://kakaxi.indevs.in/ipv4.txt"
+            "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt"
+          )
+
+          # 清空上一次的临时文件
+          > txt/raw_combined.txt
+
+          # 循环下载所有网址内容并合并
+          for url in "${URLS[@]}"; do
+            echo "正在下载: $url"
+            # 使用 --max-time 防止某个网址挂掉导致整个工作流卡死
+            curl -s --max-time 15 "$url" >> txt/raw_combined.txt || echo "警告: $url 下载失败，跳过。"
+          done
+
+          # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并进行去重(sort -u)
+          grep "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep "msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
           
-          if [ -s txt/new_migu.txt ]; then
-            echo "抓取成功，开始替换内容..."
+          # 检查过滤出来的行数
+          LINE_COUNT=$(wc -l < txt/new_migu.txt)
+          echo "过滤去重后，抓取到今天最新的行数: $LINE_COUNT"
+          
+          # 5. 如果抓到了内容，执行定位替换
+          if [ "$LINE_COUNT" -gt 0 ]; then
+            echo "开始替换内容..."
             
-            # 3. 使用临时文件进行安全替换
-            # 逻辑：
-            # - 寻找从 '央视1,#genre#' 开始，到下一个 ',#genre#' 之前的区间
-            # - 我们先用 awk 提取出 '央视1' 之后的所有分类标题行，找到紧随其后的那一个
+            # 自动寻找紧随 '央视1,#genre#' 后面的下一个分类行
             NEXT_GENRE=$(grep ",#genre#" txt/cctv.txt | grep -A 1 "央视1,#genre#" | tail -n 1)
             
             echo "当前分类: 央视1,#genre#"
             echo "下一个分类: $NEXT_GENRE"
 
-            # 4. 执行替换逻辑
-            # 先删除 央视1 到 下一个分类 之间的所有行（不包含这两个标记行本身）
+            # 移除旧内容
             sed -i "/央视1,#genre#/,/$NEXT_GENRE/{ /央视1,#genre#/b; /$NEXT_GENRE/b; d }" txt/cctv.txt
             
-            # 在 央视1,#genre# 行之后插入新抓取的内容
+            # 插入新内容，并在末尾补一个空行保持排版整洁
             sed -i "/央视1,#genre#/r txt/new_migu.txt" txt/cctv.txt
             
+            # 清理临时文件
+            rm -f txt/raw_combined.txt txt/new_migu.txt
             echo "更新完成！"
           else
-            echo "未抓取到内容，跳过。"
+            echo "未抓取到包含今天日期特征码的有效线路，跳过本次更新。"
+            rm -f txt/raw_combined.txt txt/new_migu.txt
           fi
 
       - name: Commit and Push changes
@@ -60,13 +84,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 强制添加文件
           git add txt/cctv.txt
           
-          # 检查是否有内容需要提交 (包括新创建的文件)
           if git diff --staged --quiet; then
             echo "文件内容与仓库一致，无需提交"
           else
-            git commit -m "Auto update cctv.txt at $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto update cctv.txt at $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
