@@ -49,7 +49,7 @@ jobs:
           done
 
           # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并进行去重(sort -u)
-          grep "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep "msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
+          grep "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep "index.m3u8?msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
           
           # 检查过滤出来的行数
           LINE_COUNT=$(wc -l < txt/new_migu.txt)
