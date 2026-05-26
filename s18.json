@@ -8,7 +8,7 @@
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
         
-        {"key":"黑猫","name":"😺黑猫┃大良","type":3,"api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": "http://app1-0-0.87333.cc|VwsHxkCViDXEExWa"}
+        {"key":"黑猫","name":"😺黑猫┃大良","type":3,"api":"csp_AppGet", "searchable": 1, "changeable": 1}
         ],
     "lives": [
         {"name":"longlongago","type":0,"url":"./txt/cctv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
