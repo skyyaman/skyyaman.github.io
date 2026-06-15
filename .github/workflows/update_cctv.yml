@@ -49,9 +49,9 @@ jobs:
           done
 
           # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并进行去重(sort -u)
-          #20260614失效了
           #grep "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep "index.m3u8?msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
-          grep "http://gslbmgsplive.miguvideo.com" txt/raw_combined.txt | grep "timestamp=${TARGET_DATE}" | sort -u > txt/new_migu.txt
+          #grep "http://gslbmgsplive.miguvideo.com" txt/raw_combined.txt | grep "timestamp=${TARGET_DATE}" | sort -u > txt/new_migu.txt
+          grep -E "http://gslbmgsplive.miguvideo.com|http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
           # 检查过滤出来的行数
           LINE_COUNT=$(wc -l < txt/new_migu.txt)
           echo "过滤去重后，抓取到今天最新的行数: $LINE_COUNT"
