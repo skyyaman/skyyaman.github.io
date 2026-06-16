@@ -36,7 +36,7 @@ jobs:
           URLS=(
             "https://kakaxi.indevs.in/ipv4.txt"
             "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt"
-            "https://raw.githubusercontent.com/develop202/migu_video/1e94f154f0110063986dcfb1885f71a67adcd7f3/interfaceTXT.txt"
+            "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interfaceTXT.txt"
           )
 
           # 清空上一次的临时文件
