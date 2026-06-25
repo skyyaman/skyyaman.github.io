@@ -30,7 +30,7 @@
 ||claw.cloud
 ||x.com
 ||x.ai
-||gvt2.com
+||beacons.gcp.gvt2.com
 ||googletagmanager.com
 ||debian.org
 !---------403/451/503/520 & URL Redirects---------
@@ -929,7 +929,7 @@ bloomberg.de
 ||slides.new
 ||deck.new
 ||presentation.new
-||googleapis.com
+||translate.googleapis.com
 !###https://www.google.com/supported_domains###
 !...GFWList doesn't intend to support typosquatting...
 ||1e100.net
