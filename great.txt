@@ -233,6 +233,9 @@
 ||ontrac.com
 @@|http://blog.ontrac.com
 ||openai.com
+||chatgpt.com
+||oaistatic.com
+||oaiusercontent.com
 ||pandora.com
 .pandora.tv
 ||parkansky.com
