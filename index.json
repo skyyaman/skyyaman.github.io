@@ -24,7 +24,7 @@
         {"key":"听心","name":"👑听心┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"csp_App99","ext":{"host":"https://api.12321app.com/api","LoginPath":"/app/log","appkey":"a0a18659a9977a47e53442cd084b536c","versionName":"2.8.1","name":"听心视频","package":"com.iksp.adsys.jjsp","buildNumber":"2001","buildSignature":"03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"}},
         {"key":"久久","name":"👑久久┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://99cms.jj99.icu:8199/api.php/app/"},
         {"key":"蓝鹰","name":"👑蓝鹰┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"csp_AppQi","searchable":1,"changeable":1,"ext":{"site":"https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt","dataKey":"ca94b06ca359d80e","dataIv":"ca94b06ca359d80e","init":"initV120","ua":"okhttp/3.10.0"}},
-        {"key":"荐片","name":"👑荐片┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/荐片260628.txt"},
+        {"key":"荐片","name":"👑荐片┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/荐片260628.js"},
         {"key":"永乐1","name":"👑永乐一┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/永乐260628.js"},
         {"key":"鬼片","name":"👑鬼片┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/鬼片260628.js"},
         {"key":"星辰","name":"👑星辰┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/星辰260628.js"},
