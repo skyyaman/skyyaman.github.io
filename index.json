@@ -28,7 +28,7 @@
         {"key":"荐片2","name":"👑荐片┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/荐片260628.js"},
         {"key":"永乐1","name":"👑永乐一┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/永乐260628.js"},
         {"key":"鬼片","name":"👑鬼片┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/鬼片260628.js"},
-        {"key":"星辰","name":"👑星辰┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/星辰260628.js"},
+        //{"key":"星辰","name":"👑星辰┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/星辰260628.js"},
         //{"key":"独播","name":"👑独播┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/独播260628.js"},	
         
         {"key":"永乐2","name":"🤣永乐二┃未知","type":3,"api":"csp_XBPQ","jar":"./jar/未知.txt","ext":{"\u526f\u6807\u9898":"\u6b27\u6b4c\u4e13\u5c5e","请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://www.ylys.tv/;;!H"}},
