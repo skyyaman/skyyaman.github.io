@@ -8,7 +8,7 @@
 "sites": [
         {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0},
         {"key":"荐片1","name":"✌️荐片┃很稳","type": 3,"api": "csp_Jianpian", "playerType": "2", "ext": "https://api.ztcgi.com"},
-        {"key":"骚火","name":"✌️骚火┃杏坛","type": 3,"api": "csp_SaoHuo", "playerType": 2, "ext": "https://shdy5.us"},
+        //{"key":"骚火","name":"✌️骚火┃杏坛","type": 3,"api": "csp_SaoHuo", "playerType": 2, "ext": "https://shdy5.us"},
 
         {"key":"热播","name":"😺热播┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppRJ","searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
         {"key":"茉莉","name":"😺茉莉┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt", "dataKey": "88689667dce61725", "dataIv": "88689667dce61725"}},
