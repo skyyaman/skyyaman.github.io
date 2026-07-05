@@ -36,6 +36,7 @@ jobs:
           URLS=(
             "https://kakaxi.indevs.in/ipv4.txt"
             "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt"
+            "https://raw.githubusercontent.com/develop202/migu_video/1e94f154f0110063986dcfb1885f71a67adcd7f3/interfaceTXT.txt"
           )
 
           # 清空上一次的临时文件
@@ -48,13 +49,32 @@ jobs:
             curl -s --max-time 15 "$url" >> txt/raw_combined.txt || echo "警告: $url 下载失败，跳过。"
           done
 
-          # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并进行去重(sort -u)
-          grep "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep "index.m3u8?msisdn=${TARGET_DATE}" | sort -u > txt/new_migu.txt
+          # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并只留下相同频道中时间最晚的一行，最后按自然数字排序
+          grep -E "http://gslbmgsplive.miguvideo.com|http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
+          awk -F',' '
+            {
+              # 匹配行内包含当天日期的 14 位纯数字时间戳 (如 20260616######)
+              if (match($0, /20[0-9]{12}/)) {
+                ts = substr($0, RSTART, RLENGTH);
+              } else {
+                ts = 0; # 如果没有匹配到时间戳，给个最低保底值
+              }
+              
+              # 以逗号前的频道名($1)为基准，如果第一次遇到或时间戳更晚，则更新
+              if (!max_ts[$1] || ts > max_ts[$1]) {
+                max_ts[$1] = ts;
+                best_line[$1] = $0;
+              }
+            }
+            END {
+              for (ch in best_line) print best_line[ch];
+            }
+          ' | sort -V > txt/new_migu.txt
           
           # 检查过滤出来的行数
           LINE_COUNT=$(wc -l < txt/new_migu.txt)
-          echo "过滤去重后，抓取到今天最新的行数: $LINE_COUNT"
-          
+          echo "过滤去重（仅保留最新时间）并排序后，抓取到今天最新的行数: $LINE_COUNT"
+    
           # 5. 如果抓到了内容，执行定位替换
           if [ "$LINE_COUNT" -gt 0 ]; then
             echo "开始替换内容..."
@@ -88,8 +108,6 @@ jobs:
           
           if git diff --staged --quiet; then
             echo "文件内容与仓库一致，无需提交"
-            git commit -m "Auto update cctv.txt at $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S')"
-            git push
           else
             git commit -m "Auto update cctv.txt at $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S')"
             git push
