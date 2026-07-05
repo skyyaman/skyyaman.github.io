@@ -119,6 +119,15 @@ CHC影迷电影,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/chcymdy/50/2
 陕西都市青春频道,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/sxdsqc/50/20250804/index.m3u8?msisdn=20260530160216d98ff412f4914d069aa2743ad6e5a1ec&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20260530160216&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=171.8.79.254&SecurityKey=20260530160216&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-9.5.1.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=01037b70f77582849c6603ab8b95705b
 陕西银龄频道,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/sxylpd/50/20250804/index.m3u8?msisdn=20260530160216299ea4dc5a0b42fbbda240c8c42ad66f&mdspid=&spid=600572&netType=0&sid=5910022191&pid=2028597139&timestamp=20260530160216&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956909362&ParentNodeID=-99&assertID=5910022191&client_ip=171.8.79.254&SecurityKey=20260530160216&promotionId=&mvid=5900006714&mcid=500020&playurlVersion=WX-A1-9.5.1.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=6045644f3ed0840e62c1350911c48efb
 青海卫视,http://hlsztemgsplive.miguvideo.com:8080/envivo_w/2018/SD/qinghai/1000/index.m3u8?msisdn=202605301802057bb8d8a5169a4522b6f36398f59f359f&mdspid=&spid=600633&netType=0&sid=5910022166&pid=2028597139&timestamp=20260530180205&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472506&ParentNodeID=-99&assertID=5910022166&client_ip=171.8.79.254&SecurityKey=20260530180205&promotionId=&mvid=5900004353&mcid=500020&playurlVersion=WX-A1-9.5.1.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=6bbf28fe766e62602780196537b98911
+
+IPTV总部,#genre#
+cctv5,http://82.156.243.185:36888/av3a/cctv5n.m3u8
+cctv5p,http://82.156.243.185:36888/av3a/cctv5pn.m3u8
+cctv16,http://82.156.243.185:36888/av3a/cctv16n.m3u8
+cctv4k,http://82.156.243.185:36888/av3a/cctv4kn.m3u8
+cctv8k,http://82.156.243.185:36888/av3a/cctv8kn.m3u8
+五星体育,http://82.156.243.185:54321/kk.php?id=10&smg=1
+
 央视2,#genre#
 cctv1,http://221.7.175.154:8445/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 cctv2,http://221.7.175.154:8445/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
