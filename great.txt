@@ -1186,8 +1186,6 @@ cn.nytstyle.com
 !--steamcommunity.com/groups/LibetTibet
 !--steamcommunity.com/groups/zhonggong
 !--steamcommunity.com/id/CJT_Jackton
-||store.steampowered.com
-||api.steampowered.com
 ||steamstatic.com
 !!---Telegram---
 !!!---Domain---
