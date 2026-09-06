@@ -11,10 +11,17 @@
         //{"key":"骚火","name":"✌️骚火┃杏坛","type": 3,"api": "csp_SaoHuo", "playerType": 2, "ext": "https://shdy5.us"},
 
         {"key":"热播","name":"😺热播┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppRJ","searchable": 1, "quickSearch": 1, "filterable": 0, "ext": {"url": "http://v.rbotv.cn"}},
-        {"key":"茉莉","name":"😺茉莉┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt", "dataKey": "88689667dce61725", "dataIv": "88689667dce61725"}},
-        {"key":"农民1","name":"😺农民一┃杏坛","type":3,"jar":"./jar/盒子260507.txt","api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
+        //{"key":"茉莉","name":"😺茉莉┃大良","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet", "searchable": 1, "changeable": 1, "ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt", "dataKey": "88689667dce61725", "dataIv": "88689667dce61725"}},
+        //{"key":"农民1","name":"😺农民一┃杏坛","type":3,"jar":"./jar/盒子260507.txt","api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
         {"key":"王子","name":"😺王子┃杏坛","type":3,"jar":"./jar/盒子260507.txt","api":"csp_AppGet","searchable":1,"changeable":1,"ext":{"url":"https://app.95112475.xyz","dataKey":"5a9w6x58dsq6z3a6","dataIv":"5a9w6x58dsq6z3a6"}},
-
+        
+        {"key": "剧评", "name": "😺剧评┃杏坛", "type": 3, "api": "csp_Jpys", "playerType": 1, "jar": "./jar/盒子260906.txt", "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
+        {"key": "金牌", "name": "┃金牌┃影院", "type": 3,"jar": "./jar/盒子260906-1.txt",  "api": "csp_Jinpai", "searchable": 1, "quickSearch": 1, "filterable": 1},
+        {"key": "旺旺", "name": "┃旺旺┃影视", "type": 3,"jar": "./jar/盒子260906-1.txt", "api": "csp_NongMin", "searchable": 1, "quickSearch": 1, "filterable": 1},
+        {"key": "永乐", "name": "┃永乐┃视频", "type": 3, "jar": "./jar/盒子260906-2.txt", "api": "csp_XBPQ", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": {"请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类": "电影$1#电视剧$2#综艺$3#动漫$4", "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43", "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
+        {"key": "量子", "name": "┃量子┃资源", "type": 1,"jar": "./jar/盒子260906-1.txt", "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1, "categories": ["动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "记录片", "国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]},
+        {"key": "360", "name": "三六┃资源", "type": 1,"jar": "./jar/盒子260906-1.txt", "api": "https://360zy.com/api.php/seaxml/vod/", "searchable": 1, "changeable": 1, "categories": ["国产剧", "韩国剧", "日本剧", "电影片", "连续剧", "国产动漫", "日韩动漫", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "香港剧", "欧美剧", "记录片", "台湾剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫"]},
+    
         {"key":"金牌","name":"🥇金牌┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Jpys","ext":"https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
         {"key":"1905","name":"🥇1905┃移动","type":3,"jar":"./jar/光歌260507.txt","api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
 
@@ -31,7 +38,7 @@
         {"key":"星辰","name":"👑星辰┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/星辰260628.js"},
         //{"key":"独播","name":"👑独播┃杏坛","type":3,"jar":"./jar/双龙260628.txt","api":"./js/独播260628.js"},	
         
-        {"key":"永乐2","name":"🤣永乐二┃未知","type":3,"api":"csp_XBPQ","jar":"./jar/未知.txt","ext":{"\u526f\u6807\u9898":"\u6b27\u6b4c\u4e13\u5c5e","请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://www.ylys.tv/;;!H"}},
+        //{"key":"永乐2","name":"🤣永乐二┃未知","type":3,"api":"csp_XBPQ","jar":"./jar/未知.txt","ext":{"\u526f\u6807\u9898":"\u6b27\u6b4c\u4e13\u5c5e","请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://www.ylys.tv/;;!H"}},
         {"key":"农民2","name":"🤣农民二┃未知","type":3,"api":"csp_XBPQ","jar":"./jar/未知.txt","ext":{"\u526f\u6807\u9898":"\u6b27\u6b4c\u4e13\u5c5e","请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://vip.wwgz.cn:5200/;;!H"}},
         {"key":"先生","name":"🤣先生┃未知","type":3,"api":"csp_XBPQ","jar":"./jar/未知.txt","ext":{"\u526f\u6807\u9898":"\u6b27\u6b4c\u4e13\u5c5e","请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","分类url":"https://silidm.com/;;!H"}},
 
