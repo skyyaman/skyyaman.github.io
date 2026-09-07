@@ -7,8 +7,8 @@
 
 "sites": [
         {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_DouDouGuard","searchable":0},
-        {"key":"荐片1","name":"😺荐片┃很稳","type": 3,"jar": "./jar/盒子260507.txt","api": "csp_Jianpian", "playerType": "2", "ext": "https://api.ztcgi.com"},
-        {"key": "剧评1","name":"😺剧评1┃杏坛", "type":3,"jar": "./jar/盒子260507.txt","api": "csp_Jpys", "playerType": 1,  "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
+        {"key":"荐片1","name":"😺荐片┃很稳","type": 3,"jar": "./jar/盒子260628.txt","api": "csp_Jianpian", "playerType": "2", "ext": "https://api.ztcgi.com"},
+        {"key": "剧评1","name":"😺剧评1┃杏坛", "type":3,"jar": "./jar/盒子260628.txt","api": "csp_Jpys", "playerType": 1,  "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
         {"key": "剧评2","name":"😺剧评2┃杏坛", "type":3,"jar": "./jar/盒子260906.txt","api": "csp_Jpys", "playerType": 1,  "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
         
         {"key": "金牌", "name": "😺金牌┃杏坛", "type":3,"jar": "./jar/盒子260906-1.txt",  "api": "csp_Jinpai", "searchable": 1, "quickSearch": 1, "filterable": 1},
