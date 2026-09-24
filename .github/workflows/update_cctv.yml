@@ -50,7 +50,9 @@ jobs:
           done
 
           # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并只留下相同频道中时间最晚的一行，最后按自然数字排序
-          grep -E "http://gslbmgsplive.miguvideo.com|http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
+          #gslbmgsplive的台用不了
+          #grep -E "http://gslbmgsplive.miguvideo.com|http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
+          grep -E "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
           awk -F',' '
             {
               # 匹配行内包含当天日期的 14 位纯数字时间戳 (如 20260616######)
