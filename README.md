@@ -11,3 +11,4 @@
  http://tvbox.王二小放牛娃.top		# 王小二放牛娃接口
 
  https://9280.kstore.vip/newwex.json # 王小二放牛娃新接口
+ https://github.com/hebijunge/tvbox-config
