@@ -7,8 +7,15 @@
     //playerType: 1 内置播放器ijk 2 外置播放器exo
     //http://cdn.qiaoji8.com/tvbox.json
     "sites": [
-        {"key":"非凡","name":"🍒非凡(直连)","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"]}
-        ],
+        {"key":"非凡","name":"🍒非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"]},
+        {"key":"小鸡","name": "🍊小鸡","type": 1,"searchable": 1,"search": 1,"quickSearch": 1,"api": "https://api.xjzyapi.com/provide/vod","_origin": "feishu-sync","group": "采集站"},
+        {"key": "金鹰资源","name": "金鹰资源(切)","type": 1,"api": "http://jinyingzy.com/provide/vod","searchable": 1,"quickSearch": 1,"_origin": "feishu-sync","group": "采集站"},
+    
+        {"key": "didizy.com","name": "♥滴滴(直连)","type": 1,"api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list","searchable": 1,"filterable": 1,"_origin": "feishu-sync","group": "采集站"},
+        {"key": "嘿嘿场","name": "嘿嘿 | 采集","type": 1,"api": "https://api.heiapi.cc/api.php/provide/vod/","playUrl": "","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "proxy","_origin": "feishu-sync","group": "采集站"}
+    
+    
+    ],
     "lives": [
         {"name":"longlongago","type":0,"url":"./txt/cctv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
       ],
