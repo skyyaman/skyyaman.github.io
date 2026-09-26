@@ -6,7 +6,7 @@
 "warningText":"。。。",
 
 "sites": [
-        {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_NewDouBanGuard","searchable":0},
+        {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_DouDouGuard","searchable":0},
         {"key":"荐片1","name":"🍚荐片┃杏坛","type":3,"api":"csp_JPJGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
         {"key":"比特","name":"🍚比特┃杏坛","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
         {"key":"糯米","name":"🍚糯米┃杏坛","type":3,"api":"csp_NmyswvGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
