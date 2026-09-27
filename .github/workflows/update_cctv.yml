@@ -107,6 +107,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "文件内容与仓库一致，无需提交"
           else
-            git commit -m "Auto update cctv.txt at $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Auto update cctv.txt at $(TZ="Asia/Shanghai" date +'%Y-%m-%d %H:%M:%S') [skip ci]"
             git push
           fi
