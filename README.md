@@ -1,6 +1,8 @@
 
 好接口来之不易，感谢github
 
+https://kakaxi.indevs.in/ipv4.txt
+
 单仓：
  http://www.饭太硬.net/tv	# 饭太硬接口
 

@@ -277,19 +277,8 @@ CCTV17,http://115.171.216.23:4000/rtp/225.1.8.17:8144$北京电信21
 华数经典电影,http://115.171.216.23:4000/rtp/225.1.8.203:9024$北京电信21
 
 央视标清,#genre#
-cctv1,http://119.39.9.8:9901/tsfile/live/0001_1.m3u8
-cctv2,http://119.39.9.8:9901/tsfile/live/0002_1.m3u8
-cctv3,http://119.39.9.8:9901/tsfile/live/0003_1.m3u8
-cctv4,http://119.39.9.8:9901/tsfile/live/0004_1.m3u8
-cctv5,http://119.39.9.8:9901/tsfile/live/0005_1.m3u8
-cctv7,http://119.39.9.8:9901/tsfile/live/0007_1.m3u8
-cctv8,http://119.39.9.8:9901/tsfile/live/0008_1.m3u8
-cctv9,http://119.39.9.8:9901/tsfile/live/0009_1.m3u8
-cctv10,http://119.39.9.8:9901/tsfile/live/0010_1.m3u8
-cctv11,http://119.39.9.8:9901/tsfile/live/0011_1.m3u8
-cctv13,http://119.39.9.8:9901/tsfile/live/0013_1.m3u8
-cctv14,http://119.39.9.8:9901/tsfile/live/00014_1.m3u8
-cctv15,http://119.39.9.8:9901/tsfile/live/00015_1.m3u8
+cctv1,http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv2hd/1500/index.m3u8?msisdn=5a3e85bef8e5dd5f02944adbe6ca34be&mdspid=&spid=699004&netType=0&sid=5500346945&pid=2028597139&timestamp=20260927185028&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=631780532&ParentNodeID=-99&assertID=5500346945&client_ip=39.103.182.111&SecurityKey=20260927185028&promotionId=&mvid=5101064231&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=d7ff39d0b38d7ed894cf6be7846562db&ddCalcu=bdd7v2fa6fz53a694d807be3b86df7ce4d98&sv=10004&ct=android
+
 
 
 
