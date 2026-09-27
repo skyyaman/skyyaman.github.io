@@ -28,7 +28,6 @@ jobs:
           fi
 
           # 2. 动态获取东八区（北京时间）的当天日期
-          # GitHub Actions 默认是 UTC 时间，需要临时指定 TZ="Asia/Shanghai"
           TARGET_DATE=$(TZ="Asia/Shanghai" date +'%Y%m%d')
           echo "今天的目标日期特征码: msisdn=${TARGET_DATE}"
 
@@ -45,24 +44,19 @@ jobs:
           # 循环下载所有网址内容并合并
           for url in "${URLS[@]}"; do
             echo "正在下载: $url"
-            # 使用 --max-time 防止某个网址挂掉导致整个工作流卡死
             curl -s --max-time 15 "$url" >> txt/raw_combined.txt || echo "警告: $url 下载失败，跳过。"
           done
 
-          # 4. 过滤同时包含咪咕域名和当天日期特征码的行，并只留下相同频道中时间最晚的一行，最后按自然数字排序
-          #gslbmgsplive的台用不了
-          #grep -E "http://gslbmgsplive.miguvideo.com|http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
+          # 4. 过滤数据
           grep -E "http://hlsztemgsplive.miguvideo.com:8080" txt/raw_combined.txt | grep -E "timestamp=${TARGET_DATE}|index.m3u8\?msisdn=${TARGET_DATE}" | \
           awk -F',' '
             {
-              # 匹配行内包含当天日期的 14 位纯数字时间戳 (如 20260616######)
               if (match($0, /20[0-9]{12}/)) {
                 ts = substr($0, RSTART, RLENGTH);
               } else {
-                ts = 0; # 如果没有匹配到时间戳，给个最低保底值
+                ts = 0;
               }
               
-              # 以逗号前的频道名($1)为基准，如果第一次遇到或时间戳更晚，则更新
               if (!max_ts[$1] || ts > max_ts[$1]) {
                 max_ts[$1] = ts;
                 best_line[$1] = $0;
@@ -81,25 +75,36 @@ jobs:
           if [ "$LINE_COUNT" -gt 0 ]; then
             echo "开始替换内容..."
             
-            # 自动寻找紧随 '央视1,#genre#' 后面的下一个分类行
             NEXT_GENRE=$(grep ",#genre#" txt/cctv.txt | grep -A 1 "央视1,#genre#" | tail -n 1)
             
             echo "当前分类: 央视1,#genre#"
             echo "下一个分类: $NEXT_GENRE"
 
-            # 移除旧内容
             sed -i "/央视1,#genre#/,/$NEXT_GENRE/{ /央视1,#genre#/b; /$NEXT_GENRE/b; d }" txt/cctv.txt
-            
-            # 插入新内容，并在末尾补一个空行保持排版整洁
             sed -i "/央视1,#genre#/r txt/new_migu.txt" txt/cctv.txt
             
-            # 清理临时文件
             rm -f txt/raw_combined.txt txt/new_migu.txt
             echo "更新完成！"
           else
             echo "未抓取到包含今天日期特征码的有效线路，跳过本次更新。"
             rm -f txt/raw_combined.txt txt/new_migu.txt
           fi
+
+      # ----------------- 优化后的 Python 执行部分 -----------------
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # 自动缓存 pip 依赖
+
+      - name: Install dependencies
+        run: |
+          pip install --disable-pip-version-check requests
+
+      - name: Run Migu Python Script
+        run: |
+          python python/migu.py
+      # ------------------------------------------------------------
 
       - name: Commit and Push changes
         run: |
