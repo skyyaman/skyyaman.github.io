@@ -33,7 +33,7 @@ headers = {
     "terminalId": "h5",
 }
 
-lives = ["央视", "卫视", "体育"]
+lives = ["央视", "卫视", "体育","新闻","热门"]
 
 LIVE = {
     "热门": "e7716fea6aa1483c80cfc10b7795fcb8",
