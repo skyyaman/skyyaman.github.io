@@ -51,7 +51,7 @@ LIVE = {
 }
 
 # 修改生成的输出文件路径为 ./txt/cctv.txt
-path = "../txt/cctv.txt"
+path = "../txt/cctv1.txt"
 appVersion = "2600034600"
 All_Live = []
 FLAG = 0
