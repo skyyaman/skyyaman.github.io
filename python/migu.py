@@ -328,7 +328,7 @@ def write_to_cctv_file(filepath, new_lines):
     if dir_name:
         os.makedirs(dir_name, exist_ok=True)
 
-    target_marker = "央视1,#genre#"
+    target_marker = "央视2,#genre#"
     inserted = False
     lines = []
 
