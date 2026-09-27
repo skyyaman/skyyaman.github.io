@@ -2,7 +2,7 @@ name: Update CCTV1 List
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '23 */2 * * *'
   workflow_dispatch: 
 
 # 显式授予写权限
@@ -90,19 +90,10 @@ jobs:
             rm -f txt/raw_combined.txt txt/new_migu.txt
           fi
 
-      # ----------------- 优化后的 Python 执行部分 -----------------
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip' # 自动缓存 pip 依赖
-
-      - name: Install dependencies
-        run: |
-          pip install --disable-pip-version-check requests
-
+      # ----------------- 精简后的 Python 运行步骤 -----------------
       - name: Run Migu Python Script
         run: |
+          pip install --disable-pip-version-check requests
           python python/migu.py
       # ------------------------------------------------------------
 
