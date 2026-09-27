@@ -321,8 +321,87 @@ def update(live, url):
 
     pool.shutdown()
 
-
 def write_to_cctv_file(filepath, new_lines):
+
+    dir_name = os.path.dirname(filepath)
+
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
+
+
+    # 本程序生成的分类标记
+    remove_groups = [f"{live}720p,#genre#"  for live in lives]
+
+    target_marker = "央视2,#genre#"
+
+
+    old_lines = []
+
+
+    # 读取旧文件
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            old_lines = f.readlines()
+
+
+    clean_lines = []
+
+    skip = False
+
+
+    for line in old_lines:
+
+        text=line.strip()
+
+
+        # 遇到本程序生成的分类开始
+        if any(
+            text.startswith(x)
+            for x in remove_groups
+        ):
+            skip=True
+            continue
+
+
+        # 到央视2，说明旧咪咕区域结束
+        if text == target_marker:
+            skip=False
+
+
+        if not skip:
+            clean_lines.append(line)
+
+
+
+    final_lines=[]
+
+    inserted=False
+
+
+    # 插入新的咪咕内容
+    for line in clean_lines:
+
+        if not inserted and line.strip()==target_marker:
+
+            final_lines.extend(new_lines)
+
+            inserted=True
+
+
+        final_lines.append(line)
+
+
+
+    # 如果没有央视2，直接追加
+    if not inserted:
+        final_lines.extend(new_lines)
+
+
+
+    with open(filepath,"w",encoding="utf-8") as f:
+
+        f.writelines(final_lines)
+def write_to_cctv_file111(filepath, new_lines):
     # 保证目录存在
     dir_name = os.path.dirname(filepath)
     if dir_name:
