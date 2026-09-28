@@ -1,8 +1,8 @@
 name: Update CCTV1 List
 
 on:
-  schedule:
-    - cron: '23 */2 * * *'
+  #schedule:  不要使用定时触发，改为手动触发，使用https://console.cron-job.org/触发
+  #  - cron: '23 */2 * * *'
   workflow_dispatch: 
 
 # 显式授予写权限
