@@ -94,7 +94,7 @@ jobs:
       - name: Run Migu Python Script
         run: |
           #pip install --disable-pip-version-check requests
-          python python/migu.py
+          python -u python/migu.py
       # ------------------------------------------------------------
 
       - name: Commit and Push changes

@@ -310,7 +310,7 @@ def update(live, url):
     FLAG += 1
 
     pool = ThreadPoolExecutor(thread_num)
-    response = requests.get(url, headers=headers).json()
+    response = requests.get(url, headers=headers,timeout=(10, 30)).json()
 
     rawList = response["body"]["dataList"]
     dataList = [
