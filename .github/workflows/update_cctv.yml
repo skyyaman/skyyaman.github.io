@@ -93,7 +93,7 @@ jobs:
       # ----------------- 精简后的 Python 运行步骤 -----------------
       - name: Run Migu Python Script
         run: |
-          pip install --disable-pip-version-check requests
+          #pip install --disable-pip-version-check requests
           python python/migu.py
       # ------------------------------------------------------------
 
