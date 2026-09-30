@@ -10,7 +10,7 @@ import requests
 from requests.exceptions import RequestException
 
 thread_num = 5  # 线程数
-
+target_marker = "央视1080p,#genre#"
 headers = {
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
@@ -332,7 +332,7 @@ def write_to_cctv_file(filepath, new_lines):
     # 本程序生成的分类标记
     remove_groups = [f"{live}720p,#genre#"  for live in lives]
 
-    target_marker = "央视2,#genre#"
+    #target_marker = "央视2,#genre#"
 
 
     old_lines = []
@@ -407,7 +407,7 @@ def write_to_cctv_file111(filepath, new_lines):
     if dir_name:
         os.makedirs(dir_name, exist_ok=True)
 
-    target_marker = "央视2,#genre#"
+    #target_marker = "央视2,#genre#"
     inserted = False
     lines = []
 

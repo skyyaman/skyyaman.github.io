@@ -24,7 +24,7 @@ jobs:
           mkdir -p txt
           # 1. 确保目标文件存在，如果不存在则初始化
           if [ ! -f txt/cctv.txt ]; then
-            echo -e "央视1,#genre#\n\n其他频道,#genre#" > txt/cctv.txt
+            echo -e "央视480p,#genre#\n\n其他频道,#genre#" > txt/cctv.txt
           fi
 
           # 2. 动态获取东八区（北京时间）的当天日期
@@ -75,13 +75,13 @@ jobs:
           if [ "$LINE_COUNT" -gt 0 ]; then
             echo "开始替换内容..."
             
-            NEXT_GENRE=$(grep ",#genre#" txt/cctv.txt | grep -A 1 "央视1,#genre#" | tail -n 1)
+            NEXT_GENRE=$(grep ",#genre#" txt/cctv.txt | grep -A 1 "央视480p,#genre#" | tail -n 1)
             
-            echo "当前分类: 央视1,#genre#"
+            echo "当前分类: 央视480p,#genre#"
             echo "下一个分类: $NEXT_GENRE"
 
-            sed -i "/央视1,#genre#/,/$NEXT_GENRE/{ /央视1,#genre#/b; /$NEXT_GENRE/b; d }" txt/cctv.txt
-            sed -i "/央视1,#genre#/r txt/new_migu.txt" txt/cctv.txt
+            sed -i "/央视480p,#genre#/,/$NEXT_GENRE/{ /央视480p,#genre#/b; /$NEXT_GENRE/b; d }" txt/cctv.txt
+            sed -i "/央视480p,#genre#/r txt/new_migu.txt" txt/cctv.txt
             
             rm -f txt/raw_combined.txt txt/new_migu.txt
             echo "更新完成！"
