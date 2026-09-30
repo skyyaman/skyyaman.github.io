@@ -9,7 +9,7 @@ from datetime import datetime
 import requests
 from requests.exceptions import RequestException
 
-thread_num = 5  # 线程数
+thread_num = 1 # 线程数
 target_marker = "央视1080p,#genre#"
 headers = {
     "Accept": "application/json, text/plain, */*",
@@ -33,8 +33,8 @@ headers = {
     "terminalId": "h5",
 }
 
-lives = ["央视", "卫视", "体育","新闻","热门"]
-
+lives = ["央视"]
+whitelist=['CCTV']
 LIVE = {
     "热门": "e7716fea6aa1483c80cfc10b7795fcb8",
     "体育": "7538163cdac044398cb292ecf75db4e0",
@@ -49,7 +49,9 @@ LIVE = {
     "少儿": "fc2f5b8fd7db43ff88c4243e731ecede",
     "纪实": "e1165138bdaa44b9a3138d74af6c6673",
 }
-
+LIVE = {
+    "央视": "1ff892f2b5ab4a79be6e25b69d2f5d05",
+}
 # 修改生成的输出文件路径为 ./txt/cctv.txt
 path = "./txt/cctv.txt"
 appVersion = "2600034600"
@@ -257,7 +259,11 @@ def getddCalcu720p(url, pID):
 def append_All_Live(live, flag, data):
     channel_name = data["name"]
     channel_pid = data["pID"]
-
+    
+    print(f"频道 [{channel_name}] (PID:{channel_pid}) → 开始更新...")
+    if any(white not in channel_name for white in whitelist):
+        print(f"频道 [{channel_name}] (PID:{channel_pid}) → 白名单，跳过更新")
+        return
     cache_key = (channel_name, channel_pid)
 
     with cache_lock:
